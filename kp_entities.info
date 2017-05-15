@@ -1,0 +1,8 @@
+name = KnowPulse Entities
+description = Creates Tripal Content Types and associated ontologies used by KnowPulse.
+core = 7.x
+package = KnowPulse
+
+dependencies[] = tripal
+dependencies[] = tripal_chado
+
