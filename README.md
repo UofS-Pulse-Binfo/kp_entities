@@ -3,10 +3,10 @@ Creates and configures all Tripal Content Types used by KnowPulse.
 
 ## Loads the following ontologies:
 - Sequence Ontology (SO): Used for chado.feature types (gene, sequence_variant, genetic_marker, chromosome, QTL, etc.) and variant types (SNP, MNP, Indel)
-- Plant Ontology (PO): Used to annotate phenotypes.
-- Plant Trait Ontology (TO): Used to annotate phenotypes.
-- Lentil, Chickpea, Common Bean Crop Ontology: to annotate phenotypes.
-- Crop Germplasm Ontology (CO_010): Used for stock.types (accession, cultivar, inbred line)
+- Plant Ontology (PO; v2017-02-02): Used to annotate phenotypes.
+- Plant Trait Ontology (TO; v2017-02-02): Used to annotate phenotypes.
+- Lentil (CO_339; v2016-02-15), Chickpea (CO_338; v2016-02-15), Common Bean (CO_335; v2015-05-13) Crop Ontology: to annotate phenotypes.
+- Crop Germplasm Ontology (CO_010; v2011-10-03): Used for stock.types (accession, cultivar, inbred line)
 
 ## Creates the following single controlled vocabulary terms:
 | Vocabulary       | Term        | Accession |

@@ -1,0 +1,7963 @@
+format-version: 1.2
+ontology: Common bean_ontology
+
+[Term]
+id: CO_335:ROOT
+name: Common bean
+
+[Term]
+id: CO_335:Quality%20traits
+name: Quality traits
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:Physiological%20traits
+name: Physiological traits
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:Phenological%20traits
+name: Phenological traits
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:Morphological%20traits
+name: Morphological traits
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:Biotic%20stress
+name: Biotic stress
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:Biochemical%20traits
+name: Biochemical traits
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:Agronomical%20traits
+name: Agronomical traits
+is_a: CO_335:ROOT
+
+[Term]
+id: CO_335:0000763
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000762
+
+[Term]
+id: CO_335:0000763/4
+name: Severe loss of the older leaves in the bottom of the canopy
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/8
+name: Severe loss of young leaves in the top of the canopy
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/1
+name: Represents no leaf loss
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/3
+name: Moderate loss of the older leaves in the bottom of the canopy
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/7
+name: Total loss of leaves in the bottom of the canopy, moderate loss of leaves at the middle of the canopy and beginning of loss of young leaves in the top of the canopy
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/5
+name: Severe loss of leaves in the bottom of the canopy and slight loss of leaves from the middle part of the canopy
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/9
+name: Completely defoliated plants
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/6
+name: Total loss of leaves in the bottom of the canopy and slight loss of leaves from the middle part of the canopy
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000763/2
+name: Slight loss of the older leaves in the bottom of the canopy
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000763
+
+
+[Term]
+id: CO_335:0000762
+name: Leaf loss method
+namespace: Common beanMethod
+def: "It is evaluated visually at mid-pod filling growth stage (before physiological maturity) using a scale of 1 to 9" []
+relationship: method_of CO_335:0000761
+
+[Term]
+id: CO_335:0000761
+name: Leaf loss
+namespace: Common BeanTrait
+def: "Visual evaluation of leaf drop" []
+synonym: "LL" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000760
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000759
+
+[Term]
+id: CO_335:0000759
+name: Nodules weight in field method
+namespace: Common beanMethod
+def: "Weight of nodules per plant" []
+relationship: method_of CO_335:0000758
+
+[Term]
+id: CO_335:0000758
+name: Nodules weight in field
+namespace: Common BeanTrait
+def: "Nodules weight per plant" []
+synonym: "NWF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000757
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000756
+
+[Term]
+id: CO_335:0000756
+name: Nodules number in field method
+namespace: Common beanMethod
+def: "Determination of nodules number per plant" []
+relationship: method_of CO_335:0000755
+
+[Term]
+id: CO_335:0000755
+name: Nodules number in field
+namespace: Common BeanTrait
+def: "Nodules number per plant" []
+synonym: "NNF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000754
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000753
+
+[Term]
+id: CO_335:0000753
+name: Grain 15N natural abundance method
+namespace: Common beanMethod
+def: "The 15N natural abundance method, is based on the slight natural differences between the 15N abundance of the soil and the 15N abundance of the atmosphere" []
+relationship: method_of CO_335:0000752
+
+[Term]
+id: CO_335:0000752
+name: Grain 15N natural abundance
+namespace: Common BeanTrait
+def: "Symbiotic nitrogen fixation (SNF), 15N natural abundance measurement using grain" []
+synonym: "G15NNA" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000751
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000750
+
+[Term]
+id: CO_335:0000750
+name: Leaf 15N natural abundance method
+namespace: Common beanMethod
+def: "The 15N natural abundance method, is based on the slight natural differences between the 15N abundance of the soil and the 15N abundance of the atmosphere" []
+relationship: method_of CO_335:0000749
+
+[Term]
+id: CO_335:0000749
+name: Leaf 15N natural abundance
+namespace: Common BeanTrait
+def: "Symbiotic nitrogen fixation (SNF), 15N natural abundance measurement using leaves" []
+synonym: "L15NNA" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000748
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000747
+
+[Term]
+id: CO_335:0000747
+name: Spad chlorophyll meter reading in greenhouse method
+namespace: Common beanMethod
+def: "It is measured by using a hand-held chlorophyll meter SPAD-502 on a fully expanded young leaf of one plant for each replication" []
+relationship: method_of CO_335:0000746
+
+[Term]
+id: CO_335:0000746
+name: Spad chlorophyll meter reading in greenhouse
+namespace: Common BeanTrait
+def: "Leaf chlorophyll content measured non-destructively" []
+synonym: "SPAD" EXACT []
+synonym: "SCMRG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000745
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000744
+
+[Term]
+id: CO_335:0000744
+name: Geometric mean of days to physiological maturity method
+namespace: Common beanMethod
+def: "(ns x ds)^1/2, ns is no stress and ds is drought stress" []
+relationship: method_of CO_335:0000743
+
+[Term]
+id: CO_335:0000743
+name: Geometric mean of days to physiological maturity
+namespace: Common BeanTrait
+def: "Geometric mean of days to physiological maturity" []
+synonym: "GMDM" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000742
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000741
+
+[Term]
+id: CO_335:0000741
+name: Geometric mean of 100 seed weight method
+namespace: Common beanMethod
+def: "(ns x ds)^1/2, ns is no stress and ds is drought stress" []
+relationship: method_of CO_335:0000740
+
+[Term]
+id: CO_335:0000740
+name: Geometric mean of 100 seed weight
+namespace: Common BeanTrait
+def: "Geometric mean of 100 seeds weight" []
+synonym: "GMSW" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000739
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000738
+
+[Term]
+id: CO_335:0000738
+name: Geometric mean of seed yield method
+namespace: Common beanMethod
+def: "(ns x ds)^1/2, ns is no stress and ds is drought stress" []
+relationship: method_of CO_335:0000737
+
+[Term]
+id: CO_335:0000737
+name: Geometric mean of seed yield
+namespace: Common BeanTrait
+def: "Geometric mean of seed yield" []
+synonym: "GMSY" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000736
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000735
+
+[Term]
+id: CO_335:0000735
+name: Seed magnesium content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000734
+
+[Term]
+id: CO_335:0000734
+name: Seed magnesium content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of seed magnesium content" []
+synonym: "MSEEDG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000733
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000732
+
+[Term]
+id: CO_335:0000732
+name: Seed calcium content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000731
+
+[Term]
+id: CO_335:0000731
+name: Seed calcium content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of seed calcium content" []
+synonym: "CSEEDG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000730
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000729
+
+[Term]
+id: CO_335:0000729
+name: Seed potassium content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000728
+
+[Term]
+id: CO_335:0000728
+name: Seed potassium content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of seed potassium content" []
+synonym: "KSEEDG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000727
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000726
+
+[Term]
+id: CO_335:0000726
+name: Seed phosphorus content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by ICP, Spectrometry methods" []
+relationship: method_of CO_335:0000725
+
+[Term]
+id: CO_335:0000725
+name: Seed phosphorus content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of seed phosphorus content" []
+synonym: "PSEEDG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000724
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000723
+
+[Term]
+id: CO_335:0000723
+name: Seed Nitrogen content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by Kjeldahl method" []
+relationship: method_of CO_335:0000722
+
+[Term]
+id: CO_335:0000722
+name: Seed Nitrogen content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of seed nitrogen content" []
+synonym: "NSEEDG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000721
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000720
+
+[Term]
+id: CO_335:0000720
+name: Seed magnesium content in field method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000719
+
+[Term]
+id: CO_335:0000719
+name: Seed magnesium content in field
+namespace: Common BeanTrait
+def: "Measure of seed magnesium content" []
+synonym: "MSEED" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000718
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000717
+
+[Term]
+id: CO_335:0000717
+name: Seed calcium content in field method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000716
+
+[Term]
+id: CO_335:0000716
+name: Seed calcium content in field
+namespace: Common BeanTrait
+def: "Measure of seed calcium content" []
+synonym: "CSEED" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000715
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000714
+
+[Term]
+id: CO_335:0000714
+name: Seed potassium content in field method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000713
+
+[Term]
+id: CO_335:0000713
+name: Seed potassium content in field
+namespace: Common BeanTrait
+def: "Measure of seed potassium content" []
+synonym: "KSEED" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000712
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000711
+
+[Term]
+id: CO_335:0000711
+name: Seed Nitrogen content in field method
+namespace: Common beanMethod
+def: "Measured by Kjeldahl method" []
+relationship: method_of CO_335:0000710
+
+[Term]
+id: CO_335:0000710
+name: Seed Nitrogen content in field
+namespace: Common BeanTrait
+def: "Measure of seed nitrogen content" []
+synonym: "NSEED" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000709
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000708
+
+[Term]
+id: CO_335:0000708
+name: Shoot magnesium content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000707
+
+[Term]
+id: CO_335:0000707
+name: Shoot magnesium content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of shoot magnesium content" []
+synonym: "SHMCG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000706
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000705
+
+[Term]
+id: CO_335:0000705
+name: Shoot calcium content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000704
+
+[Term]
+id: CO_335:0000704
+name: Shoot calcium content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of shoot calcium content" []
+synonym: "SHCCG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000703
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000702
+
+[Term]
+id: CO_335:0000702
+name: Shoot potassium content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000701
+
+[Term]
+id: CO_335:0000701
+name: Shoot potassium content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of shoot potassium content" []
+synonym: "SHPCG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000700
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000699
+
+[Term]
+id: CO_335:0000699
+name: Shoot Nitrogen content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by Kjeldahl method" []
+relationship: method_of CO_335:0000698
+
+[Term]
+id: CO_335:0000698
+name: Shoot Nitrogen content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of shoot nitrogen content" []
+synonym: "SHNCG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000697
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000696
+
+[Term]
+id: CO_335:0000696
+name: Shoot phosphorus content in greenhouse method
+namespace: Common beanMethod
+def: "Measured by ICP, Spectrometry methods" []
+relationship: method_of CO_335:0000695
+
+[Term]
+id: CO_335:0000695
+name: Shoot phosphorus content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of shoot phosphorus content" []
+synonym: "SHPHCG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000694
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000693
+
+[Term]
+id: CO_335:0000693
+name: Shoot magnesium content in field method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000692
+
+[Term]
+id: CO_335:0000692
+name: Shoot magnesium content in field
+namespace: Common BeanTrait
+def: "Measure of shoot magnesium content" []
+synonym: "SHMCF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000691
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000690
+
+[Term]
+id: CO_335:0000690
+name: Shoot calcium content in field method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000689
+
+[Term]
+id: CO_335:0000689
+name: Shoot calcium content in field
+namespace: Common BeanTrait
+def: "Measure of shoot calcium content" []
+synonym: "SHCCF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000688
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000687
+
+[Term]
+id: CO_335:0000687
+name: Shoot potassium content in field method
+namespace: Common beanMethod
+def: "Measured by AAS , ICP methods" []
+relationship: method_of CO_335:0000686
+
+[Term]
+id: CO_335:0000686
+name: Shoot potassium content in field
+namespace: Common BeanTrait
+def: "Measure of shoot potassium content" []
+synonym: "SHPCF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000685
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000684
+
+[Term]
+id: CO_335:0000684
+name: Shoot Nitrogen content in field method
+namespace: Common beanMethod
+def: "Measured by Kjeldahl method" []
+relationship: method_of CO_335:0000683
+
+[Term]
+id: CO_335:0000683
+name: Shoot Nitrogen content in field
+namespace: Common BeanTrait
+def: "Measure of shoot nitrogen content" []
+synonym: "SHNCF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000682
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000681
+
+[Term]
+id: CO_335:0000681
+name: Shoot phosphorus content in field method
+namespace: Common beanMethod
+def: "Measured by ICP, Spectrometry methods" []
+relationship: method_of CO_335:0000680
+
+[Term]
+id: CO_335:0000680
+name: Shoot phosphorus content in field
+namespace: Common BeanTrait
+def: "Measure of shoot phosphorus content" []
+synonym: "SHPHCF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000679
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000678
+
+[Term]
+id: CO_335:0000678
+name: Root volume in greenhouse method
+namespace: Common beanMethod
+def: "Scanned root system and evaluated with Winrhizo" []
+relationship: method_of CO_335:0000677
+
+[Term]
+id: CO_335:0000677
+name: Root volume in greenhouse
+namespace: Common BeanTrait
+def: "Measure of root volume per plant at a given soil depth" []
+synonym: "RVG" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000676
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000675
+
+[Term]
+id: CO_335:0000675
+name: Root volume in field method
+namespace: Common beanMethod
+def: "Scanned root system and evaluated with Winrhizo" []
+relationship: method_of CO_335:0000674
+
+[Term]
+id: CO_335:0000674
+name: Root volume in field
+namespace: Common BeanTrait
+def: "Measure of root volume per unit soil area at a given soil depth" []
+synonym: "RVF" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000673
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000672
+
+[Term]
+id: CO_335:0000672
+name: Pod production efficiency method
+namespace: Common beanMethod
+def: "Pod number per area / total shoot biomass dry weight at mid-podfilling per area" []
+relationship: method_of CO_335:0000671
+
+[Term]
+id: CO_335:0000671
+name: Pod production efficiency
+namespace: Common BeanTrait
+def: "Relationship between pods number at harvest and canopy at mid-pod fill" []
+synonym: "PPE" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000670
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000669
+
+[Term]
+id: CO_335:0000669
+name: Seed production efficiency method
+namespace: Common beanMethod
+def: "Seed number per area / total shoot biomass dry weight at mid-podfilling per area" []
+relationship: method_of CO_335:0000668
+
+[Term]
+id: CO_335:0000668
+name: Seed production efficiency
+namespace: Common BeanTrait
+def: "Relationship between seeds number at harvest and canopy at mid-podfill" []
+synonym: "SPE" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000667
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000666
+
+[Term]
+id: CO_335:0000666
+name: Yield production efficiency method
+namespace: Common beanMethod
+def: "Seed biomass dry weight at harvest / total shoot biomass dry weight at mid-podfilling" []
+relationship: method_of CO_335:0000665
+
+[Term]
+id: CO_335:0000665
+name: Yield production efficiency
+namespace: Common BeanTrait
+def: "Relationship between seed biomass at harvest and canopy at mid-podfill" []
+synonym: "YPE" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000664
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000663
+
+[Term]
+id: CO_335:0000663
+name: Grain filling index method
+namespace: Common beanMethod
+def: "the GFI for each genotype can be estimated from (100 seed dry weight under drought conditions / 100 seed dry weight under irrigated conditions) x 100" []
+relationship: method_of CO_335:0000662
+
+[Term]
+id: CO_335:0000662
+name: Grain filling index
+namespace: Common BeanTrait
+def: "Measure of the grain filling" []
+synonym: "GFI" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000661
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000660
+
+[Term]
+id: CO_335:0000660
+name: Pod wall biomass proportion method
+namespace: Common beanMethod
+def: "(pod wall biomass dry weight at harvest / pod biomass dry weight at harvest) x 100" []
+relationship: method_of CO_335:0000659
+
+[Term]
+id: CO_335:0000659
+name: Pod wall biomass proportion
+namespace: Common BeanTrait
+def: "Measure of the podwall proportion" []
+synonym: "PWBP" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000658
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000657
+
+[Term]
+id: CO_335:0000657
+name: Drought susceptibility index method
+namespace: Common beanMethod
+def: "DSI = (1 – (Yds/Yns)) / DII, where Yds and Yns are mean yields of a given genotype in drought stress and no stress environments, respectively" []
+relationship: method_of CO_335:0000656
+
+[Term]
+id: CO_335:0000656
+name: Drought susceptibility index
+namespace: Common BeanTrait
+def: "Relationship between drought yield and irrigated yield for each genotype" []
+synonym: "DSI" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000655
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000654
+
+[Term]
+id: CO_335:0000654
+name: Drought intensity index method
+namespace: Common beanMethod
+def: "DII = 1 – (Xds/Xns), where Xds and Xns are the mean of all genotypes under drought stress and no stress treatments, respectively" []
+relationship: method_of CO_335:0000653
+
+[Term]
+id: CO_335:0000653
+name: Drought intensity index
+namespace: Common BeanTrait
+def: "Relationship between drought yield and irrigated yield for each growing season" []
+synonym: "DII" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000652
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000651
+
+[Term]
+id: CO_335:0000651
+name: Leaf area in greenhouse method
+namespace: Common beanMethod
+def: "Leaf area from single plant with leaf area meter LICO-3000" []
+relationship: method_of CO_335:0000650
+
+[Term]
+id: CO_335:0000650
+name: Leaf area in greenhouse
+namespace: Common BeanTrait
+def: "Leaf area from single plant in greenhouse" []
+synonym: "LAG" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000649
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000648
+
+[Term]
+id: CO_335:0000648
+name: Leaf area in field method
+namespace: Common beanMethod
+def: "Leaf area from 50 cm row length measure with leaf area meter LICO-3000" []
+relationship: method_of CO_335:0000647
+
+[Term]
+id: CO_335:0000647
+name: Leaf area in field
+namespace: Common BeanTrait
+def: "Leaf area from 50 cm row length" []
+synonym: "LAF" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000646
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000645
+
+[Term]
+id: CO_335:0000645
+name: Shoot Ash content in greenhouse method
+namespace: Common beanMethod
+def: "Ash is determined in shoot" []
+relationship: method_of CO_335:0000644
+
+[Term]
+id: CO_335:0000644
+name: Shoot Ash content in greenhouse
+namespace: Common BeanTrait
+def: "Measure of ash in shoot" []
+synonym: "ASHSHG" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000643
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000642
+
+[Term]
+id: CO_335:0000642
+name: Shoot Ash content in field method
+namespace: Common beanMethod
+def: "Ash is determined in shoot" []
+relationship: method_of CO_335:0000641
+
+[Term]
+id: CO_335:0000641
+name: Shoot Ash content in field
+namespace: Common BeanTrait
+def: "Measure of ash in shoot" []
+synonym: "ASHSHF" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000640
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000639
+
+[Term]
+id: CO_335:0000639
+name: Shoot biomass in greenhouse method
+namespace: Common beanMethod
+def: "Shoot biomass (leaves+stems+pods) from single plants" []
+relationship: method_of CO_335:0000638
+
+[Term]
+id: CO_335:0000638
+name: Shoot biomass in greenhouse
+namespace: Common BeanTrait
+def: "Shoot biomass from single plants" []
+synonym: "SHBG" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000637
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000636
+
+[Term]
+id: CO_335:0000636
+name: Shoot biomass in field method
+namespace: Common beanMethod
+def: "Shoot biomass (leaves+stems+pods) at Mid-podfill" []
+relationship: method_of CO_335:0000635
+
+[Term]
+id: CO_335:0000635
+name: Shoot biomass in field
+namespace: Common BeanTrait
+def: "Shoot biomass from 50 centimeters of row" []
+synonym: "Canopy biomass" EXACT []
+synonym: "SHBF" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000634
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000633
+
+[Term]
+id: CO_335:0000633
+name: Total non-structural carbohydrates in shoot - Greenhouse method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from shoot" []
+relationship: method_of CO_335:0000632
+
+[Term]
+id: CO_335:0000632
+name: Total non-structural carbohydrates in shoot - Greenhouse
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in shoot" []
+synonym: "TNCSHG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000631
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000630
+
+[Term]
+id: CO_335:0000630
+name: Total non-structural carbohydrates in shoot - Field method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from shoot" []
+relationship: method_of CO_335:0000629
+
+[Term]
+id: CO_335:0000629
+name: Total non-structural carbohydrates in shoot - Field
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in shoot" []
+synonym: "TNCSHF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000628
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000627
+
+[Term]
+id: CO_335:0000627
+name: Total non-structural carbohydrates in leaves - Greenhouse method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from leaves" []
+relationship: method_of CO_335:0000626
+
+[Term]
+id: CO_335:0000626
+name: Total non-structural carbohydrates in leaves - Greenhouse
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in leaves" []
+synonym: "TNCLG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000625
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000624
+
+[Term]
+id: CO_335:0000624
+name: Total non-structural carbohydrates in leaves - Field method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from leaves" []
+relationship: method_of CO_335:0000623
+
+[Term]
+id: CO_335:0000623
+name: Total non-structural carbohydrates in leaves - Field
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in leaves" []
+synonym: "TNCLF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000622
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000621
+
+[Term]
+id: CO_335:0000621
+name: Total non-structural carbohydrates in stem - Greenhouse method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from stem" []
+relationship: method_of CO_335:0000620
+
+[Term]
+id: CO_335:0000620
+name: Total non-structural carbohydrates in stem - Greenhouse
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in stem" []
+synonym: "TNCSTG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000619
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000618
+
+[Term]
+id: CO_335:0000618
+name: Total non-structural carbohydrates in stem - Field method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from stem" []
+relationship: method_of CO_335:0000617
+
+[Term]
+id: CO_335:0000617
+name: Total non-structural carbohydrates in stem - Field
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in stem" []
+synonym: "TNCSTF" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000616
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000615
+
+[Term]
+id: CO_335:0000615
+name: Total non-structural carbohydrates in seed method
+namespace: Common beanMethod
+def: "Total non-structural carbohydrates (TNC) is determined from seed" []
+relationship: method_of CO_335:0000614
+
+[Term]
+id: CO_335:0000614
+name: Total non-structural carbohydrates in seed
+namespace: Common BeanTrait
+def: "Measure of non-structural carbohydrates content in seed" []
+synonym: "TNCS" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000613
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000612
+
+[Term]
+id: CO_335:0000613/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/3
+name:  Disease symptoms are restricted to the cotyledons. Lower stem tissues are covered with small and superficial lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/7
+name:  Approximately 25% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/5
+name:  Approximately 10% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/9
+name:  50% or more of the hypocotyl and stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000613/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000613
+
+
+[Term]
+id: CO_335:0000612
+name: Macrophomina in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Germination (V0), Pod filling (R8)" []
+relationship: method_of CO_335:0000611
+
+[Term]
+id: CO_335:0000611
+name: Macrophomina in field
+namespace: Common BeanTrait
+def: "Disease reaction to Macrophomina phaseolina, field" []
+synonym: "Macrophomina phaseolina" EXACT []
+synonym: "MPF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000610
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000609
+
+[Term]
+id: CO_335:0000610/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/3
+name:  Presence of a few small, dark, concentric, zonate lesions that cover approximately 2% of the pod surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/7
+name:  Abundant and large sporulating lesions that cover approximately 10% of the pod surface area
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/5
+name:  Presence of several small to intermediate lesions with limited sporulation, that cover approximately 5% of the pod surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/9
+name:  25% or more of the pod surface area is cover by large sporulating lesions. Infected pods are often shriveled containing a low number of seeds
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000610/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000610
+
+
+[Term]
+id: CO_335:0000609
+name: Ascochyta blight on pods in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Pod Formation (R7), Pod filling (R8)" []
+relationship: method_of CO_335:0000608
+
+[Term]
+id: CO_335:0000608
+name: Ascochyta blight on pods in field
+namespace: Common BeanTrait
+def: "Disease reaction to Phoma exigua var. diversispora in pods, field" []
+synonym: "Phoma exigua var. diversispora" EXACT []
+synonym: "ASCFP" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000607
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000606
+
+[Term]
+id: CO_335:0000607/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/3
+name:  Presence of a few small, dark, concentric, zonate lesions that cover approximately 2% of the leaf surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/7
+name:  Abundant and large sporulating lesions that cover approximately 10% of the leaf surface area. The lesions may coalesce
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/5
+name:  Presence of several small to intermediate lesions with limited sporulation, that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/9
+name:  25% or more of the leaf surface area is cover by large sporulating lesions. Lesions on the leaves often coalesce causing necrosis of large segments that often fall out leaving a shothole-like appearance on the leaves resulting in premature and severe d
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000607/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000607
+
+
+[Term]
+id: CO_335:0000606
+name: Ascochyta blight on leaves in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, First Trifoliate leaf (V3)" []
+relationship: method_of CO_335:0000605
+
+[Term]
+id: CO_335:0000605
+name: Ascochyta blight on leaves in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Phoma exigua var. diversispora in leaves, greenhouse" []
+synonym: "Phoma exigua var. diversispora" EXACT []
+synonym: "ASCGL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000604
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000603
+
+[Term]
+id: CO_335:0000604/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/3
+name:  Presence of a few small, dark, concentric, zonate lesions that cover approximately 2% of the leaf surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/7
+name:  Abundant and large sporulating lesions that cover approximately 10% of the leaf surface area. The lesions may coalesce
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/5
+name:  Presence of several small to intermediate lesions with limited sporulation, that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/9
+name:  25% or more of the leaf surface area is cover by large sporulating lesions. Lesions on the leaves often coalesce causing necrosis of large segments that often fall out leaving a shothole-like appearance on the leaves resulting in premature and severe d
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000604/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000604
+
+
+[Term]
+id: CO_335:0000603
+name: Ascochyta blight on leaves in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Flowering (R6), Pod filling (R8)" []
+relationship: method_of CO_335:0000602
+
+[Term]
+id: CO_335:0000602
+name: Ascochyta blight on leaves in field
+namespace: Common BeanTrait
+def: "Disease reaction to Phoma exigua var. diversispora in leaves, field" []
+synonym: "Phoma exigua var. diversispora" EXACT []
+synonym: "ASCFL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000601
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000600
+
+[Term]
+id: CO_335:0000601/4
+name: 20 to 39 days delay
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/8
+name: Over 100 days delay
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/1
+name: 0 to 3 days delay
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/3
+name: 11 to 19 days delay
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/7
+name: 80 to 99 days delay
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/5
+name: 40 to 59 days delay
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/6
+name: 60 to 79 days delay
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000601/2
+name: 4 to 10 days delay
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000601
+
+
+[Term]
+id: CO_335:0000600
+name: Photoperiod response method
+namespace: Common beanMethod
+def: "Photoperiod response of flowering measured at Palmira, based on delay of flowering under 18h artificial day length vs 12.5h natural day length" []
+relationship: method_of CO_335:0000599
+
+[Term]
+id: CO_335:0000599
+name: Photoperiod response
+namespace: Common BeanTrait
+def: "Evaluation of flowering under conditions of day length of 18 hours with artificial light" []
+synonym: "PHOR" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000598
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000597
+
+[Term]
+id: CO_335:0000598/1
+name: All leaves have dropped
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000598
+
+
+[Term]
+id: CO_335:0000598/3
+name: All leaves persistent
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000598
+
+
+[Term]
+id: CO_335:0000598/2
+name: 50% of the leaves have dropped
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000598
+
+
+[Term]
+id: CO_335:0000597
+name: Leaf persistence method
+namespace: Common beanMethod
+def: "Visual evaluation" []
+relationship: method_of CO_335:0000596
+
+[Term]
+id: CO_335:0000596
+name: Leaf persistence
+namespace: Common BeanTrait
+def: "Persistence of leaves at harvest time" []
+synonym: "LP" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000595
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000594
+
+[Term]
+id: CO_335:0000594
+name: Seed Protein method
+namespace: Common beanMethod
+def: "Measured with NIRS calibrated for protein" []
+relationship: method_of CO_335:0000593
+
+[Term]
+id: CO_335:0000593
+name: Seed Protein
+namespace: Common BeanTrait
+def: "Percent protein in grain" []
+synonym: "SDPRO" EXACT []
+is_a: CO_335:Quality%20traits
+
+[Term]
+id: CO_335:0000592
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000591
+
+[Term]
+id: CO_335:0000591
+name: Total Seed Phytates method
+namespace: Common beanMethod
+def: "Colorimetric method" []
+relationship: method_of CO_335:0000590
+
+[Term]
+id: CO_335:0000590
+name: Total Seed Phytates
+namespace: Common BeanTrait
+def: "Percent phytate in grain" []
+synonym: "SDPHY" EXACT []
+is_a: CO_335:Quality%20traits
+
+[Term]
+id: CO_335:0000589
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000588
+
+[Term]
+id: CO_335:0000589/4
+name: From 61 to 120 nodules of large size
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/8
+name: From 30 to 60 nodules of small size
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/1
+name: Higher of 240 nodules
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/3
+name: From 121 to 240 nodules of normal or small size
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/7
+name: From 30 to 60 nodules of normal size
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/5
+name: From 61 to 120 nodules of normal size
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/9
+name: Less of 30 nodules
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/6
+name: From 61 to 120 nodules of small size
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000589/2
+name: From 121 to 240 nodules of large size
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000589
+
+
+[Term]
+id: CO_335:0000588
+name: Number of effective nodules in climbing bean method
+namespace: Common beanMethod
+def: "It is expressed as the number of effective nodules (red or pink) per plant" []
+relationship: method_of CO_335:0000587
+
+[Term]
+id: CO_335:0000587
+name: Number of effective nodules in climbing bean
+namespace: Common BeanTrait
+def: "Quantity of nodules of Rhizobium spp. in the plant" []
+synonym: "Nodulation by Rhizobium spp." EXACT []
+synonym: "NENCB" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000586
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000585
+
+[Term]
+id: CO_335:0000586/4
+name: From 21 to 40 nodules of large size
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/8
+name: From 10 to 20 nodules of small size
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/1
+name: Higher of 80 nodules
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/3
+name: From 41 to 80 nodules of normal or small size
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/7
+name: From 10 to 20 nodules of normal size
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/5
+name: From 21 to 40 nodules of normal size
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/9
+name: Less of 10 nodules
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/6
+name: From 21 to 40 nodules of small size
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000586/2
+name: From 41 to 80 nodules of large size
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000586
+
+
+[Term]
+id: CO_335:0000585
+name: Number of effective nodules in bush bean method
+namespace: Common beanMethod
+def: "It is expressed as the number of effective nodules (red or pink) per plant" []
+relationship: method_of CO_335:0000584
+
+[Term]
+id: CO_335:0000584
+name: Number of effective nodules in bush bean
+namespace: Common BeanTrait
+def: "Quantity of nodules of Rhizobium spp. in the plant" []
+synonym: "Nodulation by Rhizobium spp." EXACT []
+synonym: "NENBB" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000583
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000582
+
+[Term]
+id: CO_335:0000583/1
+name: Small (< 25g)
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000583
+
+
+[Term]
+id: CO_335:0000583/3
+name: Large (>40g)
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000583
+
+
+[Term]
+id: CO_335:0000583/2
+name: Medium (25g-40g)
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000583
+
+
+[Term]
+id: CO_335:0000582
+name: Seed size method
+namespace: Common beanMethod
+def: "It is expressed as the weight in grams at 14% moisture of 100 seeds chosen at random" []
+relationship: method_of CO_335:0000581
+
+[Term]
+id: CO_335:0000581
+name: Seed size
+namespace: Common BeanTrait
+def: "Determining the size of the seed based on the weight of 100 seeds" []
+synonym: "SSZ" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000580
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000579
+
+[Term]
+id: CO_335:0000579
+name: Seeds per plant method
+namespace: Common beanMethod
+def: "Number of seeds per plant obtained from 1 pot in the greenhouse or average of 10 random plants harvested in field" []
+relationship: method_of CO_335:0000578
+
+[Term]
+id: CO_335:0000578
+name: Seeds per plant
+namespace: Common BeanTrait
+def: "Number of seeds counted per plant grown in a pot or the field" []
+synonym: "SPLA" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000577
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000576
+
+[Term]
+id: CO_335:0000576
+name: Pods per plot method
+namespace: Common beanMethod
+def: "Quantification of the pods obtained from the plot" []
+relationship: method_of CO_335:0000575
+
+[Term]
+id: CO_335:0000575
+name: Pods per plot
+namespace: Common BeanTrait
+def: "Quantity of pods harvested in a defined plot area" []
+synonym: "PPP" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000574
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000573
+
+[Term]
+id: CO_335:0000573
+name: Seeds per plot method
+namespace: Common beanMethod
+def: "Quantification of the seeds obtained from the plot" []
+relationship: method_of CO_335:0000572
+
+[Term]
+id: CO_335:0000572
+name: Seeds per plot
+namespace: Common BeanTrait
+def: "Quantity of seeds harvested in a defined plot area" []
+synonym: "SPLO" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000571
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000570
+
+[Term]
+id: CO_335:0000571/1
+name: +
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000571
+
+
+[Term]
+id: CO_335:0000571/3
+name: H
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000571
+
+
+[Term]
+id: CO_335:0000571/2
+name: -
+namespace: Common beanScale
+synonym: "0" EXACT []
+is_a: CO_335:0000571
+
+
+[Term]
+id: CO_335:0000570
+name: Presence of the DNA marker linked to bc-3 gene of resistance to the BCMNV method
+namespace: Common beanMethod
+def: "Visual evaluation of the presence of amplified fragment" []
+relationship: method_of CO_335:0000569
+
+[Term]
+id: CO_335:0000569
+name: Presence of the DNA marker linked to bc-3 gene of resistance to the BCMNV
+namespace: Common BeanTrait
+def: "Presence of bc-3 gene determined by molecular techniques" []
+synonym: "bc-3" EXACT []
+synonym: "bc3" EXACT []
+is_a: CO_335:Biochemical%20traits
+
+[Term]
+id: CO_335:0000568
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000567
+
+[Term]
+id: CO_335:0000568/1
+name: +
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000568
+
+
+[Term]
+id: CO_335:0000568/2
+name: -
+namespace: Common beanScale
+synonym: "0" EXACT []
+is_a: CO_335:0000568
+
+
+[Term]
+id: CO_335:0000567
+name: Presence of the DNA marker linked to QTL of resistance to the BGYMV method
+namespace: Common beanMethod
+def: "Visual evaluation of the presence of amplified fragment" []
+relationship: method_of CO_335:0000566
+
+[Term]
+id: CO_335:0000566
+name: Presence of the DNA marker linked to QTL of resistance to the BGYMV
+namespace: Common BeanTrait
+def: "Presence of QTL W12 determined by molecular techniques" []
+synonym: "W12" EXACT []
+is_a: CO_335:Biochemical%20traits
+
+[Term]
+id: CO_335:0000565
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000564
+
+[Term]
+id: CO_335:0000565/1
+name: +
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000565
+
+
+[Term]
+id: CO_335:0000565/3
+name: H
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000565
+
+
+[Term]
+id: CO_335:0000565/2
+name: -
+namespace: Common beanScale
+synonym: "0" EXACT []
+is_a: CO_335:0000565
+
+
+[Term]
+id: CO_335:0000564
+name: Presence of the DNA marker linked to bgm-1 gene of resistance to the BGYMV method
+namespace: Common beanMethod
+def: "Visual evaluation of the presence of amplified fragment" []
+relationship: method_of CO_335:0000563
+
+[Term]
+id: CO_335:0000563
+name: Presence of the DNA marker linked to bgm-1 gene of resistance to the BGYMV
+namespace: Common BeanTrait
+def: "Presence of bgm-1 gene determined by molecular techniques" []
+synonym: "bgm-1" EXACT []
+synonym: "bgm1" EXACT []
+is_a: CO_335:Biochemical%20traits
+
+[Term]
+id: CO_335:0000562
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000561
+
+[Term]
+id: CO_335:0000562/4
+name: Variable (specify)
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000562
+
+
+[Term]
+id: CO_335:0000562/1
+name: Green
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000562
+
+
+[Term]
+id: CO_335:0000562/3
+name: Purple
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000562
+
+
+[Term]
+id: CO_335:0000562/2
+name: Pink
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000562
+
+
+[Term]
+id: CO_335:0000561
+name: Stem pigmentation method
+namespace: Common beanMethod
+def: "Visual evaluation of the extent of anthocyanin pigmentation in the stem" []
+relationship: method_of CO_335:0000560
+
+[Term]
+id: CO_335:0000560
+name: Stem pigmentation
+namespace: Common BeanTrait
+def: "Prominent color of stem" []
+synonym: "SP" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000559
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000558
+
+[Term]
+id: CO_335:0000559/4
+name: Kidney shaped
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000559
+
+
+[Term]
+id: CO_335:0000559/1
+name: Rounded
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000559
+
+
+[Term]
+id: CO_335:0000559/5
+name: Truncate
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000559
+
+
+[Term]
+id: CO_335:0000559/3
+name: Cuboid
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000559
+
+
+[Term]
+id: CO_335:0000559/6
+name: Variable (specify)
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000559
+
+
+[Term]
+id: CO_335:0000559/2
+name: Oval
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000559
+
+
+[Term]
+id: CO_335:0000558
+name: Seed shape method
+namespace: Common beanMethod
+def: "In dry seed" []
+relationship: method_of CO_335:0000557
+
+[Term]
+id: CO_335:0000557
+name: Seed shape
+namespace: Common BeanTrait
+def: "Seed shape" []
+synonym: "SS" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000556
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000555
+
+[Term]
+id: CO_335:0000556/4
+name: Red
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000556/1
+name: White
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000556/7
+name: Variable (specify)
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000556/5
+name: Lilac
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000556/3
+name: Salmon
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000556/6
+name: Purple
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000556/2
+name: Pink
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000556
+
+
+[Term]
+id: CO_335:0000555
+name: Flower standard color method
+namespace: Common beanMethod
+def: "In freshly opened flowers" []
+relationship: method_of CO_335:0000554
+
+[Term]
+id: CO_335:0000554
+name: Flower standard color
+namespace: Common BeanTrait
+def: "Prominent color of standard" []
+synonym: "SC" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000553
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000552
+
+[Term]
+id: CO_335:0000553/4
+name: Red
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000553/1
+name: White
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000553/7
+name: Variable (specify)
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000553/5
+name: Lilac
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000553/3
+name: Salmon
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000553/6
+name: Purple
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000553/2
+name: Pink
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000553
+
+
+[Term]
+id: CO_335:0000552
+name: Flower wings color method
+namespace: Common beanMethod
+def: "In freshly opened flowers" []
+relationship: method_of CO_335:0000551
+
+[Term]
+id: CO_335:0000551
+name: Flower wings color
+namespace: Common BeanTrait
+def: "Prominent color of wings" []
+synonym: "WC" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000550
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000549
+
+[Term]
+id: CO_335:0000549
+name: Number of plants per m² method
+namespace: Common beanMethod
+def: "Number of plants per plot effective area divided by the plot area" []
+relationship: method_of CO_335:0000548
+
+[Term]
+id: CO_335:0000548
+name: Number of plants per m²
+namespace: Common BeanTrait
+def: "Number of plants harvested in the effective plot" []
+synonym: "PLM2" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000544
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000543
+
+[Term]
+id: CO_335:0000543
+name: Percentage of grain moisture method
+namespace: Common beanMethod
+def: "Measured with a moisture analyzer" []
+relationship: method_of CO_335:0000542
+
+[Term]
+id: CO_335:0000542
+name: Percentage of grain moisture
+namespace: Common BeanTrait
+def: "Moisture content presents in the bean seed. Expressed in percentage" []
+synonym: "POM" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000541
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000540
+
+[Term]
+id: CO_335:0000540
+name: Yield per day method
+namespace: Common beanMethod
+def: "Yield per hectare divided per days to physiological maturity" []
+relationship: method_of CO_335:0000539
+
+[Term]
+id: CO_335:0000539
+name: Yield per day
+namespace: Common BeanTrait
+def: "Estimation of yield per day" []
+synonym: "YDD" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000538
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000537
+
+[Term]
+id: CO_335:0000538/1
+name: Purple
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000538
+
+
+[Term]
+id: CO_335:0000538/3
+name: Other (specify)
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000538
+
+
+[Term]
+id: CO_335:0000538/2
+name: Green
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000538
+
+
+[Term]
+id: CO_335:0000537
+name: Hypocotyl pigmentation method
+namespace: Common beanMethod
+def: "Visual determination" []
+relationship: method_of CO_335:0000536
+
+[Term]
+id: CO_335:0000536
+name: Hypocotyl pigmentation
+namespace: Common BeanTrait
+def: "Hypocotyl coloration" []
+synonym: "HP" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000535
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000534
+
+[Term]
+id: CO_335:0000535/4
+name: White
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000535
+
+
+[Term]
+id: CO_335:0000535/1
+name: Purple
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000535
+
+
+[Term]
+id: CO_335:0000535/5
+name: Very pale green
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000535
+
+
+[Term]
+id: CO_335:0000535/3
+name: Green
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000535
+
+
+[Term]
+id: CO_335:0000535/6
+name: Other (specify)
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000535
+
+
+[Term]
+id: CO_335:0000535/2
+name: Red
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000535
+
+
+[Term]
+id: CO_335:0000534
+name: Emerging cotyledon color method
+namespace: Common beanMethod
+def: "Visual determination" []
+relationship: method_of CO_335:0000533
+
+[Term]
+id: CO_335:0000533
+name: Emerging cotyledon color
+namespace: Common BeanTrait
+def: "Cotyledons color at the moment of emergence" []
+synonym: "ECC" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000532
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000531
+
+[Term]
+id: CO_335:0000532/4
+name: Recurved
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000532
+
+
+[Term]
+id: CO_335:0000532/1
+name: Straight
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000532
+
+
+[Term]
+id: CO_335:0000532/3
+name: Curved
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000532
+
+
+[Term]
+id: CO_335:0000532/2
+name: Slightly curved
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000532
+
+
+[Term]
+id: CO_335:0000531
+name: Pod curvature method
+namespace: Common beanMethod
+def: "Visual determination" []
+relationship: method_of CO_335:0000530
+
+[Term]
+id: CO_335:0000530
+name: Pod curvature
+namespace: Common BeanTrait
+def: "Classification of curvature of immature pods fully expanded" []
+synonym: "PC" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000529
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000528
+
+[Term]
+id: CO_335:0000529/1
+name: P
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000529
+
+
+[Term]
+id: CO_335:0000529/3
+name: S
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000529
+
+
+[Term]
+id: CO_335:0000529/2
+name: C
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000529
+
+
+[Term]
+id: CO_335:0000528
+name: Dehiscence type method
+namespace: Common beanMethod
+def: "The dehiscence depends on the fiber content of the pod" []
+relationship: method_of CO_335:0000527
+
+[Term]
+id: CO_335:0000527
+name: Dehiscence type
+namespace: Common BeanTrait
+def: "Capacity to disperse seeds" []
+synonym: "DT" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000526
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000525
+
+[Term]
+id: CO_335:0000526/1
+name: Placental (It extends straight from the placental suture)
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000526
+
+
+[Term]
+id: CO_335:0000526/2
+name: Central (It has an intermediate or central position between the placental and ventral sutures)
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000526
+
+
+[Term]
+id: CO_335:0000525
+name: Pod beak position method
+namespace: Common beanMethod
+def: "Visual determination" []
+relationship: method_of CO_335:0000524
+
+[Term]
+id: CO_335:0000524
+name: Pod beak position
+namespace: Common BeanTrait
+def: "Pod beak position" []
+synonym: "PBP" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000523
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000522
+
+[Term]
+id: CO_335:0000523/1
+name: Upward (curved to dorsal or placental side)
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000523
+
+
+[Term]
+id: CO_335:0000523/3
+name: Downward (curved to ventral side)
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000523
+
+
+[Term]
+id: CO_335:0000523/2
+name: Straight
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000523
+
+
+[Term]
+id: CO_335:0000522
+name: Pod beak orientation method
+namespace: Common beanMethod
+def: "Visual determination" []
+relationship: method_of CO_335:0000521
+
+[Term]
+id: CO_335:0000521
+name: Pod beak orientation
+namespace: Common BeanTrait
+def: "Pod beak orientation" []
+synonym: "PBO" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000520
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000519
+
+[Term]
+id: CO_335:0000519
+name: Pod width method
+namespace: Common beanMethod
+def: "Average width in millimeters of 10 dry pods. It is measured in the widest part of the pod, between dorsal and ventral sutures. Using the same pods in which the length was measured." []
+relationship: method_of CO_335:0000518
+
+[Term]
+id: CO_335:0000518
+name: Pod width
+namespace: Common BeanTrait
+def: "Width of dry pods" []
+synonym: "PW" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000517
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000516
+
+[Term]
+id: CO_335:0000517/4
+name: Figure of eight
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000517
+
+
+[Term]
+id: CO_335:0000517/1
+name: Flat
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000517
+
+
+[Term]
+id: CO_335:0000517/3
+name: Rounded
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000517
+
+
+[Term]
+id: CO_335:0000517/2
+name: Ovate
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000517
+
+
+[Term]
+id: CO_335:0000516
+name: Pod cross section method
+namespace: Common beanMethod
+def: "Visual determination of the cross section of the fully expanded immature pods. Using the same pods in which the length was measured." []
+relationship: method_of CO_335:0000515
+
+[Term]
+id: CO_335:0000515
+name: Pod cross section
+namespace: Common BeanTrait
+def: "Cross section of immature pods fully expanded" []
+synonym: "PCS" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000514
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000513
+
+[Term]
+id: CO_335:0000513
+name: Pod length method
+namespace: Common beanMethod
+def: "Average length in centimeters of 10 dry pods, taking 1 pod per plant, in 10 random normal plants. It is measured from its insertion in the pedicel to the beak end" []
+relationship: method_of CO_335:0000512
+
+[Term]
+id: CO_335:0000512
+name: Pod length
+namespace: Common BeanTrait
+def: "Length of dry pods" []
+synonym: "PL" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000511
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000510
+
+[Term]
+id: CO_335:0000510
+name: Seed length method
+namespace: Common beanMethod
+def: "Average length in millimeters of 10 seeds, taking 1 seed per pod per plant, in 10 random normal plants. The length is the longest dimension of the seed" []
+relationship: method_of CO_335:0000509
+
+[Term]
+id: CO_335:0000509
+name: Seed length
+namespace: Common BeanTrait
+def: "Length of the seed to 14% moisture" []
+synonym: "SL" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000508
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000507
+
+[Term]
+id: CO_335:0000507
+name: Seed width method
+namespace: Common beanMethod
+def: "Average width in millimeters of 10 seeds, taking 1 seed per pod per plant, in 10 random normal plants. The width is the distance between the 2 lateral sides of the seed" []
+relationship: method_of CO_335:0000506
+
+[Term]
+id: CO_335:0000506
+name: Seed width
+namespace: Common BeanTrait
+def: "Width of the seed to 14% moisture" []
+synonym: "SW" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000505
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000504
+
+[Term]
+id: CO_335:0000504
+name: Seed Height method
+namespace: Common beanMethod
+def: "Average height in millimeters of 10 seeds, taking 1 seed per pod per plant, in 10 random normal plants. The height is the distance between the hilum and the side of the seed opposite the hilum" []
+relationship: method_of CO_335:0000503
+
+[Term]
+id: CO_335:0000503
+name: Seed Height
+namespace: Common BeanTrait
+def: "Height of the seed to 14% moisture" []
+synonym: "SH" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000481
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000480
+
+[Term]
+id: CO_335:0000481/4
+name: Curling of upper leaves and the middle part of the plant
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/8
+name: Curling, yellowing and shortening of internodes more pronounced with the beginning of necrosis in some parts of the leaves and pods deformation
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/1
+name: No damage
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/3
+name: Slight downward or upward curling of upper leaves
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/7
+name: Curling, yellowing and shortening of internodes more pronounced. Decrease in flowering and pods production
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/5
+name: Curling more pronounced and some foliar yellowing. Shortening of internodes
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/9
+name: All leaves show yellowing and curling. Very short internodes, little pods production. More visible deformation of pods
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/6
+name: Increased yellowing and curling of leaves
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000481/2
+name: Slight yellowing in the leaves edge
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000481
+
+
+[Term]
+id: CO_335:0000480
+name: Leafhopper method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Primary leaves (V2) to Pod filling (R8)." []
+relationship: method_of CO_335:0000479
+
+[Term]
+id: CO_335:0000479
+name: Leafhopper
+namespace: Common BeanTrait
+def: "Qualification of Leafhopper damage on the crop" []
+synonym: "Empoasca kraemeri" EXACT []
+synonym: " chicharrita" EXACT []
+synonym: " saltahojas" EXACT []
+synonym: " cigarrinha verde" EXACT []
+synonym: "LH" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000478
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000477
+
+[Term]
+id: CO_335:0000478/4
+name: Curved leaves with beginning of foliar yellowing
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/8
+name: Very severe distortion of the leaves with considerable yellowing and visible honeydew on leaves
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/1
+name: No damage
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/3
+name: Curved leaves
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/7
+name: Severe distortion of the leaves with considerable yellowing and visible honeydew on leaves
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/5
+name: Curved leaves with moderate foliar yellowing
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/9
+name: Very severe distortion of the leaves with considerable yellowing and abundant honeydew on leaves
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/6
+name: Leaves distortion with considerable yellowing
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000478/2
+name: Beginning curving of the leaves
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000478
+
+
+[Term]
+id: CO_335:0000477
+name: Aphis method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Third trifoliate leaf (V4) to Preflowering (R5)" []
+relationship: method_of CO_335:0000476
+
+[Term]
+id: CO_335:0000476
+name: Aphis
+namespace: Common BeanTrait
+def: "Qualification of Aphis damage on the crop" []
+synonym: "Aphis spp." EXACT []
+synonym: " Myzus persicae" EXACT []
+synonym: "APH" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000475
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000474
+
+[Term]
+id: CO_335:0000475/4
+name: Moderate infection
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/8
+name: Susceptible
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/1
+name: No symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/3
+name: Light infection
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/7
+name: Moderately susceptible
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/5
+name: Intermediate infection
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/9
+name: Very susceptible
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/6
+name: Lightly susceptible
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000475/2
+name: Very light infection
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000475
+
+
+[Term]
+id: CO_335:0000474
+name: Bean Golden Yellow Mosaic Virus in field method
+namespace: Common beanMethod
+def: "Evaluated as Resistant, Intermediate, Susceptible" []
+relationship: method_of CO_335:0000473
+
+[Term]
+id: CO_335:0000473
+name: Bean Golden Yellow Mosaic Virus in field
+namespace: Common BeanTrait
+def: "Reaction to viral infection" []
+synonym: "BGMV" EXACT []
+synonym: "BGYMVF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000472
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000471
+
+[Term]
+id: CO_335:0000472/1
+name: M
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000472
+
+
+[Term]
+id: CO_335:0000472/2
+name: O
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000472
+
+
+[Term]
+id: CO_335:0000471
+name: Bean Golden Yellow Mosaic Virus in greenhouse method
+namespace: Common beanMethod
+def: "Evaluated as mosaic (M), asymptomatic (O)" []
+relationship: method_of CO_335:0000470
+
+[Term]
+id: CO_335:0000470
+name: Bean Golden Yellow Mosaic Virus in greenhouse
+namespace: Common BeanTrait
+def: "Reaction to viral infection" []
+synonym: "BGMV" EXACT []
+synonym: "BGYMVG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000469
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000468
+
+[Term]
+id: CO_335:0000468
+name: Leaf carbon isotope discrimination method
+namespace: Common beanMethod
+def: "Mass spectrometer: C12 vs. C13 analysis" []
+relationship: method_of CO_335:0000467
+
+[Term]
+id: CO_335:0000467
+name: Leaf carbon isotope discrimination
+namespace: Common BeanTrait
+def: "Leaf carbon isotope discrimination" []
+synonym: "CIDL" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000466
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000465
+
+[Term]
+id: CO_335:0000465
+name: Grain carbon isotope discrimination method
+namespace: Common beanMethod
+def: "Mass spectrometer: C12 vs. C13 analysis" []
+relationship: method_of CO_335:0000464
+
+[Term]
+id: CO_335:0000464
+name: Grain carbon isotope discrimination
+namespace: Common BeanTrait
+def: "Grain carbon isotope discrimination" []
+synonym: "CIDG" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000463
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000462
+
+[Term]
+id: CO_335:0000462
+name: Basal root growth angle in greenhouse method
+namespace: Common beanMethod
+def: "Measure of basal root angle from greenhouse samples" []
+relationship: method_of CO_335:0000461
+
+[Term]
+id: CO_335:0000461
+name: Basal root growth angle in greenhouse
+namespace: Common BeanTrait
+def: "Measure of root architecture" []
+synonym: "BRGAG" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000460
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000459
+
+[Term]
+id: CO_335:0000459
+name: Basal root growth angle in field method
+namespace: Common beanMethod
+def: "Measure of basal root angle from field samples" []
+relationship: method_of CO_335:0000458
+
+[Term]
+id: CO_335:0000458
+name: Basal root growth angle in field
+namespace: Common BeanTrait
+def: "Measure of root architecture" []
+synonym: "BRGAF" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000457
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000456
+
+[Term]
+id: CO_335:0000457/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/3
+name:  Approximately 5-10% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/7
+name:  Approximately 40-60% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/5
+name:  Approximately 20-30% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/9
+name:  More than 80% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000457/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000457
+
+
+[Term]
+id: CO_335:0000456
+name: Web blight in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, First trifoliate leaf (V3)" []
+relationship: method_of CO_335:0000455
+
+[Term]
+id: CO_335:0000455
+name: Web blight in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Thanatephorus cucumeris, greenhouse" []
+synonym: "Thanatephorus cucumeris" EXACT []
+synonym: "WBG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000454
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000453
+
+[Term]
+id: CO_335:0000454/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/5
+name:  Approximately 20-30% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/3
+name:  Approximately 5-10% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/7
+name:  Approximately 40-60% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/9
+name:  More than 80% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000454/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000454
+
+
+[Term]
+id: CO_335:0000453
+name: Web blight in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Evaluation Third trifoliate leaf (V4), Flowering (R6), Pod filling (R8)" []
+relationship: method_of CO_335:0000452
+
+[Term]
+id: CO_335:0000452
+name: Web blight in field
+namespace: Common BeanTrait
+def: "Disease reaction to Thanatephorus cucumeris, field" []
+synonym: "Thanatephorus cucumeris" EXACT []
+synonym: "WBF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000451
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000450
+
+[Term]
+id: CO_335:0000451/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/5
+name:  Presence of several small lesions with limited sporulation that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/3
+name:  Presence of a few small non-sporulating lesions that cover approximately 2% of the leaf surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/7
+name:  Abundant and generally large sporulating lesions that cover approximately 10% of the leaf surface area. On the foliage the lesions may coalesce to produce larger infected areas associated with chlorotic tissue
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/9
+name:  25% or more of the leaf surface area is covered by large sporulating and often coalescing lesions. Leaf tissues are generally chlorotic resulting in severe and premature defoliation
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000451/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000451
+
+
+[Term]
+id: CO_335:0000450
+name: Floury leaf spot method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Flowering (R6), Pod filling (R8)" []
+relationship: method_of CO_335:0000449
+
+[Term]
+id: CO_335:0000449
+name: Floury leaf spot
+namespace: Common BeanTrait
+def: "Disease reaction to Mycovellosiella phaseoli, field" []
+synonym: "Mycovellosiella phaseoli" EXACT []
+synonym: " Ramularia phaseoli" EXACT []
+synonym: "FLS" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000448
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000447
+
+[Term]
+id: CO_335:0000448/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/5
+name:  Approximately 20-30% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/3
+name:  Approximately 5-10% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/7
+name:  Approximately 40-60% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/9
+name:  More than 80% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000448/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000448
+
+
+[Term]
+id: CO_335:0000447
+name: White mold in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Third trifoliate leaf (V4), Pod Formation (R7)" []
+relationship: method_of CO_335:0000446
+
+[Term]
+id: CO_335:0000446
+name: White mold in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Sclerotinia sclerotiorum, greenhouse" []
+synonym: "Sclerotinia sclerotiorum" EXACT []
+synonym: "WMG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000445
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000444
+
+[Term]
+id: CO_335:0000445/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/5
+name:  Approximately 20-30% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/3
+name:  Approximately 5-10% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/7
+name:  Approximately 40-60% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/9
+name:  More than 80% of the evaluated unit area is infected
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000445/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000445
+
+
+[Term]
+id: CO_335:0000444
+name: White mold in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Emergence (V1),Pod filling (R8)" []
+relationship: method_of CO_335:0000443
+
+[Term]
+id: CO_335:0000443
+name: White mold in field
+namespace: Common BeanTrait
+def: "Disease reaction to Sclerotinia sclerotiorum, field" []
+synonym: "Sclerotinia sclerotiorum" EXACT []
+synonym: "WMF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000442
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000441
+
+[Term]
+id: CO_335:0000442/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/5
+name:  Approximately 10% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/3
+name:  Approximately 1% of the hypocotyl presents symptoms. Lower stem tissues are covered with small and superficial lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/7
+name:  Approximately 25% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/9
+name:  50% or more of the hypocotyl and stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000442/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000442
+
+
+[Term]
+id: CO_335:0000441
+name: Southern blight in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Germination (V0) to Third trifoliate leaf (V4)" []
+relationship: method_of CO_335:0000440
+
+[Term]
+id: CO_335:0000440
+name: Southern blight in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Sclerotium rolfsii, greenhouse" []
+synonym: "Sclerotium rolfsii" EXACT []
+synonym: "SBG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000439
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000438
+
+[Term]
+id: CO_335:0000439/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/5
+name:  Approximately 10% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/3
+name:  Approximately 1% of the hypocotyl presents symptoms. Lower stem tissues are covered with small and superficial lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/7
+name:  Approximately 25% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/9
+name:  50% or more of the hypocotyl and stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000439/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000439
+
+
+[Term]
+id: CO_335:0000438
+name: Southern blight in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, First Trifoliate leaf (V3), Pod filling (R8)" []
+relationship: method_of CO_335:0000437
+
+[Term]
+id: CO_335:0000437
+name: Southern blight in field
+namespace: Common BeanTrait
+def: "Disease reaction to Sclerotium rolfsii, field" []
+synonym: "Sclerotium rolfsii" EXACT []
+synonym: "SBF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000436
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000435
+
+[Term]
+id: CO_335:0000436/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/5
+name:  Approximately 25% of the hypocotyl and root tissues covered with lesions but tissues remain firm with little deterioration of the root system. Heavy discoloration symptoms may be evident.
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/3
+name:  Light discoloration either without necrotic lesions or with approximately 10% of the hypocotyl and root tissues covered with lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/7
+name:  Approximately 50% of the hypocotyl and root tissues covered with lesions combined with considerable softening, rotting, and reduction of the root system
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/9
+name:  Approximately 75% or more of the hypocotyl and root tissues affected with advanced stages of rotting combined with a severe reduction in the root system
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000436/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000436
+
+
+[Term]
+id: CO_335:0000435
+name: Rhizoctonia in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Germination (V0) to Third trifoliate leaf (V4)" []
+relationship: method_of CO_335:0000434
+
+[Term]
+id: CO_335:0000434
+name: Rhizoctonia in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Rhizoctonia solani, greenhouse" []
+synonym: "Rhizoctonia solani" EXACT []
+synonym: "RSG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000433
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000432
+
+[Term]
+id: CO_335:0000433/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/5
+name:  Approximately 25% of the hypocotyl and root tissues covered with lesions but tissues remain firm with little deterioration of the root system. Heavy discoloration symptoms may be evident.
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/3
+name:  Light discoloration either without necrotic lesions or with approximately 10% of the hypocotyl and root tissues covered with lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/7
+name:  Approximately 50% of the hypocotyl and root tissues covered with lesions combined with considerable softening, rotting, and reduction of the root system
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/9
+name:  Approximately 75% or more of the hypocotyl and root tissues affected with advanced stages of rotting combined with a severe reduction in the root system
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000433/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000433
+
+
+[Term]
+id: CO_335:0000432
+name: Rhizoctonia in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Emergence (V1), Flowering (R6), Pod filling (R8)" []
+relationship: method_of CO_335:0000431
+
+[Term]
+id: CO_335:0000431
+name: Rhizoctonia in field
+namespace: Common BeanTrait
+def: "Disease reaction to Rhizoctonia solani, field" []
+synonym: "Rhizoctonia solani" EXACT []
+synonym: "RSF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000430
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000429
+
+[Term]
+id: CO_335:0000430/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/5
+name:  Approximately 10% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/3
+name:  Disease symptoms are restricted to the cotyledons. Lower stem tissues are covered with small and superficial lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/7
+name:  Approximately 25% of the hypocotyl and lower stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/9
+name:  50% or more of the hypocotyl and stem tissues are affected by lesions and often combined with fruiting structures of the fungus
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000430/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000430
+
+
+[Term]
+id: CO_335:0000429
+name: Macrophomina in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Germination (V0) to Third trifoliate leaf (V4)" []
+relationship: method_of CO_335:0000428
+
+[Term]
+id: CO_335:0000428
+name: Macrophomina in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Macrophomina phaseolina, greenhouse" []
+synonym: "Macrophomina phaseolina" EXACT []
+synonym: "MPG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000427
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000426
+
+[Term]
+id: CO_335:0000426
+name: Visual rooting depth method
+namespace: Common beanMethod
+def: "Measure of visual rooting depth per plant in transparent cylinders with soil" []
+relationship: method_of CO_335:0000141
+
+[Term]
+id: CO_335:0000421
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000420
+
+[Term]
+id: CO_335:0000420
+name: Seed Ash content method
+namespace: Common beanMethod
+def: "Ash is determined in seed" []
+relationship: method_of CO_335:0000138
+
+[Term]
+id: CO_335:0000417
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000416
+
+[Term]
+id: CO_335:0000416
+name: Stem biomass reduction method
+namespace: Common beanMethod
+def: "(stem biomass dry weight at mid-podfilling – stem biomass dry weight at harvest) / stem biomass dry weight at mid-podfilling x 100" []
+relationship: method_of CO_335:0000136
+
+[Term]
+id: CO_335:0000415
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000414
+
+[Term]
+id: CO_335:0000414
+name: Harvest index method
+namespace: Common beanMethod
+def: "HI=(Seed biomass dry weight at harvest/total shoot biomass dry weight at mid-podfilling) x 100" []
+relationship: method_of CO_335:0000135
+
+[Term]
+id: CO_335:0000382
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000381
+
+[Term]
+id: CO_335:0000381
+name: Relative water content method
+namespace: Common beanMethod
+def: "Determined in samples from young leaves" []
+relationship: method_of CO_335:0000120
+
+[Term]
+id: CO_335:0000373
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000372
+
+[Term]
+id: CO_335:0000373/4
+name: Combination of 1, 2 and 3
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000373
+
+
+[Term]
+id: CO_335:0000373/1
+name: Base
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000373
+
+
+[Term]
+id: CO_335:0000373/5
+name: Other
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000373
+
+
+[Term]
+id: CO_335:0000373/3
+name: Top
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000373
+
+
+[Term]
+id: CO_335:0000373/2
+name: Center
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000373
+
+
+[Term]
+id: CO_335:0000372
+name: Position of the pods in the plant method
+namespace: Common beanMethod
+def: "Based on visual classification by categories" []
+relationship: method_of CO_335:0000117
+
+[Term]
+id: CO_335:0000355
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000354
+
+[Term]
+id: CO_335:0000354
+name: Plant width method
+namespace: Common beanMethod
+def: "Measuring of the plant canopy spread in cm, average from 10 plants randomly selected plants" []
+relationship: method_of CO_335:0000108
+
+[Term]
+id: CO_335:0000351
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000350
+
+[Term]
+id: CO_335:0000350
+name: Plant height method
+namespace: Common beanMethod
+def: "Measured from 10 plants with a ruler in cm" []
+relationship: method_of CO_335:0000106
+
+[Term]
+id: CO_335:0000347
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000346
+
+[Term]
+id: CO_335:0000346
+name: Photosynthetic efficiency method
+namespace: Common beanMethod
+def: "Measured with a Flourpen" []
+relationship: method_of CO_335:0000104
+
+[Term]
+id: CO_335:0000335
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000334
+
+[Term]
+id: CO_335:0000334
+name: Leaf biomass at R8 method
+namespace: Common beanMethod
+def: "Leaves biomass from 50 cm row length" []
+relationship: method_of CO_335:0000097
+
+[Term]
+id: CO_335:0000325
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000324
+
+[Term]
+id: CO_335:0000324
+name: Evapotranspiration method
+namespace: Common beanMethod
+def: "Measure with a ET gage" []
+relationship: method_of CO_335:0000092
+
+[Term]
+id: CO_335:0000311
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000310
+
+[Term]
+id: CO_335:0000310
+name: Dead leaf biomass at R8 method
+namespace: Common beanMethod
+def: "Dead leaf biomass from 50 cm row length" []
+relationship: method_of CO_335:0000085
+
+[Term]
+id: CO_335:0000295
+name: Discrete
+namespace: Common beanScale
+relationship: scale_of CO_335:0000294
+
+[Term]
+id: CO_335:0000294
+name: Basal roots number method
+namespace: Common beanMethod
+def: "Count of basal root from samples in greenhouse" []
+relationship: method_of CO_335:0000077
+
+[Term]
+id: CO_335:0000293
+name: Discrete
+namespace: Common beanScale
+relationship: scale_of CO_335:0000292
+
+[Term]
+id: CO_335:0000292
+name: Basal root whorl number method
+namespace: Common beanMethod
+def: "Count of basal root whorl from samples in greenhouse" []
+relationship: method_of CO_335:0000076
+
+[Term]
+id: CO_335:0000291
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000290
+
+[Term]
+id: CO_335:0000290
+name: Basal root length method
+namespace: Common beanMethod
+def: "Scanned root system evaluated with Winrhizo from greenhouse samples" []
+relationship: method_of CO_335:0000075
+
+[Term]
+id: CO_335:0000283
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000282
+
+[Term]
+id: CO_335:0000282
+name: Agronomic water efficiency method
+namespace: Common beanMethod
+def: "Relationship between grain yield and water applied" []
+relationship: method_of CO_335:0000071
+
+[Term]
+id: CO_335:0000281
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000280
+
+[Term]
+id: CO_335:0000280
+name: Seed Zinc method
+namespace: Common beanMethod
+def: "Measured by AAS, NIRS, ICP and XRF methods" []
+relationship: method_of CO_335:0000070
+
+[Term]
+id: CO_335:0000279
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000278
+
+[Term]
+id: CO_335:0000278
+name: Yield per plant method
+namespace: Common beanMethod
+def: "Total yield of effective plot divided by number of plants in effective plot" []
+relationship: method_of CO_335:0000069
+
+[Term]
+id: CO_335:0000277
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000276
+
+[Term]
+id: CO_335:0000276
+name: Yield per hectare method
+namespace: Common beanMethod
+def: "Weight (kg) of seed harvest divided by effective plot in m2 and multiplied by 10." []
+relationship: method_of CO_335:0000068
+
+[Term]
+id: CO_335:0000275
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000274
+
+[Term]
+id: CO_335:0000274
+name: Seeds per pod method
+namespace: Common beanMethod
+def: "Average number of seeds/pod from 10 pods, one from each of 10 plants" []
+relationship: method_of CO_335:0000059
+
+[Term]
+id: CO_335:0000273
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000272
+
+[Term]
+id: CO_335:0000272
+name: Seed weight method
+namespace: Common beanMethod
+def: "100 seed are weighed on an analytical scale" []
+relationship: method_of CO_335:0000001
+
+[Term]
+id: CO_335:0000271
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000270
+
+[Term]
+id: CO_335:0000270
+name: Seed Phosphorus method
+namespace: Common beanMethod
+def: "Measured by ICP and Spectrometry methods" []
+relationship: method_of CO_335:0000046
+
+[Term]
+id: CO_335:0000269
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000268
+
+[Term]
+id: CO_335:0000269/4
+name: P
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000269
+
+
+[Term]
+id: CO_335:0000269/1
+name: no pattern
+namespace: Common beanScale
+synonym: "0" EXACT []
+is_a: CO_335:0000269
+
+
+[Term]
+id: CO_335:0000269/5
+name: R
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000269
+
+
+[Term]
+id: CO_335:0000269/3
+name: J
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000269
+
+
+[Term]
+id: CO_335:0000269/6
+name: B
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000269
+
+
+[Term]
+id: CO_335:0000269/2
+name: M
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000269
+
+
+[Term]
+id: CO_335:0000268
+name: Seed color pattern method
+namespace: Common beanMethod
+def: "Visual classification by categories" []
+relationship: method_of CO_335:0000057
+
+[Term]
+id: CO_335:0000267
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000266
+
+[Term]
+id: CO_335:0000267/3
+name:  shiny
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000267
+
+
+[Term]
+id: CO_335:0000267/1
+name:  dull
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000267
+
+
+[Term]
+id: CO_335:0000267/2
+name:  semi-shiny
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000267
+
+
+[Term]
+id: CO_335:0000266
+name: Seed brilliance method
+namespace: Common beanMethod
+def: "Visual classification by categories" []
+relationship: method_of CO_335:0000058
+
+[Term]
+id: CO_335:0000265
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000264
+
+[Term]
+id: CO_335:0000265/4
+name: brown-maroon
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/8
+name: black
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/1
+name: white
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/3
+name: yellow
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/7
+name: purple
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/5
+name: pink
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/9
+name: others
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/6
+name: red
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000265/2
+name: cream-beige
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000265
+
+
+[Term]
+id: CO_335:0000264
+name: Secondary seed color method
+namespace: Common beanMethod
+def: "Evaluated visually" []
+relationship: method_of CO_335:0000061
+
+[Term]
+id: CO_335:0000263
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000262
+
+[Term]
+id: CO_335:0000262
+name: Production per effective plot area method
+namespace: Common beanMethod
+def: "Weight of seed harvest of all plants from the effective plot" []
+relationship: method_of CO_335:0000028
+
+[Term]
+id: CO_335:0000261
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000260
+
+[Term]
+id: CO_335:0000261/4
+name: brown-maroon
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/8
+name: black
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/1
+name: white
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/3
+name: yellow
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/7
+name: purple
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/5
+name: pink
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/9
+name: others
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/6
+name: red
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000261/2
+name: cream-beige
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000261
+
+
+[Term]
+id: CO_335:0000260
+name: Primary seed color method
+namespace: Common beanMethod
+def: "Evaluated visually" []
+relationship: method_of CO_335:0000045
+
+[Term]
+id: CO_335:0000259
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000258
+
+[Term]
+id: CO_335:0000258
+name: Number of plants per effective plot area method
+namespace: Common beanMethod
+def: "Number of plants in effective plot after discarding 0.5 meter from each end of the plot" []
+relationship: method_of CO_335:0000043
+
+[Term]
+id: CO_335:0000257
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000256
+
+[Term]
+id: CO_335:0000257/4
+name: Yellow
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000257
+
+
+[Term]
+id: CO_335:0000257/1
+name: Dark purple
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000257
+
+
+[Term]
+id: CO_335:0000257/5
+name: Pale yellow with coloured mottling or stripes
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000257
+
+
+[Term]
+id: CO_335:0000257/3
+name: Pink
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000257
+
+
+[Term]
+id: CO_335:0000257/6
+name: Persistent green
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000257
+
+
+[Term]
+id: CO_335:0000257/2
+name: Red
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000257
+
+
+[Term]
+id: CO_335:0000256
+name: Mature pod color method
+namespace: Common beanMethod
+def: "Based on visual classification by categories" []
+relationship: method_of CO_335:0000037
+
+[Term]
+id: CO_335:0000255
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000254
+
+[Term]
+id: CO_335:0000254
+name: Seed Iron method
+namespace: Common beanMethod
+def: "Measured by AAS, NIRS, ICP and XRF methods" []
+relationship: method_of CO_335:0000023
+
+[Term]
+id: CO_335:0000253
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000252
+
+[Term]
+id: CO_335:0000253/4
+name: lavender
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000253
+
+
+[Term]
+id: CO_335:0000253/1
+name: white
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000253
+
+
+[Term]
+id: CO_335:0000253/5
+name: purple
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000253
+
+
+[Term]
+id: CO_335:0000253/3
+name: red
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000253
+
+
+[Term]
+id: CO_335:0000253/2
+name: pink
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000253
+
+
+[Term]
+id: CO_335:0000252
+name: Flower color method
+namespace: Common beanMethod
+def: "Observation of freshly opened flowers" []
+relationship: method_of CO_335:0000024
+
+[Term]
+id: CO_335:0000251
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000250
+
+[Term]
+id: CO_335:0000250
+name: cooking time method
+namespace: Common beanMethod
+def: "Measured with penetrometer or Mattson cooker" []
+relationship: method_of CO_335:0000018
+
+[Term]
+id: CO_335:0000249
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000248
+
+[Term]
+id: CO_335:0000249/4
+name: L
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000249
+
+
+[Term]
+id: CO_335:0000249/1
+name: M
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000249
+
+
+[Term]
+id: CO_335:0000249/5
+name: V
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000249
+
+
+[Term]
+id: CO_335:0000249/3
+name: O
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000249
+
+
+[Term]
+id: CO_335:0000249/2
+name: N
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000249
+
+
+[Term]
+id: CO_335:0000248
+name: Bean Common Mosaic Necrosis Virus method
+namespace: Common beanMethod
+def: "Evaluated as mosaic (M), necrotic (N), asymptomatic (O), local lesions (L) or variable (V)." []
+relationship: method_of CO_335:0000009
+
+[Term]
+id: CO_335:0000247
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000246
+
+[Term]
+id: CO_335:0000246
+name: Bruchid damage method
+namespace: Common beanMethod
+def: "Adult emergence as percentage of egg count" []
+relationship: method_of CO_335:0000010
+
+[Term]
+id: CO_335:0000245
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000244
+
+[Term]
+id: CO_335:0000245/4
+name: Rolling something severe leaf in the top of the canopy, moderate wilting of leaves throughout the canopy, and some slight loss of petiole turgidity
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/8
+name: Plants with petioles severely wilted and dead leaves throughout much of the canopy
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/1
+name: No wilting
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/3
+name: Moderate wilting evidenced by leaf wilting and rolling throughout the canopy
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/7
+name: Plants with petioles severely wilted, but no dead leaves throughout the canopy
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/5
+name: Moderate wilting of leaves throughout the canopy, and moderate loss of petiole turgidity
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/9
+name: Death plants
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/6
+name: Severe wilting of leaves throughout the canopy, with advanced strong loss of petiole turgidity
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000245/2
+name: Slight wilting evidenced by leaf wilting and rolling in the top of the canopy
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000245
+
+
+[Term]
+id: CO_335:0000244
+name: Wilting score method
+namespace: Common beanMethod
+def: "Visual scoring measured on 1 to 9 scale. The reading should be performed between 12 M and 3 PM" []
+relationship: method_of CO_335:0000067
+
+[Term]
+id: CO_335:0000243
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000242
+
+[Term]
+id: CO_335:0000242
+name: Total root length per plant method
+namespace: Common beanMethod
+def: "Scanned root system evaluated with Winrhizo from greenhouse samples" []
+relationship: method_of CO_335:0000065
+
+[Term]
+id: CO_335:0000241
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000240
+
+[Term]
+id: CO_335:0000240
+name: Total root length per area method
+namespace: Common beanMethod
+def: "Scanned root system evaluated with Winrhizo from field samples" []
+relationship: method_of CO_335:0000066
+
+[Term]
+id: CO_335:0000239
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000238
+
+[Term]
+id: CO_335:0000238
+name: Total root biomass per plant method
+namespace: Common beanMethod
+def: "Weight root system from greenhouse samples" []
+relationship: method_of CO_335:0000063
+
+[Term]
+id: CO_335:0000237
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000236
+
+[Term]
+id: CO_335:0000236
+name: Total root biomass per area method
+namespace: Common beanMethod
+def: "Weight of root system from field samples using a 5 cm diameter soil corer. The root are washed, cleaned, dried to 60oC. Convert to Kg/m2." []
+relationship: method_of CO_335:0000064
+
+[Term]
+id: CO_335:0000235
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000234
+
+[Term]
+id: CO_335:0000234
+name: Stomatal conductance method
+namespace: Common beanMethod
+def: "Using a leaf porometer on a fully expanded young leaf of one plant for each replication" []
+relationship: method_of CO_335:0000056
+
+[Term]
+id: CO_335:0000233
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000232
+
+[Term]
+id: CO_335:0000232
+name: Stem biomass at R9 method
+namespace: Common beanMethod
+def: "Stem weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000062
+
+[Term]
+id: CO_335:0000231
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000230
+
+[Term]
+id: CO_335:0000230
+name: Stem biomass at R8 method
+namespace: Common beanMethod
+def: "Stem weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000054
+
+[Term]
+id: CO_335:0000229
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000228
+
+[Term]
+id: CO_335:0000228
+name: Specific root length method
+namespace: Common beanMethod
+def: "Root length/root biomass" []
+relationship: method_of CO_335:0000060
+
+[Term]
+id: CO_335:0000227
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000226
+
+[Term]
+id: CO_335:0000226
+name: SPAD chlorophyll meter reading method
+namespace: Common beanMethod
+def: "It is measured by using a hand-held chlorophyll meter SPAD-502 on a fully expanded young leaf of one plant for each replication" []
+relationship: method_of CO_335:0000055
+
+[Term]
+id: CO_335:0000225
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000224
+
+[Term]
+id: CO_335:0000224
+name: Seed biomass at R9 method
+namespace: Common beanMethod
+def: "Seeds weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000053
+
+[Term]
+id: CO_335:0000223
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000222
+
+[Term]
+id: CO_335:0000222
+name: Podwall biomass at R9 method
+namespace: Common beanMethod
+def: "Podwall weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000047
+
+[Term]
+id: CO_335:0000221
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000220
+
+[Term]
+id: CO_335:0000220
+name: Pods per plant method
+namespace: Common beanMethod
+def: "Average number of pods from 5 to 10 randomly selected plants" []
+relationship: method_of CO_335:0000041
+
+[Term]
+id: CO_335:0000219
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000218
+
+[Term]
+id: CO_335:0000218
+name: pods biomass at R8 method
+namespace: Common beanMethod
+def: "Pods weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000040
+
+[Term]
+id: CO_335:0000217
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000216
+
+[Term]
+id: CO_335:0000216
+name: Pod partitioning index method
+namespace: Common beanMethod
+def: "pod biomass dry weight at harvest/total shoot biomass dry weight at mid-pod filling x 100" []
+relationship: method_of CO_335:0000044
+
+[Term]
+id: CO_335:0000215
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000214
+
+[Term]
+id: CO_335:0000214
+name: Pod harvest index method
+namespace: Common beanMethod
+def: "seed biomass dry weight at harvest/pod biomass dry weight at harvest x 100" []
+relationship: method_of CO_335:0000042
+
+[Term]
+id: CO_335:0000213
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000212
+
+[Term]
+id: CO_335:0000212
+name: Pod biomass at R9 method
+namespace: Common beanMethod
+def: "Pods weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000039
+
+[Term]
+id: CO_335:0000211
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000210
+
+[Term]
+id: CO_335:0000210
+name: Mean root diameter method
+namespace: Common beanMethod
+def: "scanned root system evaluated with Winrhizo from greenhouse samples" []
+relationship: method_of CO_335:0000038
+
+[Term]
+id: CO_335:0000209
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000208
+
+[Term]
+id: CO_335:0000208
+name: Leaf area index method
+namespace: Common beanMethod
+def: "Leaves from plants in 0.5 m of row are scanned using a leaf area meter" []
+relationship: method_of CO_335:0000034
+
+[Term]
+id: CO_335:0000207
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000206
+
+[Term]
+id: CO_335:0000207/4
+name: V3
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/8
+name: R7
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/1
+name: V0
+namespace: Common beanScale
+synonym: "0" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/3
+name: V2
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/7
+name: R6
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/5
+name: V4
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/9
+name: R8
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/10
+name: R9
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/6
+name: R5
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000207/2
+name: V1
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000207
+
+
+[Term]
+id: CO_335:0000206
+name: Growth stage method
+namespace: Common beanMethod
+def: "See "Stages of development of the common bean plant"." []
+relationship: method_of CO_335:0000029
+
+[Term]
+id: CO_335:0000205
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000204
+
+[Term]
+id: CO_335:0000204
+name: days to physiological maturity method
+namespace: Common beanMethod
+def: "Evaluated visually. See "Stages of development of the common bean plant"." []
+relationship: method_of CO_335:0000022
+
+[Term]
+id: CO_335:0000203
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000202
+
+[Term]
+id: CO_335:0000202
+name: days to flowering method
+namespace: Common beanMethod
+def: "Evaluated visually. See "Stages of development of the common bean plant"." []
+relationship: method_of CO_335:0000021
+
+[Term]
+id: CO_335:0000201
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000200
+
+[Term]
+id: CO_335:0000200
+name: Canopy temperature depression method
+namespace: Common beanMethod
+def: "Ambient temperature minus canopy temperature measured using an infrared thermometer" []
+relationship: method_of CO_335:0000020
+
+[Term]
+id: CO_335:0000199
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000198
+
+[Term]
+id: CO_335:0000198
+name: Canopy temperature method
+namespace: Common beanMethod
+def: "Using An infrared thermometer" []
+relationship: method_of CO_335:0000019
+
+[Term]
+id: CO_335:0000197
+name: Continuous
+namespace: Common beanScale
+relationship: scale_of CO_335:0000196
+
+[Term]
+id: CO_335:0000196
+name: Canopy biomass at R8 method
+namespace: Common beanMethod
+def: "Canopy weight of plants in 0.5 m of row dried at 60oC. Convert to Kg/ha." []
+relationship: method_of CO_335:0000012
+
+[Term]
+id: CO_335:0000195
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000194
+
+[Term]
+id: CO_335:0000195/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/3
+name:  Light discoloration either without necrotic lesions or with approximately 10% of the hypocotyl and root tissues covered with lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/7
+name:  Approximately 50% of the hypocotyl and root tissues covered with lesions combined with considerable softening, rotting, and reduction of the root system
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/5
+name:  Approximately 25% of the hypocotyl and root tissues covered with lesions but tissues remain firm with deterioration of the root system. Heavy discoloration symptoms may be evident
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/9
+name:  Approximately 75% or more of the hypocotyl and root tissues affected with advanced stages of rotting combined with a severe reduction in the root system
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000195/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000195
+
+
+[Term]
+id: CO_335:0000194
+name: Pythium spp. in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Germination (V0), Emergence (V1), Primary leaves (V2), First trifoliate leaf (V3)." []
+relationship: method_of CO_335:0000049
+
+[Term]
+id: CO_335:0000193
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000192
+
+[Term]
+id: CO_335:0000193/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/3
+name:  Light discoloration either without necrotic lesions or with approximately 10% of the hypocotyl and root tissues covered with lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/7
+name:  Approximately 50% of the hypocotyl and root tissues covered with lesions combined with considerable softening, rotting, and reduction of the root system
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/5
+name:  Approximately 25% of the hypocotyl and root tissues covered with lesions but tissues remain firm with deterioration of the root system. Heavy discoloration symptoms may be evident
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/9
+name:  Approximately 75% or more of the hypocotyl and root tissues affected with advanced stages of rotting combined with a severe reduction in the root system
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000193/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000193
+
+
+[Term]
+id: CO_335:0000192
+name: Pythium spp. in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Emergence (V1), Flowering (R6), Pod Formation (R7), Pod filling (R8)." []
+relationship: method_of CO_335:0000048
+
+[Term]
+id: CO_335:0000191
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000190
+
+[Term]
+id: CO_335:0000190
+name: Rust on pods in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Pod Formation (R7)." []
+relationship: method_of CO_335:0000051
+
+[Term]
+id: CO_335:0000189
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000188
+
+[Term]
+id: CO_335:0000189/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/1
+name:  Highly resistant: no visible rust pustule present (immune)
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/3
+name:  Resistant: presence of only a few and generally small pustules on most plants that cover approximately 2% of the foliar area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/7
+name:  Susceptible: presence of mostly large pustules often surrounded by chlorotic halos that cover approximately 10% of the foliar area
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/5
+name:  Intermediate: presence of generally small or intermediate pustules on all plants that cover approximately 5% of the foliar area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/9
+name: Highly susceptible: presence of large and very large pustules with chlorotic halos, that cover more than 25% of the foliar tissue and cause premature defoliation
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000189/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000189
+
+
+[Term]
+id: CO_335:0000188
+name: Rust on leaves in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Primary leaves (V2)." []
+relationship: method_of CO_335:0000052
+
+[Term]
+id: CO_335:0000187
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000186
+
+[Term]
+id: CO_335:0000187/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/1
+name:  Highly resistant: no visible rust pustule present (immune)
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/3
+name:  Resistant: presence of only a few and generally small pustules on most plants that cover approximately 2% of the foliar area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/7
+name:  Susceptible: presence of mostly large pustules often surrounded by chlorotic halos that cover approximately 10% of the foliar area
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/5
+name:  Intermediate: presence of generally small or intermediate pustules on all plants that cover approximately 5% of the foliar area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/9
+name: Highly susceptible: presence of large and very large pustules with chlorotic halos, that cover more than 25% of the foliar tissue and cause premature defoliation
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000187/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas.
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000187
+
+
+[Term]
+id: CO_335:0000186
+name: Rust on leaves in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Flowering (R6)." []
+relationship: method_of CO_335:0000050
+
+[Term]
+id: CO_335:0000185
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000184
+
+[Term]
+id: CO_335:0000185/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/3
+name:  Approximately 2% of the pod surface area covered with round lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/7
+name:  Approximately 10% of the pod surface area is affected by lesions that show a bacterial exudation on coalescing lesions that can be about 10 mm in diameter
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/5
+name:  Approximately 5% of the pod surface area covered with round lesions of about 5 mm in diameter
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/9
+name: 25% or more of the pod surface area affected by coalescing lesions covering large areas and cause deformation and empty pods
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000185/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000185
+
+
+[Term]
+id: CO_335:0000184
+name: Halo blight on pods in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Pod Formation (R7), Pod filling (R8)." []
+relationship: method_of CO_335:0000031
+
+[Term]
+id: CO_335:0000183
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000182
+
+[Term]
+id: CO_335:0000183/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/3
+name:  Approximately 2% of the leaf surface area covered with round lesions. Very slight systemic chlorosis may be evident
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/7
+name:  Approximately 10% of the leaf tissues affected either by lesions or by the resulting chlorosis. Limited leaf distortion is presented
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/5
+name:  Approximately 5% of the leaf surface area covered with round lesions of about 5 mm in diameter. Limited systemic chlorosis may be present on growing points
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/9
+name:  25% or more of the leaf tissues affected by lesions and chlorosis. Severe leaf distortion and coalescing lessions
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000183/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000183
+
+
+[Term]
+id: CO_335:0000182
+name: Halo blight on leaves in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, First Trifoliate leaf (V3)." []
+relationship: method_of CO_335:0000032
+
+[Term]
+id: CO_335:0000181
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000180
+
+[Term]
+id: CO_335:0000181/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/3
+name:  Approximately 2% of the leaf surface area covered with round lesions. Very slight systemic chlorosis may be evident
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/7
+name:  Approximately 10% of the leaf tissues affected either by lesions or by the resulting chlorosis. Limited leaf distortion is presented
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/5
+name:  Approximately 5% of the leaf surface area covered with round lesions of about 5 mm in diameter. Limited systemic chlorosis may be present on growing points
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/9
+name:  25% or more of the leaf tissues affected by lesions and chlorosis. Severe leaf distortion and coalescing lessions
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000181/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000181
+
+
+[Term]
+id: CO_335:0000180
+name: Halo blight on leaves in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Flowering (R6)." []
+relationship: method_of CO_335:0000030
+
+[Term]
+id: CO_335:0000179
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000178
+
+[Term]
+id: CO_335:0000179/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/3
+name:  Light discoloration either without necrotic lesions or with approximately 10% of the hypocotyl and root tissues covered with lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/7
+name:  Approximately 50% of the hypocotyl and root tissues covered with lesions combined with considerable softening, rotting, and reduction of the root system
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/5
+name:  Approximately 25% of the hypocotyl and root tissues covered with lesions but tissues remain firm with deterioration of the root system. Heavy discoloration symptoms may be evident
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/9
+name:  Approximately 75% or more of the hypocotyl and root tissues affected with advanced stages of rotting combined with a severe reduction in the root system
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000179/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000179
+
+
+[Term]
+id: CO_335:0000178
+name: Fusarium solani in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Germination (V0), Emergence (V1), Primary leaves (V2), First trifoliate leaf (V3)." []
+relationship: method_of CO_335:0000026
+
+[Term]
+id: CO_335:0000177
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000176
+
+[Term]
+id: CO_335:0000177/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/3
+name:  Light discoloration either without necrotic lesions or with approximately 10% of the hypocotyl and root tissues covered with lesions
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/7
+name:  Approximately 50% of the hypocotyl and root tissues covered with lesions combined with considerable softening, rotting, and reduction of the root system
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/5
+name:  Approximately 25% of the hypocotyl and root tissues covered with lesions but tissues remain firm with deterioration of the root system. Heavy discoloration symptoms may be evident
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/9
+name:  Approximately 75% or more of the hypocotyl and root tissues affected with advanced stages of rotting combined with a severe reduction in the root system
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000177/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of damage
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000177
+
+
+[Term]
+id: CO_335:0000176
+name: Fusarium solani in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Emergence (V1), Flowering (R6), Pod Formation (R7), Pod filling (R8)." []
+relationship: method_of CO_335:0000025
+
+[Term]
+id: CO_335:0000175
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000174
+
+[Term]
+id: CO_335:0000175/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/7
+name:  Approximately 10% of the pod surface area is covered by large and coalescing lesions and often show bacterial exudate
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/5
+name:  Approximately 5% of the pod surface area covered by small and not coalescing lesions
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/3
+name:  Presence of a few small lesions that cover approximately 2% of the pod surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/9
+name:  25% or more of the pod surface area is covered by large coalescing lesions that exhibit abundant bacterial exudation which sometimes causes pod malformation and empty pods
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000175/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000175
+
+
+[Term]
+id: CO_335:0000174
+name: Common Bacterial Blight on pods in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Pod Formation (R7), Pod filling (R8)." []
+relationship: method_of CO_335:0000014
+
+[Term]
+id: CO_335:0000173
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000172
+
+[Term]
+id: CO_335:0000173/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/7
+name:  Approximately 10% of the leaf surface area covered with medium and large lesions which are usually accompanied by yellow halos and necrosis
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/5
+name:  Approximately 5% of the leaf surface area covered by small lesions that are beginning to coalesce and sometimes encircled by yellow halos resulting in minor blight
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/3
+name:  Presence of a few small lesions that cover approximately 2% of the leaf surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/9
+name:  25% or more of the leaf surface area is covered by large coalescing and generally necrotic lesions resulting in the defoliation
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000173/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000173
+
+
+[Term]
+id: CO_335:0000172
+name: Common Bacterial Blight on leaves in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, First Trifoliate leaf (V3)." []
+relationship: method_of CO_335:0000015
+
+[Term]
+id: CO_335:0000171
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000170
+
+[Term]
+id: CO_335:0000171/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/7
+name:  Approximately 10% of the leaf surface area covered with medium and large lesions which are usually accompanied by yellow halos and necrosis
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/5
+name:  Approximately 5% of the leaf surface area covered by small lesions that are beginning to coalesce and sometimes encircled by yellow halos resulting in minor blight
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/3
+name:  Presence of a few small lesions that cover approximately 2% of the leaf surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/9
+name:  25% or more of the leaf surface area is covered by large coalescing and generally necrotic lesions resulting in the defoliation
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000171/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000171
+
+
+[Term]
+id: CO_335:0000170
+name: Common Bacterial Blight on leaves in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Flowering (R6)." []
+relationship: method_of CO_335:0000013
+
+[Term]
+id: CO_335:0000169
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000168
+
+[Term]
+id: CO_335:0000169/4
+name:  Unspecified intermediate values ​​correspond to intermediate stages of damage.
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/8
+name:  Unspecified intermediate values ​​correspond to intermediate stages of damage.
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/1
+name:  Infested plants are as vigorous as uninfested plants. The bean fly apparently causes no considerable damage
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/3
+name:  Infested plants with slight growth delay
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/7
+name: Infested plants with severe growth delay
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/5
+name:  Infested plants with considerable growth delay
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/9
+name:  Infested plants dead or almost dead
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/6
+name:  Unspecified intermediate values ​​correspond to intermediate stages of damage.
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000169/2
+name:  Unspecified intermediate values ​​correspond to intermediate stages of damage.
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000169
+
+
+[Term]
+id: CO_335:0000168
+name: Bean Stem Maggot method
+namespace: Common beanMethod
+def: "Measured on 1 to 9 scale. Evaluation Third trifoliate leaf (V4)." []
+relationship: method_of CO_335:0000011
+
+[Term]
+id: CO_335:0000167
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000166
+
+[Term]
+id: CO_335:0000167/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/5
+name:  Presence of several small round lesions (less than 2 mm in diameter), with sporulation that cover approximately 5% of the pod surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/7
+name:  Presence of medium-sized (larger than 2 mm in diameter) lesions are evident but also some small and large lesions generally with sporulation and that cover approximately between 10% and 20% of the pod surface area
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/3
+name:  Presence of very few and small lesions that cover approximately 1% of the pod surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/9
+name:  Presence of numerous, large, sporulating, sunken cankers that cover approximately 50% or more of the pod surface area and that can result in pod malformation, low seed number, and death of the pod
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000167/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000167
+
+
+[Term]
+id: CO_335:0000166
+name: Anthracnose on pods in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development in pods, Pod Formation (R7), Pod filling (R8)." []
+relationship: method_of CO_335:0000007
+
+[Term]
+id: CO_335:0000165
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000164
+
+[Term]
+id: CO_335:0000165/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/5
+name:  Presence of several small lesions on the petiole or on the primary and secondary veins of the leaf's lower side that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/3
+name:  Presence of very few and small lesions mostly on the primary vein of the leaf's lower side that cover approximately 1% of the surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/7
+name:  Presence of numerous enlarged lesions on the lower side of the leaf. Necrotic lesions can be observed on the upper leaf surface and on the petioles that cover approximately 10% of the leaf surface area
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/9
+name:  Severe necrosis on 25% or more of the plant tissue including lesions on the leaf, petioles, stem, branches and even on the growing point which often results in death of much of the plant tissues
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000165/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000165
+
+
+[Term]
+id: CO_335:0000164
+name: Anthracnose on leaves in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development in leaves, Primary leaves (V2)." []
+relationship: method_of CO_335:0000008
+
+[Term]
+id: CO_335:0000163
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000162
+
+[Term]
+id: CO_335:0000163/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/5
+name:  Presence of several small lesions on the petiole or on the primary and secondary veins of the leaf's lower side that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/3
+name:  Presence of very few and small lesions mostly on the primary vein of the leaf's lower side that cover approximately 1% of the surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/7
+name:  Presence of numerous enlarged lesions on the lower side of the leaf. Necrotic lesions can be observed on the upper leaf surface and on the petioles that cover approximately 10% of the leaf surface area
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/9
+name:  Severe necrosis on 25% or more of the plant tissue including lesions on the leaf, petioles, stem, branches and even on the growing point which often results in death of much of the plant tissues
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000163/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000163
+
+
+[Term]
+id: CO_335:0000162
+name: Anthracnose on leaves in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development in leaves, Flowering (R6)." []
+relationship: method_of CO_335:0000006
+
+[Term]
+id: CO_335:0000161
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000160
+
+[Term]
+id: CO_335:0000161/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/7
+name:  Abundant and generally large sporulating lesions that cover approximately between 10% and 20% of the pod surface area.
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/5
+name:  Presence of several small lesions with limited sporulation that cover approximately 5% of the pod surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/3
+name:  Presence of a few small non-sporulating lesions that cover approximately 2% of the pod surface area
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/9
+name:  50% or more of the pod surface area is covered by large sporulating and often coalescing lesions. Infected pods are often deformed and shriveled and contain a low number of seeds.
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000161/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000161
+
+
+[Term]
+id: CO_335:0000160
+name: Angular Leaf Spot on pods in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Pod filling (R8)." []
+relationship: method_of CO_335:0000003
+
+[Term]
+id: CO_335:0000159
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000158
+
+[Term]
+id: CO_335:0000159/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/3
+name:  Presence of a few small non-sporulating lesions that cover approximately 2% of the leaf surface area,
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/5
+name:  Presence of several small lesions with limited sporulation that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/7
+name:  Abundant and generally large sporulating lesions that cover approximately 10% of the leaf surface area. On the foliage the lesions may coalesce to produce larger infected areas associated with chlorotic tissue. Lesions may also be found on the stem an
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/9
+name:  25% or more of the leaf surface area is covered by large sporulating and often coalescing lesions. Leaf tissues are generally chlorotic resulting in severe and premature defoliation. Abundant sporulating lesions are present on stem and branches
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000159/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000159
+
+
+[Term]
+id: CO_335:0000158
+name: Angular Leaf Spot in greenhouse method
+namespace: Common beanMethod
+def: "Quantification of symptom development, First Trifoliate leaf (V3)." []
+relationship: method_of CO_335:0000004
+
+[Term]
+id: CO_335:0000157
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000156
+
+[Term]
+id: CO_335:0000157/4
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/8
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "8" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/1
+name:  No visible disease symptoms
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/3
+name:  Presence of a few small non-sporulating lesions that cover approximately 2% of the leaf surface area,
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/5
+name:  Presence of several small lesions with limited sporulation that cover approximately 5% of the leaf surface area
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/7
+name:  Abundant and generally large sporulating lesions that cover approximately 10% of the leaf surface area. On the foliage the lesions may coalesce to produce larger infected areas associated with chlorotic tissue. Lesions may also be found on the stem an
+namespace: Common beanScale
+synonym: "7" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/9
+name:  25% or more of the leaf surface area is covered by large sporulating and often coalescing lesions. Leaf tissues are generally chlorotic resulting in severe and premature defoliation. Abundant sporulating lesions are present on stem and branches
+namespace: Common beanScale
+synonym: "9" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/6
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "6" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000157/2
+name:  Unspecified intermediate values ​​correspond to intermediate percentages of affected areas
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000157
+
+
+[Term]
+id: CO_335:0000156
+name: Angular Leaf Spot in field method
+namespace: Common beanMethod
+def: "Quantification of symptom development, Flowering (R6)." []
+relationship: method_of CO_335:0000002
+
+[Term]
+id: CO_335:0000149
+name: Categorical
+namespace: Common beanScale
+relationship: scale_of CO_335:0000148
+
+[Term]
+id: CO_335:0000149/4
+name: Indeterminate climber habit with weak, long and twisted stem and branches
+namespace: Common beanScale
+synonym: "4" EXACT []
+is_a: CO_335:0000149
+
+
+[Term]
+id: CO_335:0000149/1
+name: Determinate bush
+namespace: Common beanScale
+synonym: "1" EXACT []
+is_a: CO_335:0000149
+
+
+[Term]
+id: CO_335:0000149/5
+name: Determinate climber
+namespace: Common beanScale
+synonym: "5" EXACT []
+is_a: CO_335:0000149
+
+
+[Term]
+id: CO_335:0000149/3
+name: Indeterminate bush habit with weak mainstem and prostrate stem and branches
+namespace: Common beanScale
+synonym: "3" EXACT []
+is_a: CO_335:0000149
+
+
+[Term]
+id: CO_335:0000149/2
+name: Indeterminate bush habit, erect stems and branches
+namespace: Common beanScale
+synonym: "2" EXACT []
+is_a: CO_335:0000149
+
+
+[Term]
+id: CO_335:0000148
+name: Growth habit method
+namespace: Common beanMethod
+def: "Based on visual classification by categories" []
+relationship: method_of CO_335:0000027
+
+[Term]
+id: CO_335:0000141
+name: Visual rooting depth
+namespace: Common BeanTrait
+def: "Measure of visual rooting depth per plant" []
+synonym: "VRD" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000138
+name: Seed Ash content
+namespace: Common BeanTrait
+def: "Measure of ash in seed" []
+synonym: "ASHSH" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000136
+name: Stem biomass reduction
+namespace: Common BeanTrait
+def: "Difference between stem biomass at mid- podfilling and harvest" []
+synonym: "SBR" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000135
+name: Harvest index
+namespace: Common BeanTrait
+def: "Proportion of seed biomass respect to the total shoot biomass" []
+synonym: "HI" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000120
+name: Relative water content
+namespace: Common BeanTrait
+def: "Measure of leaf water status" []
+synonym: "RWC" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000117
+name: Position of the pods in the plant
+namespace: Common BeanTrait
+def: "Placement of pods on the vertical axis of plant" []
+synonym: "PDPOS" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000108
+name: Plant width
+namespace: Common BeanTrait
+def: "Mean canopy spread (cm) of 10 representative plants at the end of flowering" []
+synonym: "Plant canopy width" EXACT []
+synonym: "PLWTH" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000106
+name: Plant height
+namespace: Common BeanTrait
+def: "Plant height measured in cm at maturity" []
+synonym: "PLHT" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000104
+name: Photosynthetic efficiency
+namespace: Common BeanTrait
+def: "Quantum yield of photosynthesis" []
+synonym: "FVFM" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000097
+name: Leaf biomass at R8
+namespace: Common BeanTrait
+def: "Leaf biomass at mid pod fill" []
+synonym: "LB" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000092
+name: Evapotranspiration
+namespace: Common BeanTrait
+def: "Water loss per day" []
+synonym: "ET" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000085
+name: Dead leaf biomass at R8
+namespace: Common BeanTrait
+def: "Dead leaf biomass at mid pod fill" []
+synonym: "DLB" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000077
+name: Basal roots number
+namespace: Common BeanTrait
+def: "Measure of root architecture" []
+synonym: "BRN" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000076
+name: Basal root whorl number
+namespace: Common BeanTrait
+def: "Measure of root architecture" []
+synonym: "BRWN" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000075
+name: Basal root length
+namespace: Common BeanTrait
+def: "Measure of root architecture" []
+synonym: "BRL" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000071
+name: Agronomic water efficiency
+namespace: Common BeanTrait
+def: "Measure of water efficiency" []
+synonym: "AWE" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000070
+name: Seed Zinc
+namespace: Common BeanTrait
+def: "Measurement of Zinc in seed" []
+synonym: "ZNSEED" EXACT []
+is_a: CO_335:Quality%20traits
+
+[Term]
+id: CO_335:0000069
+name: Yield per plant
+namespace: Common BeanTrait
+def: "Effective plot yield divided by number of plants" []
+synonym: "YDPL" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000068
+name: Yield per hectare
+namespace: Common BeanTrait
+def: "Estimation of yield per hectare" []
+synonym: "YDHA" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000067
+name: Wilting score
+namespace: Common BeanTrait
+def: "Visual evaluation of degree of wilting of plants in a test plot" []
+synonym: "WILTS" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000066
+name: Total root length per area
+namespace: Common BeanTrait
+def: "Measure of root length per unit soil area at a given soil depth" []
+synonym: "TRLPA" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000065
+name: Total root length per plant
+namespace: Common BeanTrait
+def: "Measure or root length per plant" []
+synonym: "TRL" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000064
+name: Total root biomass per area
+namespace: Common BeanTrait
+def: "Measure of root biomass per unit soil area at a given soil depth" []
+synonym: "TRBPA" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000063
+name: Total root biomass per plant
+namespace: Common BeanTrait
+def: "Measure or root biomass per plant" []
+synonym: "TRB" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000062
+name: Stem biomass at R9
+namespace: Common BeanTrait
+def: "Stem biomass at harvest" []
+synonym: "STBH" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000061
+name: Secondary seed color
+namespace: Common BeanTrait
+def: "1 to 9 scale for secondary seed color, if it exists" []
+synonym: "SSC" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000060
+name: Specific root length
+namespace: Common BeanTrait
+def: "Measure of fineness of the root system" []
+synonym: "SRL" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000059
+name: Seeds per pod
+namespace: Common BeanTrait
+def: "Number of seeds per pod" []
+synonym: "SDPD" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000058
+name: Seed brilliance
+namespace: Common BeanTrait
+def: "Seed shininess or opaqueness at harvest" []
+synonym: "SDBR" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000057
+name: Seed color pattern
+namespace: Common BeanTrait
+def: "Distribution of colors on seed coat" []
+synonym: "SCP" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000056
+name: Stomatal conductance
+namespace: Common BeanTrait
+def: "Measure of leaf vapor flux" []
+synonym: "SCOND" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000055
+name: SPAD chlorophyll meter reading
+namespace: Common BeanTrait
+def: "Leaf chlorophyll content measured non-destructively" []
+synonym: "SPAD" EXACT []
+synonym: "SCMR" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000054
+name: Stem biomass at R8
+namespace: Common BeanTrait
+def: "Stem biomass at mid pod fill" []
+synonym: "SBMP" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000053
+name: Seed biomass at R9
+namespace: Common BeanTrait
+def: "Seed biomass at harvest" []
+synonym: "SBH" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000052
+name: Rust on leaves in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Uromyces phaseoli in leaves, greenhouse" []
+synonym: "Uromyces appendiculatus var. appendiculatus" EXACT []
+synonym: " Uromyces phaseoli" EXACT []
+synonym: "RUSTGL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000051
+name: Rust on pods in field
+namespace: Common BeanTrait
+def: "Disease reaction to Uromyces phaseoli in pods, field" []
+synonym: "Uromyces appendiculatus var. appendiculatus" EXACT []
+synonym: " Uromyces phaseoli" EXACT []
+synonym: "RUSTFP" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000050
+name: Rust on leaves in field
+namespace: Common BeanTrait
+def: "Disease reaction to Uromyces phaseoli in leaves, field" []
+synonym: "Uromyces appendiculatus var. appendiculatus" EXACT []
+synonym: " Uromyces phaseoli" EXACT []
+synonym: "RUSTFL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000049
+name: Pythium spp. in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Pythium spp, greenhouse" []
+synonym: "PRR" EXACT []
+synonym: "PYTHG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000048
+name: Pythium spp. in field
+namespace: Common BeanTrait
+def: "Disease reaction to Pythium spp, field" []
+synonym: "PRR" EXACT []
+synonym: "PYTHF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000047
+name: Podwall biomass at R9
+namespace: Common BeanTrait
+def: "Podwall biomass at harvest" []
+synonym: "PWBH" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000046
+name: Seed Phosphorus
+namespace: Common BeanTrait
+def: "Measurement of Phosphorus in seed" []
+synonym: "PSEED" EXACT []
+is_a: CO_335:Quality%20traits
+
+[Term]
+id: CO_335:0000045
+name: Primary seed color
+namespace: Common BeanTrait
+def: "1 to 9 scale for predominant seed color" []
+synonym: "PSC" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000044
+name: Pod partitioning index
+namespace: Common BeanTrait
+def: "Pod partitioning index at Mid-podfill" []
+synonym: "% PP" EXACT []
+synonym: " IPV" EXACT []
+synonym: "PPI" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000043
+name: Number of plants per effective plot area
+namespace: Common BeanTrait
+def: "Number of plants per effective plot area normally at harvest" []
+synonym: "PLPLOT" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000042
+name: Pod harvest index
+namespace: Common BeanTrait
+def: "Pod harvest index at R9" []
+synonym: "% PH" EXACT []
+synonym: " ICV" EXACT []
+synonym: "PHI" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000041
+name: Pods per plant
+namespace: Common BeanTrait
+def: "Number of pods counted per plant grown in a pot or the field" []
+synonym: "PDPL" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000040
+name: pods biomass at R8
+namespace: Common BeanTrait
+def: "pods biomass at mid pod fill" []
+synonym: "PBMP" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000039
+name: Pod biomass at R9
+namespace: Common BeanTrait
+def: "Pod biomass at harvest" []
+synonym: "PBH" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000038
+name: Mean root diameter
+namespace: Common BeanTrait
+def: "Measure of diameter of the root system" []
+synonym: "MRD" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000037
+name: Mature pod color
+namespace: Common BeanTrait
+def: "Color of pod at physiological maturity" []
+synonym: "MPDCOL" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000034
+name: Leaf area index
+namespace: Common BeanTrait
+def: "Measure of leaf area per ground area" []
+synonym: "IAF" EXACT []
+synonym: "LAI" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000032
+name: Halo blight on leaves in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Pseudomonas in leaves, greenhouse" []
+synonym: "Pseudomonas syringae pv. phaseolicola" EXACT []
+synonym: "HBGL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000031
+name: Halo blight on pods in field
+namespace: Common BeanTrait
+def: "Disease reaction to Pseudomonas in pods, field" []
+synonym: "Pseudomonas syringae pv. phaseolicola" EXACT []
+synonym: "HBFP" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000030
+name: Halo blight on leaves in field
+namespace: Common BeanTrait
+def: "Disease reaction to Pseudomonas in leaves, field" []
+synonym: "Pseudomonas syringae pv. phaseolicola" EXACT []
+synonym: "HBFL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000029
+name: Growth stage
+namespace: Common BeanTrait
+def: "Physiological stage of development of the plant" []
+synonym: "GRSTG" EXACT []
+is_a: CO_335:Phenological%20traits
+
+[Term]
+id: CO_335:0000028
+name: Production per effective plot area
+namespace: Common BeanTrait
+def: "Production of effective plot measured in g" []
+synonym: "GMPLOT" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000027
+name: Growth habit
+namespace: Common BeanTrait
+def: "A qualitative description of the growth habit of the plant" []
+synonym: "GH" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000026
+name: Fusarium solani in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Fusarium solani, greenhouse" []
+synonym: "FRR" EXACT []
+synonym: " Fusarium spp." EXACT []
+synonym: " root rot" EXACT []
+synonym: "FUSRRG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000025
+name: Fusarium solani in field
+namespace: Common BeanTrait
+def: "Disease reaction to Fusarium solani, field" []
+synonym: "FRR" EXACT []
+synonym: " Fusarium spp." EXACT []
+synonym: " root rot" EXACT []
+synonym: "FUSRRF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000024
+name: Flower color
+namespace: Common BeanTrait
+def: "Prominent color of flower" []
+synonym: "FLCOL" EXACT []
+is_a: CO_335:Morphological%20traits
+
+[Term]
+id: CO_335:0000023
+name: Seed Iron
+namespace: Common BeanTrait
+def: "Measurement of Iron in seed" []
+synonym: "FESEED" EXACT []
+is_a: CO_335:Quality%20traits
+
+[Term]
+id: CO_335:0000022
+name: days to physiological maturity
+namespace: Common BeanTrait
+def: "Number of days from planting to day when the first pod begins to discolor in 50% of the plants." []
+synonym: "DTM" EXACT []
+synonym: " DMF" EXACT []
+synonym: "DPM" EXACT []
+is_a: CO_335:Phenological%20traits
+
+[Term]
+id: CO_335:0000021
+name: days to flowering
+namespace: Common BeanTrait
+def: "Number of days from planting to day when 50% of plants have at least one flower" []
+synonym: "DTF" EXACT []
+synonym: " DAF" EXACT []
+synonym: "DF" EXACT []
+is_a: CO_335:Phenological%20traits
+
+[Term]
+id: CO_335:0000020
+name: Canopy temperature depression
+namespace: Common beanTrait
+def: "Measure of canopy temperature depression relative to the atmosphere" []
+synonym: "CTD" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000019
+name: Canopy temperature
+namespace: Common BeanTrait
+def: "Measure of canopy temperature in the top third of the plant" []
+synonym: "CT" EXACT []
+is_a: CO_335:Physiological%20traits
+
+[Term]
+id: CO_335:0000018
+name: cooking time
+namespace: Common BeanTrait
+def: "Time taken for 96 to100% of grain to reach soft texture" []
+synonym: "COOKT" EXACT []
+is_a: CO_335:Quality%20traits
+
+[Term]
+id: CO_335:0000015
+name: Common Bacterial Blight on leaves in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Axonopodis in leaves, greenhouse" []
+synonym: "Xanthomonas axonopodis pv. phaseoli" EXACT []
+synonym: "CBBGL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000014
+name: Common Bacterial Blight on pods in field
+namespace: Common BeanTrait
+def: "Disease reaction to Axonopodis in pods, field" []
+synonym: "Xanthomonas axonopodis pv. phaseoli" EXACT []
+synonym: "CBBFP" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000013
+name: Common Bacterial Blight on leaves in field
+namespace: Common BeanTrait
+def: "Disease reaction to Axonopodis in leaves, field" []
+synonym: "Xanthomonas axonopodis pv. phaseoli" EXACT []
+synonym: "CBBFL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000012
+name: Canopy biomass at R8
+namespace: Common BeanTrait
+def: "Canopy biomass at mid pod fill" []
+synonym: "CB" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Term]
+id: CO_335:0000011
+name: Bean Stem Maggot
+namespace: Common BeanTrait
+def: "Reaction to Ophiomyia spp" []
+synonym: "Ophiomyia spp" EXACT []
+synonym: " Bean Fly" EXACT []
+synonym: "BSM" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000010
+name: Bruchid damage
+namespace: Common BeanTrait
+def: "Quantification of bruchid damage on seed" []
+synonym: "Zabrotes subfasciatus" EXACT []
+synonym: " Acanthocelides obtectus" EXACT []
+synonym: "BRU" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000009
+name: Bean Common Mosaic Necrosis Virus
+namespace: Common BeanTrait
+def: "Reaction to viral infection" []
+synonym: "BCMV" EXACT []
+synonym: "BCMNV" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000008
+name: Anthracnose on leaves in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Colletotrichum lindemuthianum in primary leaves, greenhouse" []
+synonym: "Colletotrichum lindemuthianum" EXACT []
+synonym: "ANTGL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000007
+name: Anthracnose on pods in field
+namespace: Common BeanTrait
+def: "Disease reaction to Colletotrichum lindemuthianum in pods, field" []
+synonym: "Colletotrichum lindemuthianum" EXACT []
+synonym: "ANTFP" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000006
+name: Anthracnose on leaves in field
+namespace: Common BeanTrait
+def: "Disease reaction to Colletotrichum lindemuthianum in leaves, field" []
+synonym: "Colletotrichum lindemuthianum" EXACT []
+synonym: "ANTFL" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000004
+name: Angular Leaf Spot in greenhouse
+namespace: Common BeanTrait
+def: "Disease reaction to Phaeoisariopsis griseola in leaves, greenhouse" []
+synonym: "Phaeoisariopsis griseola" EXACT []
+synonym: " Isariopsis griseola" EXACT []
+synonym: "ALSG" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000003
+name: Angular Leaf Spot on pods in field
+namespace: Common BeanTrait
+def: "Disease reaction to Phaeoisariopsis griseola in pods, field" []
+synonym: "Phaeoisariopsis griseola" EXACT []
+synonym: " Isariopsis griseola" EXACT []
+synonym: "ALSFP" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000002
+name: Angular Leaf Spot in field
+namespace: Common BeanTrait
+def: "Disease reaction to Phaeoisariopsis griseola in leaves, field" []
+synonym: "Phaeoisariopsis griseola" EXACT []
+synonym: " Isariopsis griseola" EXACT []
+synonym: "ALSF" EXACT []
+is_a: CO_335:Biotic%20stress
+
+[Term]
+id: CO_335:0000001
+name: Seed weight
+namespace: Common BeanTrait
+def: "Weight in grams of 100 seeds" []
+synonym: "SW" EXACT []
+synonym: " g/100seed" EXACT []
+synonym: "100SW" EXACT []
+is_a: CO_335:Agronomical%20traits
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
+
+[Typedef]
+id: variable_of
+name: variable_of

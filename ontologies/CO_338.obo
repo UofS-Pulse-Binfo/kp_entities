@@ -1,0 +1,3402 @@
+format-version: 1.2
+ontology: Chickpea_ontology
+
+[Term]
+id: CO_338:ROOT
+name: Chickpea
+
+[Term]
+id: CO_338:Quality%20traits
+name: Quality traits
+is_a: CO_338:ROOT
+
+[Term]
+id: CO_338:Physiological%20traits
+name: Physiological traits
+is_a: CO_338:ROOT
+
+[Term]
+id: CO_338:Morphological%20traits
+name: Morphological traits
+is_a: CO_338:ROOT
+
+[Term]
+id: CO_338:Biotic%20stress%20traits
+name: Biotic stress traits
+is_a: CO_338:ROOT
+
+[Term]
+id: CO_338:Agronomical%20traits
+name: Agronomical traits
+is_a: CO_338:ROOT
+
+[Term]
+id: CO_338:Abiotic%20stress%20traits
+name: Abiotic stress traits
+is_a: CO_338:ROOT
+
+[Term]
+id: CO_338:0000358
+name: PODNO
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000003
+relationship: variable_of CO_338:0000203
+relationship: variable_of CO_338:0000204
+
+[Term]
+id: CO_338:0000357
+name: RDW
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000086
+relationship: variable_of CO_338:0000239
+relationship: variable_of CO_338:0000240
+
+[Term]
+id: CO_338:0000356
+name: PhytoChemCt_Undef_Undef
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000050
+relationship: variable_of CO_338:0000262
+relationship: variable_of CO_338:0000264
+
+[Term]
+id: CO_338:0000355
+name: PlntAnat
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000013
+relationship: variable_of CO_338:0000261
+relationship: variable_of CO_338:0000263
+
+[Term]
+id: CO_338:0000354
+name: DTI_Comp_idx
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000096
+relationship: variable_of CO_338:0000259
+relationship: variable_of CO_338:0000260
+
+[Term]
+id: CO_338:0000353
+name: WUE_Comp_gkg
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000095
+relationship: variable_of CO_338:0000257
+relationship: variable_of CO_338:0000258
+
+[Term]
+id: CO_338:0000352
+name: TE_Comp_gkg
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000094
+relationship: variable_of CO_338:0000255
+relationship: variable_of CO_338:0000256
+
+[Term]
+id: CO_338:0000351
+name: LfChlorCt_Meas_SPAD
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000093
+relationship: variable_of CO_338:0000253
+relationship: variable_of CO_338:0000254
+
+[Term]
+id: CO_338:0000350
+name: SLA_Comp_cm2g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000092
+relationship: variable_of CO_338:0000251
+relationship: variable_of CO_338:0000252
+
+[Term]
+id: CO_338:0000349
+name: CID_Meas_PerThsnd
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000091
+relationship: variable_of CO_338:0000249
+relationship: variable_of CO_338:0000250
+
+[Term]
+id: CO_338:0000348
+name: RV_Comp_cm3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000090
+relationship: variable_of CO_338:0000247
+relationship: variable_of CO_338:0000248
+
+[Term]
+id: CO_338:0000347
+name: RSA_Comp_cm2
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000089
+relationship: variable_of CO_338:0000245
+relationship: variable_of CO_338:0000246
+
+[Term]
+id: CO_338:0000346
+name: RLD_Comp_cmcm3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000088
+relationship: variable_of CO_338:0000243
+relationship: variable_of CO_338:0000244
+
+[Term]
+id: CO_338:0000345
+name: RTRatio_Comp_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000087
+relationship: variable_of CO_338:0000241
+relationship: variable_of CO_338:0000242
+
+[Term]
+id: CO_338:0000344
+name: LeafDW_Meas_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000085
+relationship: variable_of CO_338:0000237
+relationship: variable_of CO_338:0000238
+
+[Term]
+id: CO_338:0000343
+name: StemDW_Meas_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000084
+relationship: variable_of CO_338:0000235
+relationship: variable_of CO_338:0000236
+
+[Term]
+id: CO_338:0000342
+name: RTKNR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000082
+relationship: variable_of CO_338:0000231
+relationship: variable_of CO_338:0000232
+
+[Term]
+id: CO_338:0000341
+name: ALTBR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000081
+relationship: variable_of CO_338:0000229
+relationship: variable_of CO_338:0000230
+
+[Term]
+id: CO_338:0000340
+name: PLPUB_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000080
+relationship: variable_of CO_338:0000227
+relationship: variable_of CO_338:0000228
+
+[Term]
+id: CO_338:0000339
+name: LFLN_Av_LfletLf
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000079
+relationship: variable_of CO_338:0000225
+relationship: variable_of CO_338:0000226
+
+[Term]
+id: CO_338:0000338
+name: LFLM_Est_1to2
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000078
+relationship: variable_of CO_338:0000223
+relationship: variable_of CO_338:0000224
+
+[Term]
+id: CO_338:0000337
+name: FDPN_Count_DblPod
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000048
+relationship: variable_of CO_338:0000221
+relationship: variable_of CO_338:0000222
+
+[Term]
+id: CO_338:0000336
+name: SHPOT_Meas_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000033
+relationship: variable_of CO_338:0000219
+relationship: variable_of CO_338:0000220
+
+[Term]
+id: CO_338:0000335
+name: SHSOD_Meas_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000032
+relationship: variable_of CO_338:0000217
+relationship: variable_of CO_338:0000218
+
+[Term]
+id: CO_338:0000334
+name: DOTSD_Est_1or2
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000022
+relationship: variable_of CO_338:0000215
+relationship: variable_of CO_338:0000216
+
+[Term]
+id: CO_338:0000333
+name: TRBR_Av_brnch
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000012
+relationship: variable_of CO_338:0000213
+relationship: variable_of CO_338:0000214
+
+[Term]
+id: CO_338:0000332
+name: BSBR_Av_brnch
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000010
+relationship: variable_of CO_338:0000211
+relationship: variable_of CO_338:0000212
+
+[Term]
+id: CO_338:0000331
+name: BPBR_Av_brnch
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000009
+relationship: variable_of CO_338:0000209
+relationship: variable_of CO_338:0000210
+
+[Term]
+id: CO_338:0000330
+name: ASBR_Av_brnch
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000008
+relationship: variable_of CO_338:0000207
+relationship: variable_of CO_338:0000208
+
+[Term]
+id: CO_338:0000329
+name: APBR_Av_brnch
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000007
+relationship: variable_of CO_338:0000205
+relationship: variable_of CO_338:0000206
+
+[Term]
+id: CO_338:0000328
+name: CYSNR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000075
+relationship: variable_of CO_338:0000197
+relationship: variable_of CO_338:0000198
+
+[Term]
+id: CO_338:0000327
+name: RDp_Meas_cm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000073
+relationship: variable_of CO_338:0000191
+relationship: variable_of CO_338:0000192
+
+[Term]
+id: CO_338:0000326
+name: SALT_Comp_idx
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000072
+relationship: variable_of CO_338:0000189
+relationship: variable_of CO_338:0000190
+
+[Term]
+id: CO_338:0000325
+name: RL_Comp_cm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000071
+relationship: variable_of CO_338:0000187
+relationship: variable_of CO_338:0000188
+
+[Term]
+id: CO_338:0000324
+name: TST_Est_1to5
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000070
+relationship: variable_of CO_338:0000185
+relationship: variable_of CO_338:0000186
+
+[Term]
+id: CO_338:0000323
+name: VRLR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000069
+relationship: variable_of CO_338:0000183
+relationship: variable_of CO_338:0000184
+
+[Term]
+id: CO_338:0000322
+name: HTT_Comp_idx
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000067
+relationship: variable_of CO_338:0000179
+relationship: variable_of CO_338:0000180
+
+[Term]
+id: CO_338:0000321
+name: PLSTD_Count_PlntPlot
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000083
+relationship: variable_of CO_338:0000233
+relationship: variable_of CO_338:0000234
+
+[Term]
+id: CO_338:0000320
+name: PDWT_Av_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000002
+relationship: variable_of CO_338:0000201
+relationship: variable_of CO_338:0000202
+
+[Term]
+id: CO_338:0000319
+name: PDLTH_Av_mm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000076
+relationship: variable_of CO_338:0000199
+relationship: variable_of CO_338:0000200
+
+[Term]
+id: CO_338:0000318
+name: COLBR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000038
+relationship: variable_of CO_338:0000195
+relationship: variable_of CO_338:0000196
+
+[Term]
+id: CO_338:0000317
+name: DFPD_Count_day
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000074
+relationship: variable_of CO_338:0000193
+relationship: variable_of CO_338:0000194
+
+[Term]
+id: CO_338:0000316
+name: DRRR_Comp_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000068
+relationship: variable_of CO_338:0000181
+relationship: variable_of CO_338:0000182
+
+[Term]
+id: CO_338:0000315
+name: LFT_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000066
+relationship: variable_of CO_338:0000177
+relationship: variable_of CO_338:0000178
+
+[Term]
+id: CO_338:0000314
+name: LMR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000065
+relationship: variable_of CO_338:0000175
+relationship: variable_of CO_338:0000176
+
+[Term]
+id: CO_338:0000313
+name: BGMR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000036
+relationship: variable_of CO_338:0000173
+relationship: variable_of CO_338:0000174
+
+[Term]
+id: CO_338:0000312
+name: COLRR_Comp_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000064
+relationship: variable_of CO_338:0000171
+relationship: variable_of CO_338:0000172
+
+[Term]
+id: CO_338:0000311
+name: RTWT_Wgh_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000034
+relationship: variable_of CO_338:0000169
+relationship: variable_of CO_338:0000170
+
+[Term]
+id: CO_338:0000310
+name: GRV_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000063
+relationship: variable_of CO_338:0000167
+relationship: variable_of CO_338:0000168
+
+[Term]
+id: CO_338:0000309
+name: CH_Comp_cm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000062
+relationship: variable_of CO_338:0000165
+relationship: variable_of CO_338:0000166
+
+[Term]
+id: CO_338:0000308
+name: SHWT_Wgh_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000030
+relationship: variable_of CO_338:0000163
+relationship: variable_of CO_338:0000164
+
+[Term]
+id: CO_338:0000307
+name: CKT_count_min
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000061
+relationship: variable_of CO_338:0000161
+relationship: variable_of CO_338:0000162
+
+[Term]
+id: CO_338:0000306
+name: PRT_Meas_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000060
+relationship: variable_of CO_338:0000159
+relationship: variable_of CO_338:0000160
+
+[Term]
+id: CO_338:0000305
+name: FLD_Count_cm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000049
+relationship: variable_of CO_338:0000157
+relationship: variable_of CO_338:0000158
+
+[Term]
+id: CO_338:0000304
+name: BY_Meas_gPlot
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000059
+relationship: variable_of CO_338:0000155
+relationship: variable_of CO_338:0000156
+
+[Term]
+id: CO_338:0000303
+name: SDSRF_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000021
+relationship: variable_of CO_338:0000153
+relationship: variable_of CO_338:0000154
+
+[Term]
+id: CO_338:0000302
+name: PLPIG_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000015
+relationship: variable_of CO_338:0000151
+relationship: variable_of CO_338:0000152
+
+[Term]
+id: CO_338:0000301
+name: NPDPL_Av_podPlnt
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000058
+relationship: variable_of CO_338:0000149
+relationship: variable_of CO_338:0000150
+
+[Term]
+id: CO_338:0000300
+name: CT_Comp_idx
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000057
+relationship: variable_of CO_338:0000147
+relationship: variable_of CO_338:0000148
+
+[Term]
+id: CO_338:0000299
+name: TimeFlw_1stCount_day
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000266
+relationship: variable_of CO_338:0000145
+relationship: variable_of CO_338:0000146
+
+[Term]
+id: CO_338:0000298
+name: DFFL_1stCount_day
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000056
+relationship: variable_of CO_338:0000145
+relationship: variable_of CO_338:0000146
+
+[Term]
+id: CO_338:0000297
+name: PBR_Comp_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000041
+relationship: variable_of CO_338:0000143
+relationship: variable_of CO_338:0000144
+
+[Term]
+id: CO_338:0000296
+name: SDSHP_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000019
+relationship: variable_of CO_338:0000141
+relationship: variable_of CO_338:0000142
+
+[Term]
+id: CO_338:0000295
+name: SDDIA_Meas_mm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000055
+relationship: variable_of CO_338:0000139
+relationship: variable_of CO_338:0000140
+
+[Term]
+id: CO_338:0000294
+name: FLPED_Count_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000054
+relationship: variable_of CO_338:0000137
+relationship: variable_of CO_338:0000138
+
+[Term]
+id: CO_338:0000293
+name: PLWTH_Av_cm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000014
+relationship: variable_of CO_338:0000135
+relationship: variable_of CO_338:0000136
+
+[Term]
+id: CO_338:0000292
+name: BYPL_Wgh_gPlnt
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000047
+relationship: variable_of CO_338:0000133
+relationship: variable_of CO_338:0000134
+
+[Term]
+id: CO_338:0000291
+name: HI_Comp_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000029
+relationship: variable_of CO_338:0000131
+relationship: variable_of CO_338:0000132
+
+[Term]
+id: CO_338:0000290
+name: VGRP_Est_1to3
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000053
+relationship: variable_of CO_338:0000129
+relationship: variable_of CO_338:0000130
+
+[Term]
+id: CO_338:0000289
+name: SDNPL_Count_SdPlnt
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000052
+relationship: variable_of CO_338:0000127
+relationship: variable_of CO_338:0000128
+
+[Term]
+id: CO_338:0000288
+name: SDCOL_Est_1to21
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000020
+relationship: variable_of CO_338:0000125
+relationship: variable_of CO_338:0000126
+
+[Term]
+id: CO_338:0000287
+name: GRH_Est_1to5
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000011
+relationship: variable_of CO_338:0000123
+relationship: variable_of CO_338:0000124
+
+[Term]
+id: CO_338:0000286
+name: SDPD_Comp_sdpod
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000005
+relationship: variable_of CO_338:0000121
+relationship: variable_of CO_338:0000122
+
+[Term]
+id: CO_338:0000285
+name: PDPL_Comp_PodPlnt
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000004
+relationship: variable_of CO_338:0000119
+relationship: variable_of CO_338:0000120
+
+[Term]
+id: CO_338:0000283
+name: PLN_CountPerPlot_plnt
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000045
+relationship: variable_of CO_338:0000267
+relationship: variable_of CO_338:0000118
+
+[Term]
+id: CO_338:0000282
+name: PLN_CountPlotOrPot_plnt
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000045
+relationship: variable_of CO_338:0000117
+relationship: variable_of CO_338:0000118
+
+[Term]
+id: CO_338:0000281
+name: TimMat_Count_day
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000044
+relationship: variable_of CO_338:0000115
+relationship: variable_of CO_338:0000116
+
+[Term]
+id: CO_338:0000280
+name: TimeFlw_50Count_day
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000266
+relationship: variable_of CO_338:0000113
+relationship: variable_of CO_338:0000114
+
+[Term]
+id: CO_338:0000279
+name: DFTFL_Count_day
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000043
+relationship: variable_of CO_338:0000113
+relationship: variable_of CO_338:0000114
+
+[Term]
+id: CO_338:0000278
+name: ABR_Est_1to9
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000039
+relationship: variable_of CO_338:0000111
+relationship: variable_of CO_338:0000112
+
+[Term]
+id: CO_338:0000277
+name: FWR_Comp_pct
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000037
+relationship: variable_of CO_338:0000109
+relationship: variable_of CO_338:0000110
+
+[Term]
+id: CO_338:0000276
+name: SY_Comp_kgha
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000265
+relationship: variable_of CO_338:0000107
+relationship: variable_of CO_338:0000108
+
+[Term]
+id: CO_338:0000275
+name: SYHA_Comp_kgha
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000027
+relationship: variable_of CO_338:0000107
+relationship: variable_of CO_338:0000108
+
+[Term]
+id: CO_338:0000274
+name: SDWT_100Wgh_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000026
+relationship: variable_of CO_338:0000105
+relationship: variable_of CO_338:0000106
+
+[Term]
+id: CO_338:0000273
+name: SYPL_Av_g
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000025
+relationship: variable_of CO_338:0000103
+relationship: variable_of CO_338:0000104
+
+[Term]
+id: CO_338:0000272
+name: SY_Meas_gPlot
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000265
+relationship: variable_of CO_338:0000101
+relationship: variable_of CO_338:0000102
+
+[Term]
+id: CO_338:0000271
+name: SYPLOT_Meas_gPlot
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000051
+relationship: variable_of CO_338:0000101
+relationship: variable_of CO_338:0000102
+
+[Term]
+id: CO_338:0000270
+name: PLHGT_Av_cm
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000023
+relationship: variable_of CO_338:0000099
+relationship: variable_of CO_338:0000100
+
+[Term]
+id: CO_338:0000269
+name: FLCOL_Est_1to5
+namespace: ChickpeaVariable
+relationship: variable_of CO_338:0000017
+relationship: variable_of CO_338:0000097
+relationship: variable_of CO_338:0000098
+
+[Term]
+id: CO_338:0000267
+name: Plant number per plot - Method
+namespace: ChickpeaMethod
+def: "Counting number of plants per plot" []
+relationship: method_of CO_338:0000045
+
+[Term]
+id: CO_338:0000266
+name: Time to flowering
+namespace: ChickpeaTrait
+def: "Time elpased from sowing to flowering" []
+synonym: "TimeFlw" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000265
+name: Seed yield
+namespace: ChickpeaTrait
+def: "Weight of seed per unit of area" []
+synonym: "SY" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000264
+name: No scale name found
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000262
+
+[Term]
+id: CO_338:0000263
+name: No scale name found
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000261
+
+[Term]
+id: CO_338:0000262
+name: phytochemical compound content - Method
+relationship: method_of CO_338:0000050
+
+[Term]
+id: CO_338:0000261
+name: plant anatomy related traits - Method
+relationship: method_of CO_338:0000013
+
+[Term]
+id: CO_338:0000260
+name: Index
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000259
+
+[Term]
+id: CO_338:0000259
+name: Drought tolerance index - Method
+namespace: ChickpeaMethod
+def: "Drought yield is assumed as a function of days to flowering, yield potential and residual in a multiple regression approach. The standardized residual is considered as drought tolerance index" []
+relationship: method_of CO_338:0000096
+
+[Term]
+id: CO_338:0000258
+name: g kg-1 water
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000257
+
+[Term]
+id: CO_338:0000257
+name: Water use efficiency - Method
+namespace: ChickpeaMethod
+def: "Shoot biomass is harvested and weighed and the water used during the growing time is calculated using initial and final soil weights plus the rainfall" []
+relationship: method_of CO_338:0000095
+
+[Term]
+id: CO_338:0000256
+name: g kg-1 water
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000255
+
+[Term]
+id: CO_338:0000255
+name: Transpiration efficiency - Method
+namespace: ChickpeaMethod
+def: "Shoot biomass is harvested and weighed and the water used during the growing time is calculated using initial and final weight of the containers" []
+relationship: method_of CO_338:0000094
+
+[Term]
+id: CO_338:0000254
+name: SPAD units
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000253
+
+[Term]
+id: CO_338:0000253
+name: SPAD chlorophyll meter readings - Method
+namespace: ChickpeaMethod
+def: "Using SPAD chlorophyll meter" []
+relationship: method_of CO_338:0000093
+
+[Term]
+id: CO_338:0000252
+name: cm2 g-1
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000251
+
+[Term]
+id: CO_338:0000251
+name: Specific leaf area - Method
+namespace: ChickpeaMethod
+def: "Ratio of area to the weight of leaves. Leaf area is measured using leaf area meters and leaf weight using precision balances" []
+relationship: method_of CO_338:0000092
+
+[Term]
+id: CO_338:0000250
+name: ‰
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000249
+
+[Term]
+id: CO_338:0000249
+name: Carbon isotope discrimination - Method
+namespace: ChickpeaMethod
+def: "Ratio of C13/C12 in leaf in relation to the air" []
+relationship: method_of CO_338:0000091
+
+[Term]
+id: CO_338:0000248
+name: cm3
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000247
+
+[Term]
+id: CO_338:0000247
+name: Root volume - Method
+namespace: ChickpeaMethod
+def: "Calculated through length and diameter measured through winrhizo software" []
+relationship: method_of CO_338:0000090
+
+[Term]
+id: CO_338:0000246
+name: cm2
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000245
+
+[Term]
+id: CO_338:0000245
+name: Root surface area - Method
+namespace: ChickpeaMethod
+def: "Calculated through length and diameter measured through winrhizo software" []
+relationship: method_of CO_338:0000089
+
+[Term]
+id: CO_338:0000244
+name: cm cm-3
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000243
+
+[Term]
+id: CO_338:0000243
+name: Root length density - Method
+namespace: ChickpeaMethod
+def: "Calculated using both root length measured and soil volume from where the root comes." []
+relationship: method_of CO_338:0000088
+
+[Term]
+id: CO_338:0000242
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000241
+
+[Term]
+id: CO_338:0000241
+name: Root dry weight/total plant dry weight - Method
+namespace: ChickpeaMethod
+def: "calculated using both root and shoot dry weights." []
+relationship: method_of CO_338:0000087
+
+[Term]
+id: CO_338:0000240
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000239
+
+[Term]
+id: CO_338:0000239
+name: Root dry weight - Method
+namespace: ChickpeaMethod
+def: "Dry weight taken after extracting roots from soil" []
+relationship: method_of CO_338:0000086
+
+[Term]
+id: CO_338:0000238
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000237
+
+[Term]
+id: CO_338:0000237
+name: Leaf dry weight - Method
+namespace: ChickpeaMethod
+def: "Leaf dry weight taken after seperation and oven drying at 80°C for at least 3 days" []
+relationship: method_of CO_338:0000085
+
+[Term]
+id: CO_338:0000236
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000235
+
+[Term]
+id: CO_338:0000235
+name: Stem dry weight - Method
+namespace: ChickpeaMethod
+def: "Stem dry weight taken after seperation and oven drying at 80°C for at least 3 days" []
+relationship: method_of CO_338:0000084
+
+[Term]
+id: CO_338:0000234
+name: plants/plot
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000233
+
+[Term]
+id: CO_338:0000233
+name: Plant stand - Method
+namespace: ChickpeaMethod
+def: "Count taken within a plot" []
+relationship: method_of CO_338:0000083
+
+[Term]
+id: CO_338:0000232
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000231
+
+[Term]
+id: CO_338:0000232/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000232
+
+
+[Term]
+id: CO_338:0000232/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000232
+
+
+[Term]
+id: CO_338:0000232/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000232
+
+
+[Term]
+id: CO_338:0000232/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000232
+
+
+[Term]
+id: CO_338:0000232/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000232
+
+
+[Term]
+id: CO_338:0000231
+name: Root knot nematode resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000082
+
+[Term]
+id: CO_338:0000230
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000229
+
+[Term]
+id: CO_338:0000230/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000230
+
+
+[Term]
+id: CO_338:0000230/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000230
+
+
+[Term]
+id: CO_338:0000230/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000230
+
+
+[Term]
+id: CO_338:0000230/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000230
+
+
+[Term]
+id: CO_338:0000230/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000230
+
+
+[Term]
+id: CO_338:0000229
+name: Alternaria blight resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000081
+
+[Term]
+id: CO_338:0000228
+name: Pubescence categories
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000227
+
+[Term]
+id: CO_338:0000228/1
+name:  low pubescence
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000228
+
+
+[Term]
+id: CO_338:0000228/2
+name:  moderate pubescence
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000228
+
+
+[Term]
+id: CO_338:0000228/3
+name:  high pubescence
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000228
+
+
+[Term]
+id: CO_338:0000227
+name: Plant pubescence - Method
+namespace: ChickpeaMethod
+def: "Visual observation on intensity of trichomes on the shoot" []
+relationship: method_of CO_338:0000080
+
+[Term]
+id: CO_338:0000226
+name: leaflets/leaf
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000225
+
+[Term]
+id: CO_338:0000225
+name: Number of leaflets per leaf - Method
+namespace: ChickpeaMethod
+def: "Average of 9 leaves (from the median part of the plant), 3 each from 3 randomly-selected plants at mid-pod filling stage." []
+relationship: method_of CO_338:0000079
+
+[Term]
+id: CO_338:0000224
+name: Margin type categories
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000223
+
+[Term]
+id: CO_338:0000224/2
+name:  serrated
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000224
+
+
+[Term]
+id: CO_338:0000224/1
+name:  entire and smooth
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000224
+
+
+[Term]
+id: CO_338:0000223
+name: Leaflet margin - Method
+namespace: ChickpeaMethod
+def: "Visual observation" []
+relationship: method_of CO_338:0000078
+
+[Term]
+id: CO_338:0000222
+name: double pods
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000221
+
+[Term]
+id: CO_338:0000221
+name: Filled double pod number - Method
+namespace: ChickpeaMethod
+def: "Counting of number of filled double pods produced by a double-podded genotype" []
+relationship: method_of CO_338:0000048
+
+[Term]
+id: CO_338:0000220
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000219
+
+[Term]
+id: CO_338:0000219
+name: Shoot potassium - Method
+namespace: ChickpeaMethod
+def: "Determination of potassium content by using nitric acid digestion method (AAS & ICP-OES) at vegetative stage" []
+relationship: method_of CO_338:0000033
+
+[Term]
+id: CO_338:0000218
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000217
+
+[Term]
+id: CO_338:0000217
+name: Shoot sodium - Method
+namespace: ChickpeaMethod
+def: "Determination of Sodium content by using nitric acid digestion method (AAS & ICP-OES) at vegetative stage" []
+relationship: method_of CO_338:0000032
+
+[Term]
+id: CO_338:0000216
+name: Presence scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000215
+
+[Term]
+id: CO_338:0000216/2
+name:  present
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000216
+
+
+[Term]
+id: CO_338:0000216/1
+name:  absent
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000216
+
+
+[Term]
+id: CO_338:0000215
+name: Dots on seed coat - Method
+namespace: ChickpeaMethod
+def: "Visual observation (present, absent)" []
+relationship: method_of CO_338:0000022
+
+[Term]
+id: CO_338:0000214
+name: branches
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000213
+
+[Term]
+id: CO_338:0000213
+name: Tertiary branches number - Method
+namespace: ChickpeaMethod
+def: "Number of tertiary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_338:0000012
+
+[Term]
+id: CO_338:0000212
+name: branches
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000211
+
+[Term]
+id: CO_338:0000211
+name: Basal secondary branches number - Method
+namespace: ChickpeaMethod
+def: "Mean number of basal secondary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_338:0000010
+
+[Term]
+id: CO_338:0000210
+name: branches
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000209
+
+[Term]
+id: CO_338:0000209
+name: Basal primary branches number - Method
+namespace: ChickpeaMethod
+def: "Mean number of basal primary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_338:0000009
+
+[Term]
+id: CO_338:0000208
+name: branches
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000207
+
+[Term]
+id: CO_338:0000207
+name: Apical secondary branches number - Method
+namespace: ChickpeaMethod
+def: "Mean number of apical secondary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_338:0000008
+
+[Term]
+id: CO_338:0000206
+name: branches
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000205
+
+[Term]
+id: CO_338:0000205
+name: Apical primary branches number - Method
+namespace: ChickpeaMethod
+def: "Mean number of apical primary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_338:0000007
+
+[Term]
+id: CO_338:0000204
+name: pods/plant
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000203
+
+[Term]
+id: CO_338:0000203
+name: Pod number - Method
+namespace: ChickpeaMethod
+def: "Average number of pods from 3 or 5 randomly selected plants" []
+relationship: method_of CO_338:0000003
+
+[Term]
+id: CO_338:0000202
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000201
+
+[Term]
+id: CO_338:0000201
+name: Pod weight - Method
+namespace: ChickpeaMethod
+def: "Average weight from 3 or 5 randomly-selected plants at maturity" []
+relationship: method_of CO_338:0000002
+
+[Term]
+id: CO_338:0000200
+name: mm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000199
+
+[Term]
+id: CO_338:0000199
+name: Pod length - Method
+namespace: ChickpeaMethod
+def: "Average length of 9 randomly chosen pods, 3 each from 3 randomly-selected plants at mid-pod filling stage" []
+relationship: method_of CO_338:0000076
+
+[Term]
+id: CO_338:0000198
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000197
+
+[Term]
+id: CO_338:0000198/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000198
+
+
+[Term]
+id: CO_338:0000198/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000198
+
+
+[Term]
+id: CO_338:0000198/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000198
+
+
+[Term]
+id: CO_338:0000198/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000198
+
+
+[Term]
+id: CO_338:0000198/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000198
+
+
+[Term]
+id: CO_338:0000197
+name: Cyst nematode resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000075
+
+[Term]
+id: CO_338:0000196
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000195
+
+[Term]
+id: CO_338:0000196/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000196
+
+
+[Term]
+id: CO_338:0000196/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000196
+
+
+[Term]
+id: CO_338:0000196/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000196
+
+
+[Term]
+id: CO_338:0000196/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000196
+
+
+[Term]
+id: CO_338:0000196/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000196
+
+
+[Term]
+id: CO_338:0000195
+name: Colletotrichum blight resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000038
+
+[Term]
+id: CO_338:0000194
+name: day
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000193
+
+[Term]
+id: CO_338:0000193
+name: Days to first pod formation - Method
+namespace: ChickpeaMethod
+def: "Counting the number of days from sowing to first pod formation" []
+relationship: method_of CO_338:0000074
+
+[Term]
+id: CO_338:0000192
+name: cm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000191
+
+[Term]
+id: CO_338:0000191
+name: Rooting depth - Method
+namespace: ChickpeaMethod
+def: "Measured in field pits or containers" []
+relationship: method_of CO_338:0000073
+
+[Term]
+id: CO_338:0000190
+name: index
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000189
+
+[Term]
+id: CO_338:0000189
+name: Salinity tolerance - Method
+namespace: ChickpeaMethod
+def: "Salinity tolerance index calculated by dividing the biomass or grain yield of the plants grown under saline conditions by that of the control plants." []
+relationship: method_of CO_338:0000072
+
+[Term]
+id: CO_338:0000188
+name: cm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000187
+
+[Term]
+id: CO_338:0000187
+name: Root length - Method
+namespace: ChickpeaMethod
+def: "Usually measured through winrhizo software from scanned image files or maually using a measuring scale" []
+relationship: method_of CO_338:0000071
+
+[Term]
+id: CO_338:0000186
+name: Taste categories
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000185
+
+[Term]
+id: CO_338:0000186/1
+name:  bad
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000186
+
+
+[Term]
+id: CO_338:0000186/4
+name:  very good
+namespace: ChickpeaScale
+synonym: "4 " EXACT []
+is_a: CO_338:0000186
+
+
+[Term]
+id: CO_338:0000186/5
+name:  excellent
+namespace: ChickpeaScale
+synonym: "5 " EXACT []
+is_a: CO_338:0000186
+
+
+[Term]
+id: CO_338:0000186/2
+name:  Fair
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000186
+
+
+[Term]
+id: CO_338:0000186/3
+name:  Good
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000186
+
+
+[Term]
+id: CO_338:0000185
+name: Taste - Method
+namespace: ChickpeaMethod
+def: "Tasting the Seed with at least 10 Persons" []
+relationship: method_of CO_338:0000070
+
+[Term]
+id: CO_338:0000184
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000183
+
+[Term]
+id: CO_338:0000184/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000184
+
+
+[Term]
+id: CO_338:0000184/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000184
+
+
+[Term]
+id: CO_338:0000184/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000184
+
+
+[Term]
+id: CO_338:0000184/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000184
+
+
+[Term]
+id: CO_338:0000184/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000184
+
+
+[Term]
+id: CO_338:0000183
+name: Viral (stunt) resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000069
+
+[Term]
+id: CO_338:0000182
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000181
+
+[Term]
+id: CO_338:0000181
+name: Dry root rot resistance - Method
+namespace: ChickpeaMethod
+def: "Proportion of dead plants in a plot due to dry root rot" []
+relationship: method_of CO_338:0000068
+
+[Term]
+id: CO_338:0000180
+name: index
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000179
+
+[Term]
+id: CO_338:0000179
+name: High temperature tolerance - Method
+namespace: ChickpeaMethod
+def: "Heat tolerance index calculated by dividing the percentage of filled pods of the heat-stressed plants by that of the control plants." []
+relationship: method_of CO_338:0000067
+
+[Term]
+id: CO_338:0000178
+name: leaf type categories
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000177
+
+[Term]
+id: CO_338:0000178/1
+name: normal
+namespace: ChickpeaScale
+synonym: "1" EXACT []
+is_a: CO_338:0000178
+
+
+[Term]
+id: CO_338:0000178/2
+name: simple
+namespace: ChickpeaScale
+synonym: "2" EXACT []
+is_a: CO_338:0000178
+
+
+[Term]
+id: CO_338:0000178/3
+name: multipinnate
+namespace: ChickpeaScale
+synonym: "3" EXACT []
+is_a: CO_338:0000178
+
+
+[Term]
+id: CO_338:0000177
+name: Leaf type - Method
+namespace: ChickpeaMethod
+def: "Classification of leaf type based on visual observation" []
+relationship: method_of CO_338:0000066
+
+[Term]
+id: CO_338:0000176
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000175
+
+[Term]
+id: CO_338:0000176/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000176
+
+
+[Term]
+id: CO_338:0000176/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000176
+
+
+[Term]
+id: CO_338:0000176/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000176
+
+
+[Term]
+id: CO_338:0000176/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000176
+
+
+[Term]
+id: CO_338:0000176/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000176
+
+
+[Term]
+id: CO_338:0000175
+name: Leaf miner resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000065
+
+[Term]
+id: CO_338:0000174
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000173
+
+[Term]
+id: CO_338:0000174/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000174
+
+
+[Term]
+id: CO_338:0000174/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000174
+
+
+[Term]
+id: CO_338:0000174/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000174
+
+
+[Term]
+id: CO_338:0000174/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000174
+
+
+[Term]
+id: CO_338:0000174/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000174
+
+
+[Term]
+id: CO_338:0000173
+name: Botrytis grey mold resistance - Method
+namespace: ChickpeaMethod
+def: "Visual estimation of the resistance to the disease" []
+relationship: method_of CO_338:0000036
+
+[Term]
+id: CO_338:0000172
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000171
+
+[Term]
+id: CO_338:0000171
+name: Collar rot resistance - Method
+namespace: ChickpeaMethod
+def: "Proportion of dead plants in a plot due to collar rot" []
+relationship: method_of CO_338:0000064
+
+[Term]
+id: CO_338:0000170
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000169
+
+[Term]
+id: CO_338:0000169
+name: Root dry weight - Method
+namespace: ChickpeaMethod
+def: "Weight of oven-dried roots from a plant" []
+relationship: method_of CO_338:0000034
+
+[Term]
+id: CO_338:0000168
+name: Growth vigor category
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000167
+
+[Term]
+id: CO_338:0000168/1
+name:  high
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000168
+
+
+[Term]
+id: CO_338:0000168/2
+name:  average
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000168
+
+
+[Term]
+id: CO_338:0000168/3
+name:  low
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000168
+
+
+[Term]
+id: CO_338:0000167
+name: Early growth vigor - Method
+namespace: ChickpeaMethod
+def: "At 10-15 days after emergence, observe the growth vigor visually" []
+relationship: method_of CO_338:0000063
+
+[Term]
+id: CO_338:0000166
+name: cm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000165
+
+[Term]
+id: CO_338:0000165
+name: Canopy height - Method
+namespace: ChickpeaMethod
+def: "Average canopy height of three/five representative plants of an accession." []
+relationship: method_of CO_338:0000062
+
+[Term]
+id: CO_338:0000164
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000163
+
+[Term]
+id: CO_338:0000163
+name: Shoot dry weight - Method
+namespace: ChickpeaMethod
+def: "Measuring the weight of the total shoot above ground" []
+relationship: method_of CO_338:0000030
+
+[Term]
+id: CO_338:0000162
+name: Minutes
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000161
+
+[Term]
+id: CO_338:0000161
+name: Cooking time - Method
+namespace: ChickpeaMethod
+def: "Number of Minutes taken for seed to cook" []
+relationship: method_of CO_338:0000061
+
+[Term]
+id: CO_338:0000160
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000159
+
+[Term]
+id: CO_338:0000159
+name: Protein % - Method
+namespace: ChickpeaMethod
+def: "In laboratory, analyse the whole seed crude protein content" []
+relationship: method_of CO_338:0000060
+
+[Term]
+id: CO_338:0000158
+name: day
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000157
+
+[Term]
+id: CO_338:0000157
+name: Flowering duration - Method
+namespace: ChickpeaMethod
+def: "Counting the number of days from first flower to end of flowering" []
+relationship: method_of CO_338:0000049
+
+[Term]
+id: CO_338:0000156
+name: g/plot
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000155
+
+[Term]
+id: CO_338:0000155
+name: Biomass yield per plot - Method
+namespace: ChickpeaMethod
+def: "Taking weight of oven or sun dried plant (excluding roots) of a plot" []
+relationship: method_of CO_338:0000059
+
+[Term]
+id: CO_338:0000154
+name: Surface categories
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000153
+
+[Term]
+id: CO_338:0000154/1
+name:  smooth
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000154
+
+
+[Term]
+id: CO_338:0000154/2
+name:  rough
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000154
+
+
+[Term]
+id: CO_338:0000154/3
+name:  tuberculated
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000154
+
+
+[Term]
+id: CO_338:0000153
+name: Seed surface - Method
+namespace: ChickpeaMethod
+def: "Visual observation of the surface of the seed (e.g., rough, smooth, tuberculated)" []
+relationship: method_of CO_338:0000021
+
+[Term]
+id: CO_338:0000152
+name: Plant pigmentation category
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000151
+
+[Term]
+id: CO_338:0000152/1
+name:  no anthocyanin
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000152
+
+
+[Term]
+id: CO_338:0000152/2
+name:  low anthocyanin
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000152
+
+
+[Term]
+id: CO_338:0000152/3
+name:  high anthocyanin
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000152
+
+
+[Term]
+id: CO_338:0000151
+name: Plant pigmentation - Method
+namespace: ChickpeaMethod
+def: "Visual observation of the extent of anthocyanin pigmentation on stem and leaves at flowering" []
+relationship: method_of CO_338:0000015
+
+[Term]
+id: CO_338:0000150
+name: fertile pods/plant
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000149
+
+[Term]
+id: CO_338:0000149
+name: No. of fertile pods per plant - Method
+namespace: ChickpeaMethod
+def: "Average number of pods with seed from 3 or 5 randomly selected plants" []
+relationship: method_of CO_338:0000058
+
+[Term]
+id: CO_338:0000148
+name: index
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000147
+
+[Term]
+id: CO_338:0000147
+name: Cold tolerance - Method
+namespace: ChickpeaMethod
+def: "Cold tolerance index calculated by dividing the percentage of filled pods of the cold-stressed plants by that of the control plants." []
+relationship: method_of CO_338:0000057
+
+[Term]
+id: CO_338:0000146
+name: day
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000145
+
+[Term]
+id: CO_338:0000145
+name: Days to first flower - Method
+namespace: ChickpeaMethod
+def: "Counting the number of days from sowing to appearnce of first floewer" []
+relationship: method_of CO_338:0000056
+
+[Term]
+id: CO_338:0000144
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000143
+
+[Term]
+id: CO_338:0000143
+name: Pod borer resistance - Method
+namespace: ChickpeaMethod
+def: "Damage at pod stage measured by counting total pods and damaged pods and calculating proportion of damaged pods" []
+relationship: method_of CO_338:0000041
+
+[Term]
+id: CO_338:0000142
+name: Type of seed shape
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000141
+
+[Term]
+id: CO_338:0000142/1
+name:  angular
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000142
+
+
+[Term]
+id: CO_338:0000142/2
+name:  pea shaped
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000142
+
+
+[Term]
+id: CO_338:0000142/3
+name:  owl's head shaped
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000142
+
+
+[Term]
+id: CO_338:0000141
+name: Seed shape - Method
+namespace: ChickpeaMethod
+def: "Visual observation" []
+relationship: method_of CO_338:0000019
+
+[Term]
+id: CO_338:0000140
+name: mm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000139
+
+[Term]
+id: CO_338:0000139
+name: Seed diameter - Method
+namespace: ChickpeaMethod
+def: "Diameter of fully dried seed is measured using vernier caliper" []
+relationship: method_of CO_338:0000055
+
+[Term]
+id: CO_338:0000138
+name: Flowering type
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000137
+
+[Term]
+id: CO_338:0000138/1
+name:  single
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000138
+
+
+[Term]
+id: CO_338:0000138/2
+name:  double
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000138
+
+
+[Term]
+id: CO_338:0000138/3
+name:  triple
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000138
+
+
+[Term]
+id: CO_338:0000137
+name: Number of flowers per peduncle - Method
+namespace: ChickpeaMethod
+def: "Visual observation of the number of flowers per peduncle" []
+relationship: method_of CO_338:0000054
+
+[Term]
+id: CO_338:0000136
+name: cm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000135
+
+[Term]
+id: CO_338:0000135
+name: Plant width - Method
+namespace: ChickpeaMethod
+def: "Measuring of the plant canopy spread, average fronm 3 or 5 plants randomly selected plants at maturity" []
+relationship: method_of CO_338:0000014
+
+[Term]
+id: CO_338:0000134
+name: g/plant
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000133
+
+[Term]
+id: CO_338:0000133
+name: Biomass yield per plant - Method
+namespace: ChickpeaMethod
+def: "At harvest, weigh an oven or sun dried plant (excluding roots)" []
+relationship: method_of CO_338:0000047
+
+[Term]
+id: CO_338:0000132
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000131
+
+[Term]
+id: CO_338:0000131
+name: Harvest index - Method
+namespace: ChickpeaMethod
+def: "Proportion of grain yield over total biomass yield by dividing the weight of harvested grain by the weight of harvested biomass" []
+relationship: method_of CO_338:0000029
+
+[Term]
+id: CO_338:0000130
+name: variety group scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000129
+
+[Term]
+id: CO_338:0000130/1
+name:  desi
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000130
+
+
+[Term]
+id: CO_338:0000130/2
+name:  kabuli
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000130
+
+
+[Term]
+id: CO_338:0000130/3
+name:  intermediate
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000130
+
+
+[Term]
+id: CO_338:0000129
+name: Variety group - Method
+namespace: ChickpeaMethod
+def: "Visual assessment" []
+relationship: method_of CO_338:0000053
+
+[Term]
+id: CO_338:0000128
+name: seeds/plant
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000127
+
+[Term]
+id: CO_338:0000127
+name: Seed per plant - Method
+namespace: ChickpeaMethod
+def: "Number of seeds counted per plant" []
+relationship: method_of CO_338:0000052
+
+[Term]
+id: CO_338:0000126
+name: Seed color category
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000125
+
+[Term]
+id: CO_338:0000126/1
+name:  Black (black group 202A, 202B, brown group 200A)
+namespace: ChickpeaScale
+synonym: "1" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/19
+name:  Light green (greyed-green group 193B)
+namespace: ChickpeaScale
+synonym: "19" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/4
+name:  Dark brown (greyed-orange group  177A)
+namespace: ChickpeaScale
+synonym: "4" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/5
+name:  Reddish brown (greyed-orange group 166C)
+namespace: ChickpeaScale
+synonym: "5" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/17
+name:  Ivory white (orange-white group 159C)
+namespace: ChickpeaScale
+synonym: "17" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/2
+name:  Brown (greyed-orange group 177B)
+namespace: ChickpeaScale
+synonym: "2" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/18
+name:  Green (greyed-green group 191A, grey group 201A)
+namespace: ChickpeaScale
+synonym: "18" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/3
+name:  Light brown (greyed-orange group 177C)
+namespace: ChickpeaScale
+synonym: "3" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/8
+name:  Grey (greyed-green group 196A)
+namespace: ChickpeaScale
+synonym: "8" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/9
+name:  Brown beige (greyed orange group 173D)
+namespace: ChickpeaScale
+synonym: "9" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/6
+name:  Greyish brown (brown group 200D)
+namespace: ChickpeaScale
+synonym: "6" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/7
+name:  Salmon brown (greyed-orange group 165C)
+namespace: ChickpeaScale
+synonym: "7" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/11
+name:  Yellow (greyed-orange group 164B)
+namespace: ChickpeaScale
+synonym: "11" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/12
+name:  Light yellow (greyed-orange group 164C)
+namespace: ChickpeaScale
+synonym: "12" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/10
+name:  Beige (greyed-orange group 165D)
+namespace: ChickpeaScale
+synonym: "10" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/15
+name:  Orange (greyed-orange group 168C)
+namespace: ChickpeaScale
+synonym: "15" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/16
+name:  Yellow beige (orange-white group 159C)
+namespace: ChickpeaScale
+synonym: "16" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/13
+name:  Yellow brown (greyed-orange group 165C)
+namespace: ChickpeaScale
+synonym: "13" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/14
+name:  Orange yellow (greyed-orange group 168D)
+namespace: ChickpeaScale
+synonym: "14" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/21
+name:  Black brown mosaic (black group 202A,greyed-orange group 177E)
+namespace: ChickpeaScale
+synonym: "21" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000126/20
+name:  Variegated
+namespace: ChickpeaScale
+synonym: "20" EXACT []
+is_a: CO_338:0000126
+
+
+[Term]
+id: CO_338:0000125
+name: Seed color - Method
+namespace: ChickpeaMethod
+def: "Visual observation of the color" []
+relationship: method_of CO_338:0000020
+
+[Term]
+id: CO_338:0000124
+name: Type of growth habit categories
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000123
+
+[Term]
+id: CO_338:0000124/1
+name:  erect (0-150 from vertical)
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000124
+
+
+[Term]
+id: CO_338:0000124/4
+name:  spreading (61-800 from vertical)
+namespace: ChickpeaScale
+synonym: "4 " EXACT []
+is_a: CO_338:0000124
+
+
+[Term]
+id: CO_338:0000124/5
+name:  prostrate (branches flat on the ground)
+namespace: ChickpeaScale
+synonym: "5 " EXACT []
+is_a: CO_338:0000124
+
+
+[Term]
+id: CO_338:0000124/2
+name:  semi-erect (16-250 from vertical)
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000124
+
+
+[Term]
+id: CO_338:0000124/3
+name:  semi-spreading (26-600 from vertical)
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000124
+
+
+[Term]
+id: CO_338:0000123
+name: Growth habit - Method
+namespace: ChickpeaMethod
+def: "Visual observation at mid-pod filling stage of the angle of primary branches" []
+relationship: method_of CO_338:0000011
+
+[Term]
+id: CO_338:0000122
+name: seeds/pod
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000121
+
+[Term]
+id: CO_338:0000121
+name: Seeds per pod - Method
+namespace: ChickpeaMethod
+def: "Ratio between seed number per plant and pod number per plant." []
+relationship: method_of CO_338:0000005
+
+[Term]
+id: CO_338:0000120
+name: pods/plant
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000119
+
+[Term]
+id: CO_338:0000119
+name: Pods per plant - Method
+namespace: ChickpeaMethod
+def: "Average number of pods from 3 or 5 randomly selected plants" []
+relationship: method_of CO_338:0000004
+
+[Term]
+id: CO_338:0000118
+name: plants
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000117
+relationship: scale_of CO_338:0000267
+
+[Term]
+id: CO_338:0000117
+name: Plant number per pot or plot - Method
+namespace: ChickpeaMethod
+def: "Counting number of plants per experimental unit (pot or plot)" []
+relationship: method_of CO_338:0000045
+
+[Term]
+id: CO_338:0000116
+name: day
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000115
+
+[Term]
+id: CO_338:0000115
+name: Days to maturity - Method
+namespace: ChickpeaMethod
+def: "Counting the number of days from sowing to maturity" []
+relationship: method_of CO_338:0000044
+
+[Term]
+id: CO_338:0000114
+name: day
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000113
+
+[Term]
+id: CO_338:0000113
+name: Days to 50% flowering - Method
+namespace: ChickpeaMethod
+def: "Counting the number of days from sowing to 50% of plants started flowering" []
+relationship: method_of CO_338:0000043
+
+[Term]
+id: CO_338:0000112
+name: Disease resistance scale
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000111
+
+[Term]
+id: CO_338:0000112/1
+name:  highly resistant
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000112
+
+
+[Term]
+id: CO_338:0000112/4
+name:  susceptible
+namespace: ChickpeaScale
+synonym: "6-7 " EXACT []
+is_a: CO_338:0000112
+
+
+[Term]
+id: CO_338:0000112/5
+name:  highly susceptible
+namespace: ChickpeaScale
+synonym: "8-9 " EXACT []
+is_a: CO_338:0000112
+
+
+[Term]
+id: CO_338:0000112/2
+name:  resistant
+namespace: ChickpeaScale
+synonym: "2-3 " EXACT []
+is_a: CO_338:0000112
+
+
+[Term]
+id: CO_338:0000112/3
+name:  moderately resistant
+namespace: ChickpeaScale
+synonym: "4-5 " EXACT []
+is_a: CO_338:0000112
+
+
+[Term]
+id: CO_338:0000111
+name: Ascochyta blight resistance - Method
+namespace: ChickpeaMethod
+def: "Visual assessment of the resistaance to the disease" []
+relationship: method_of CO_338:0000039
+
+[Term]
+id: CO_338:0000110
+name: %
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000109
+
+[Term]
+id: CO_338:0000109
+name: Fusarium wilt resistance - Method
+namespace: ChickpeaMethod
+def: "Proportion of dead plants in a plot due to fusarium wilt" []
+relationship: method_of CO_338:0000037
+
+[Term]
+id: CO_338:0000108
+name: kg/ha
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000107
+
+[Term]
+id: CO_338:0000107
+name: Seed yield - Method
+namespace: ChickpeaMethod
+def: "Weight of harvested seeds on a plot divided by the surface of the plot" []
+relationship: method_of CO_338:0000027
+relationship: method_of CO_338:0000265
+
+[Term]
+id: CO_338:0000106
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000105
+
+[Term]
+id: CO_338:0000105
+name: 100-seed weight - Method
+namespace: ChickpeaMethod
+def: "Count 100 well-developed whole air-dried seeds and weigh" []
+relationship: method_of CO_338:0000026
+
+[Term]
+id: CO_338:0000104
+name: g
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000103
+
+[Term]
+id: CO_338:0000103
+name: Seed yield per plant - Method
+namespace: ChickpeaMethod
+def: "Averaged weight of air-dried seeds harvested from each plant" []
+relationship: method_of CO_338:0000025
+
+[Term]
+id: CO_338:0000102
+name: g/plot
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000101
+
+[Term]
+id: CO_338:0000101
+name: Seed yield per plot - Method
+namespace: ChickpeaMethod
+def: "Weight of seed harvested from each plot" []
+relationship: method_of CO_338:0000051
+relationship: method_of CO_338:0000265
+
+[Term]
+id: CO_338:0000100
+name: cm
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000099
+
+[Term]
+id: CO_338:0000099
+name: Plant height - Method
+namespace: ChickpeaMethod
+def: "Measure the height of the plant from the soil surface to the canopy at the end of flowering and calculate the mean canopy height of five representative plants" []
+relationship: method_of CO_338:0000023
+
+[Term]
+id: CO_338:0000098
+name: Flower color category
+namespace: ChickpeaScale
+relationship: scale_of CO_338:0000097
+
+[Term]
+id: CO_338:0000098/1
+name:  dark pink
+namespace: ChickpeaScale
+synonym: "1 " EXACT []
+is_a: CO_338:0000098
+
+
+[Term]
+id: CO_338:0000098/4
+name:  blue
+namespace: ChickpeaScale
+synonym: "4 " EXACT []
+is_a: CO_338:0000098
+
+
+[Term]
+id: CO_338:0000098/5
+name:  white
+namespace: ChickpeaScale
+synonym: "5 " EXACT []
+is_a: CO_338:0000098
+
+
+[Term]
+id: CO_338:0000098/2
+name:  pink
+namespace: ChickpeaScale
+synonym: "2 " EXACT []
+is_a: CO_338:0000098
+
+
+[Term]
+id: CO_338:0000098/3
+name:  dark blue
+namespace: ChickpeaScale
+synonym: "3 " EXACT []
+is_a: CO_338:0000098
+
+
+[Term]
+id: CO_338:0000097
+name: Flower color - Method
+namespace: ChickpeaMethod
+def: "Visual observation" []
+relationship: method_of CO_338:0000017
+
+[Term]
+id: CO_338:0000096
+name: Drought tolerance
+namespace: ChickpeaTrait
+def: "Standard residual after removing the effects of flowering time and yield potential advantages from the drought yields" []
+synonym: "Drought index" EXACT []
+synonym: "DTI" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000095
+name: Water use efficiency
+namespace: ChickpeaTrait
+def: "Ratio of shoot biomass produced per unit of water lost from the field through both transpiration and evaporation" []
+synonym: "WUE" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000094
+name: Transpiration efficiency
+namespace: ChickpeaTrait
+def: "Ratio of shoot biomass produced per unit of transpired water" []
+synonym: "TE" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000093
+name: Leaf chlorophyll content
+namespace: ChickpeaTrait
+def: "Chlorophyll content in the leaf" []
+synonym: "SPAD values" EXACT []
+synonym: "LfChlorCt" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000092
+name: Specific leaf area
+namespace: ChickpeaTrait
+def: "Leaf area per dry weight of leaves" []
+synonym: "SLA" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000091
+name: Carbon isotope discrimination
+namespace: ChickpeaTrait
+def: "Ratio of carbon isotope in tissue relative to the air" []
+synonym: "Delta carbon" EXACT []
+synonym: "CID" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000090
+name: Root volume
+namespace: ChickpeaTrait
+def: "Volume of root" []
+synonym: "RV" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000089
+name: Root surface area
+namespace: ChickpeaTrait
+def: "Surface of roots" []
+synonym: "RSA" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000088
+name: Root length density
+namespace: ChickpeaTrait
+def: "The length of roots present in a unit volume of soil" []
+synonym: "RLD" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000087
+name: Root dry weight/total plant dry weight
+namespace: ChickpeaTrait
+def: "Ratio of Root Dry weight to that of the whole plant dry weight" []
+synonym: "RTRatio" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000086
+name: Root dry weight
+namespace: ChickpeaTrait
+def: "Root dry weight of a sample" []
+synonym: "RDW" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000085
+name: Leaf dry weight
+namespace: ChickpeaTrait
+def: "Leaf Dry Weight of a sample" []
+synonym: "LeafDW" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000084
+name: Stem dry weight
+namespace: ChickpeaTrait
+def: "Stem Dry Weight of a sample" []
+synonym: "StemDW" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000083
+name: Plant stand
+namespace: ChickpeaTrait
+def: "Number of plants in a productive unit" []
+synonym: "Plant count" EXACT []
+synonym: "PLSTD" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000082
+name: Root knot nematode resistance
+namespace: ChickpeaTrait
+def: "Causative agent: Meloidogyne spp.  It causes formation of galls on the root" []
+synonym: "RTKNR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000081
+name: Alternaria blight resistance
+namespace: ChickpeaTrait
+def: "Causative agent: Alternaria alternata. It causes water-soaked purple lesions on leaflets which later turn brown to dark brown" []
+synonym: "ALTBR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000080
+name: Plant pubescence
+namespace: ChickpeaTrait
+def: "Extent of hairiness of the shoot" []
+synonym: "Plant hairiness" EXACT []
+synonym: "PLPUB" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000079
+name: Number of leaflets per leaf
+namespace: ChickpeaTrait
+def: "Number of leaflets in a fully developed leaf" []
+synonym: "LFLN" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000078
+name: Leaflet margin
+namespace: ChickpeaTrait
+def: "type of leaflet margin e.g., smooth, serrated" []
+synonym: "LFLM" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000076
+name: Pod length
+namespace: ChickpeaTrait
+def: "Length of pods" []
+synonym: "PDLTH" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000075
+name: Cyst nematode resistance
+namespace: ChickpeaTrait
+def: "Causative agent: Heterodera spp.  Syncytia are formed on the roots which become necrotic." []
+synonym: "CYSNR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000074
+name: Time to pod formation
+namespace: ChickpeaTrait
+def: "Time elapsed between sowing and pod formation" []
+synonym: "DFPD" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000073
+name: Rooting depth
+namespace: ChickpeaTrait
+def: "Rooting depth of the plant" []
+synonym: "RDp" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000072
+name: Salinity tolerance
+namespace: ChickpeaTrait
+def: "Degree of tolerance to soil salinity" []
+synonym: "SALT" EXACT []
+is_a: CO_338:Abiotic%20stress%20traits
+
+[Term]
+id: CO_338:0000071
+name: Root length
+namespace: ChickpeaTrait
+def: "Cumulative root length of a sample" []
+synonym: "RL" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000070
+name: Taste
+namespace: ChickpeaTrait
+def: "Taste of seed for Consuming" []
+synonym: "TST" EXACT []
+is_a: CO_338:Quality%20traits
+
+[Term]
+id: CO_338:0000069
+name: Viral (stunt) resistance
+namespace: ChickpeaTrait
+def: "Causative agent: Pea leaf roll virus. It causes stunted growth and discoloured (yellow, orange or brown) foliage" []
+synonym: "VRLR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000068
+name: Dry root rot resistance
+namespace: ChickpeaTrait
+def: "Causative agent:Rhizoctonia bataticola. It causes drying up of plants. Roots become brittle and minute sclerotia are seen on the exposed roots" []
+synonym: "DRRR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000067
+name: High temperature tolerance
+namespace: ChickpeaTrait
+def: "Degree of tolerance to high temperature" []
+synonym: "Heat tolerance" EXACT []
+synonym: "HTT" EXACT []
+is_a: CO_338:Abiotic%20stress%20traits
+
+[Term]
+id: CO_338:0000066
+name: Leaf type
+namespace: ChickpeaTrait
+def: "Type of leaf of the plant e.g., normal/simple/multipinnate" []
+synonym: "LFT" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000065
+name: Leaf miner resistance
+namespace: ChickpeaTrait
+def: "Causative agent: Liriomyza cicerina. The leaflets are mined, have a reduced photosynthetic capacity and senesce prematurely." []
+synonym: "LMR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000064
+name: Collar rot resistance
+namespace: ChickpeaTrait
+def: "Causative agent:Sclerotium rolfsii. It causes constriction of collar region and rotting. White strands grow over affected tissue. Sclerotia, small round fungal structures that look like mustard seeds, are seen on the dead tissues" []
+synonym: "COLRR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000063
+name: Growth vigor
+namespace: ChickpeaTrait
+def: "Vigor of the plant growth charaterized by the plant height and shoot biomass" []
+synonym: "GRV" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000062
+name: Canopy height
+namespace: ChickpeaTrait
+def: "height of the canopy" []
+synonym: "Plant canopy height" EXACT []
+synonym: "CH" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000061
+name: Cooking time
+namespace: ChickpeaTrait
+def: "Cooking time for dry seed without soaking" []
+synonym: "CKT" EXACT []
+is_a: CO_338:Quality%20traits
+
+[Term]
+id: CO_338:0000060
+name: Seed protein content
+namespace: ChickpeaTrait
+def: "Protein content of the whole seed" []
+synonym: "PRT" EXACT []
+is_a: CO_338:Quality%20traits
+
+[Term]
+id: CO_338:0000059
+name: Biomass yield
+namespace: ChickpeaTrait
+def: "The dry weight of the plant (excluding roots) harvested from an area" []
+synonym: "BY" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000058
+name: No. of fertile pods per plant
+namespace: ChickpeaTrait
+def: "Number of pods with seed" []
+synonym: "NPDPL" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000057
+name: Cold tolerance
+namespace: ChickpeaTrait
+def: "Degree of tolerance to cold" []
+synonym: "CT" EXACT []
+is_a: CO_338:Abiotic%20stress%20traits
+
+[Term]
+id: CO_338:0000056
+name: Days to first flower
+namespace: ChickpeaTrait
+def: "Number of days from sowing to appearnce of first flower" []
+synonym: "DFFL" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000055
+name: Seed diameter
+namespace: ChickpeaTrait
+def: "Seed diameter of fully dried seed" []
+synonym: "SDDIA" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000054
+name: Number of flowers per peduncle
+namespace: ChickpeaTrait
+def: "Number of flowers per peduncle" []
+synonym: "FLPED" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000053
+name: Variety group
+namespace: ChickpeaTrait
+def: "Type of chickpea e.g., desi, kabuli or intermediate" []
+synonym: "Type of chickpea" EXACT []
+synonym: "VGRP" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000052
+name: Seed per plant
+namespace: ChickpeaTrait
+def: "Number of seeds per plant" []
+synonym: "Number of seeds per plant" EXACT []
+synonym: "SDNPL" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000051
+name: Seed yield per plot
+namespace: ChickpeaTrait
+def: "Seed yield at maturity (g per plot)" []
+synonym: "SYPLOT" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000050
+name: phytochemical compound content
+namespace: ChickpeaTrait
+def: "This will help identify traits related to pigmentation." []
+is_a: CO_338:Quality%20traits
+
+[Term]
+id: CO_338:0000049
+name: Flowering duration
+namespace: ChickpeaTrait
+def: "Period during which plants continue to flower" []
+synonym: "FLD" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000048
+name: Filled double pod number
+namespace: ChickpeaTrait
+def: "Is a count of the number of filled chickpea double pods produced by a double podded line." []
+synonym: "FDPN" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000047
+name: Biomass yield per plant
+namespace: ChickpeaTrait
+def: "The dry weight of the whole plant (excluding roots)" []
+synonym: "BYPL" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000045
+name: Plant number per experimental unit
+namespace: ChickpeaTrait
+def: "Number of plants per experimental unit" []
+synonym: "PLN" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000044
+name: Time to maturity
+namespace: ChickpeaTrait
+def: "Time elpased from sowing to maturity" []
+synonym: "TimeMat" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000043
+name: Days to 50% flowering
+namespace: ChickpeaTrait
+def: "Number of days from sowing to when 50% of the plants have started flowering" []
+synonym: "DFTFL" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000041
+name: Pod borer resistance
+namespace: ChickpeaTrait
+def: "The extent of damage caused by the pod borer. Causative agent:Helicoverpa armigera. The insect feeds on all green parts and defoliate young crops, large larvae cut round holes in the pod wall and devour the seed inside." []
+synonym: "PBR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000039
+name: Ascochyta blight resistance
+namespace: ChickpeaTrait
+def: "Causative agent:Ascochyta rabiei. It causes dark brown lesions at the base of the stem of emerging seedlings, seen during the flowering and podding phases of blighted plants in the field, affected seedlings die" []
+synonym: "ABR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000038
+name: Colletotrichum blight resistance
+namespace: ChickpeaTrait
+def: "Causative agent:Colletotrichum capsici. It causes elongated, sunken, dark brown spots on the lower part of the stem, wilting and drying due to severe infection" []
+synonym: "COLBR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000037
+name: Fusarium wilt resistance
+namespace: ChickpeaTrait
+def: "Causative agent:Fusarium oxysporum f.sp.ciceris. It causes seedlings to die, seedlings collapse and lie flat on the ground, when uprooted plants show uneven shrinking of the stem above and below the collar region" []
+synonym: "FWR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000036
+name: Botrytis grey mold resistance
+namespace: ChickpeaTrait
+def: "Causative agent:Botrytis cinerea. It causes water soaked and irregular lesions on the pod that contain either small shriveled seeds or no seeds at all, lesions girdle the stem completely" []
+synonym: "BGMR" EXACT []
+is_a: CO_338:Biotic%20stress%20traits
+
+[Term]
+id: CO_338:0000034
+name: Root dry weight
+namespace: ChickpeaTrait
+def: "Dry weight of the root" []
+synonym: "RTWT" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000033
+name: Shoot potassium
+namespace: ChickpeaTrait
+def: "Shoot potassium content from plants/subset of plants." []
+synonym: "SHPOT" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000032
+name: Shoot sodium
+namespace: ChickpeaTrait
+def: "Shoot sodium content from plants/subset of plants." []
+synonym: "SHSOD" EXACT []
+is_a: CO_338:Physiological%20traits
+
+[Term]
+id: CO_338:0000030
+name: Shoot dry weight
+namespace: ChickpeaTrait
+def: "Weight of the shoot without roots" []
+synonym: "Biomass" EXACT []
+synonym: "SHWT" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000029
+name: Harvest index
+namespace: ChickpeaTrait
+def: "Proportion of grain yield over total biomass yield" []
+synonym: "HI" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000027
+name: Seed yield per ha
+namespace: ChickpeaTrait
+def: "Seed yield at maturity (kg ha-1)" []
+synonym: "SYHA" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000026
+name: Seed weight
+namespace: ChickpeaTrait
+def: "Weight of a seed" []
+synonym: "100-seed mass" EXACT []
+synonym: "SDWT" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000025
+name: Seed yield per plant
+namespace: ChickpeaTrait
+def: "Weight of seeds obtained from a plant." []
+synonym: "Seed weight" EXACT []
+synonym: "SYPL" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000023
+name: Plant height
+namespace: ChickpeaTrait
+def: "Height of the plant described as the distance between the soil and the plant canopy" []
+synonym: "PLHGT" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000022
+name: Dots on seed coat
+namespace: ChickpeaTrait
+def: "Trait indicating the presence or absence of dots on the seed coat." []
+synonym: "DOTSD" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000021
+name: Seed surface
+namespace: ChickpeaTrait
+def: "Surface of the seed e.g., rough, smooth, tuberculated" []
+synonym: "SDSRF" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000020
+name: Seed color
+namespace: ChickpeaTrait
+def: "Color of the seed coat. It can describe the main color of the seed coat (e.g., black, brown, green, yellow, white), its different color shades, its combination of colors" []
+synonym: "Testa color" EXACT []
+synonym: " Seed coat color" EXACT []
+synonym: "SDCOL" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000019
+name: Seed shape
+namespace: ChickpeaTrait
+def: "Shape of the seed e.g., angular/pea shaped/owl's head" []
+synonym: "SDSHP" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000017
+name: Flower color
+namespace: ChickpeaTrait
+def: "Color of the flower" []
+synonym: "FLCOL" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000015
+name: Plant pigmentation
+namespace: ChickpeaTrait
+def: "Extent of anthocyanin pigmentation in the plant" []
+synonym: "Stem pigmentation" EXACT []
+synonym: "PLPIG" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000014
+name: Plant width
+namespace: ChickpeaTrait
+def: "Width of the plant i.e., the spread of the plant canopy" []
+synonym: "Plant canopy width" EXACT []
+synonym: "PLWTH" EXACT []
+is_a: CO_338:Agronomical%20traits
+
+[Term]
+id: CO_338:0000013
+name: plant anatomy related traits
+namespace: ChickpeaTrait
+def: "This is to identify traits related to the anatomy of the plant." []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000012
+name: Tertiary branches number per plant
+namespace: ChickpeaTrait
+def: "Number of tertiary branches per plant" []
+synonym: "Number of tertiary branches per plant" EXACT []
+synonym: "TRBR" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000011
+name: Growth habit
+namespace: ChickpeaTrait
+def: "Growth habit of the plant" []
+synonym: "GRH" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000010
+name: Basal secondary branches number per plant
+namespace: ChickpeaTrait
+def: "Number of basal secondary branches per plant" []
+synonym: "Number of basal secondary branches per plant" EXACT []
+synonym: "BSBR" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000009
+name: Basal primary branches number per plant
+namespace: ChickpeaTrait
+def: "Number of basal primary branches per plant" []
+synonym: "Number of basal primary branches per plant" EXACT []
+synonym: "BPBR" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000008
+name: Apical secondary branches number per plant
+namespace: ChickpeaTrait
+def: "Number of apical secondary branches per plant" []
+synonym: "Number of apical secondary branches per plant" EXACT []
+synonym: "ASBR" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000007
+name: Apical primary branches number per plant
+namespace: ChickpeaTrait
+def: "Number of apical primary branches per plant" []
+synonym: "Number of apical primary branches per plant" EXACT []
+synonym: "APBR" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000005
+name: Seeds per pod
+namespace: ChickpeaTrait
+def: "Number of seeds per pod from a plant" []
+synonym: "Number of seeds per pod" EXACT []
+synonym: "SDPD" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000004
+name: Pods per plant
+namespace: ChickpeaTrait
+def: "Number of pods counted per plant" []
+synonym: "Number of pods per plant" EXACT []
+synonym: "PDPL" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000003
+name: Pod number
+namespace: ChickpeaTrait
+def: "Is a count of the number of pods per plant grown in the pot or field." []
+synonym: "Number of pods per plant" EXACT []
+synonym: "PODNO" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Term]
+id: CO_338:0000002
+name: Pod weight
+namespace: ChickpeaTrait
+def: "Weight of pods from a plant" []
+synonym: "PDWT" EXACT []
+is_a: CO_338:Morphological%20traits
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
+
+[Typedef]
+id: variable_of
+name: variable_of

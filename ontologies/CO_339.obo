@@ -1,0 +1,2977 @@
+format-version: 1.2
+ontology: Lentil_ontology
+
+[Term]
+id: CO_339:ROOT
+name: Lentil
+
+[Term]
+id: CO_339:Quality%20traits
+name: Quality traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:Physiological%20traits
+name: Physiological traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:Phenological%20traits
+name: Phenological traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:Morphological%20traits
+name: Morphological traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:Biotic%20Stress%20traits
+name: Biotic Stress traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:Agronomical%20traits
+name: Agronomical traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:Abiotic%20Stress%20traits
+name: Abiotic Stress traits
+is_a: CO_339:ROOT
+
+[Term]
+id: CO_339:0000264
+name: WintSurv_Comp_ratio
+namespace: LentilVariable
+relationship: variable_of CO_339:0000192
+relationship: variable_of CO_339:0000193
+relationship: variable_of CO_339:0000194
+
+[Term]
+id: CO_339:0000263
+name: WatLogTol_Calc_ratio
+namespace: LentilVariable
+relationship: variable_of CO_339:0000189
+relationship: variable_of CO_339:0000190
+relationship: variable_of CO_339:0000191
+
+[Term]
+id: CO_339:0000262
+name: TanTyp_Est_1to3
+namespace: LentilVariable
+relationship: variable_of CO_339:0000186
+relationship: variable_of CO_339:0000187
+relationship: variable_of CO_339:0000188
+
+[Term]
+id: CO_339:0000261
+name: TerBrchNb_Comp_TerBrch
+namespace: LentilVariable
+relationship: variable_of CO_339:0000183
+relationship: variable_of CO_339:0000184
+relationship: variable_of CO_339:0000185
+
+[Term]
+id: CO_339:0000260
+name: StoCond_Meas_poromUnit
+namespace: LentilVariable
+relationship: variable_of CO_339:0000180
+relationship: variable_of CO_339:0000181
+relationship: variable_of CO_339:0000182
+
+[Term]
+id: CO_339:0000259
+name: StBli_Est_1to9
+namespace: LentilVariable
+relationship: variable_of CO_339:0000177
+relationship: variable_of CO_339:0000178
+relationship: variable_of CO_339:0000179
+
+[Term]
+id: CO_339:0000258
+name: StmWeeRes_Comp_pct
+namespace: LentilVariable
+relationship: variable_of CO_339:0000174
+relationship: variable_of CO_339:0000175
+relationship: variable_of CO_339:0000176
+
+[Term]
+id: CO_339:0000257
+name: ChlCont_Meas_SPAD
+namespace: LentilVariable
+relationship: variable_of CO_339:0000171
+relationship: variable_of CO_339:0000172
+relationship: variable_of CO_339:0000173
+
+[Term]
+id: CO_339:0000256
+name: SYPO_Meas_kgm2
+namespace: LentilVariable
+relationship: variable_of CO_339:0000168
+relationship: variable_of CO_339:0000169
+relationship: variable_of CO_339:0000170
+
+[Term]
+id: CO_339:0000255
+name: SYPL_Meas_g
+namespace: LentilVariable
+relationship: variable_of CO_339:0000165
+relationship: variable_of CO_339:0000166
+relationship: variable_of CO_339:0000167
+
+[Term]
+id: CO_339:0000254
+name: GrPrtCent_Comp_Ptc
+namespace: LentilVariable
+relationship: variable_of CO_339:0000162
+relationship: variable_of CO_339:0000163
+relationship: variable_of CO_339:0000164
+
+[Term]
+id: CO_339:0000253
+name: SeedDiam_Meas_mm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000159
+relationship: variable_of CO_339:0000160
+relationship: variable_of CO_339:0000161
+
+[Term]
+id: CO_339:0000252
+name: SecBrchNb_Calc_SecBrch
+namespace: LentilVariable
+relationship: variable_of CO_339:0000156
+relationship: variable_of CO_339:0000157
+relationship: variable_of CO_339:0000158
+
+[Term]
+id: CO_339:0000251
+name: SalTol_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000153
+relationship: variable_of CO_339:0000154
+relationship: variable_of CO_339:0000155
+
+[Term]
+id: CO_339:0000250
+name: RustRes_Est_1to9
+namespace: LentilVariable
+relationship: variable_of CO_339:0000150
+relationship: variable_of CO_339:0000151
+relationship: variable_of CO_339:0000152
+
+[Term]
+id: CO_339:0000249
+name: RtLngDen_Comp_cmcm3
+namespace: LentilVariable
+relationship: variable_of CO_339:0000147
+relationship: variable_of CO_339:0000148
+relationship: variable_of CO_339:0000149
+
+[Term]
+id: CO_339:0000248
+name: RtLng_RulMeas_cm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000144
+relationship: variable_of CO_339:0000196
+relationship: variable_of CO_339:0000146
+
+[Term]
+id: CO_339:0000247
+name: RtLng_WinMeas_cm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000144
+relationship: variable_of CO_339:0000145
+relationship: variable_of CO_339:0000146
+
+[Term]
+id: CO_339:0000246
+name: PrimBrchNb_Calc_PrimBrch
+namespace: LentilVariable
+relationship: variable_of CO_339:0000141
+relationship: variable_of CO_339:0000142
+relationship: variable_of CO_339:0000143
+
+[Term]
+id: CO_339:0000245
+name: PrnscTan_Est_1to3
+namespace: LentilVariable
+relationship: variable_of CO_339:0000138
+relationship: variable_of CO_339:0000139
+relationship: variable_of CO_339:0000140
+
+[Term]
+id: CO_339:0000244
+name: PodWght_Calc_g
+namespace: LentilVariable
+relationship: variable_of CO_339:0000135
+relationship: variable_of CO_339:0000136
+relationship: variable_of CO_339:0000137
+
+[Term]
+id: CO_339:0000243
+name: PodShg_Est_0to7
+namespace: LentilVariable
+relationship: variable_of CO_339:0000132
+relationship: variable_of CO_339:0000133
+relationship: variable_of CO_339:0000134
+
+[Term]
+id: CO_339:0000242
+name: PodFillPerd_Count_Day
+namespace: LentilVariable
+relationship: variable_of CO_339:0000129
+relationship: variable_of CO_339:0000130
+relationship: variable_of CO_339:0000131
+
+[Term]
+id: CO_339:0000241
+name: PodDhsce_Est_1to7
+namespace: LentilVariable
+relationship: variable_of CO_339:0000126
+relationship: variable_of CO_339:0000127
+relationship: variable_of CO_339:0000128
+
+[Term]
+id: CO_339:0000240
+name: PodBrRes_Comp_perc
+namespace: LentilVariable
+relationship: variable_of CO_339:0000123
+relationship: variable_of CO_339:0000124
+relationship: variable_of CO_339:0000125
+
+[Term]
+id: CO_339:0000239
+name: PlntArch_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000120
+relationship: variable_of CO_339:0000121
+relationship: variable_of CO_339:0000122
+
+[Term]
+id: CO_339:0000238
+name: PlntPub_Est_1to3
+namespace: LentilVariable
+relationship: variable_of CO_339:0000117
+relationship: variable_of CO_339:0000118
+relationship: variable_of CO_339:0000119
+
+[Term]
+id: CO_339:0000237
+name: PlntH_ToLeafMeas_cm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000114
+relationship: variable_of CO_339:0000115
+relationship: variable_of CO_339:0000116
+
+[Term]
+id: CO_339:0000236
+name: TesPat_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000111
+relationship: variable_of CO_339:0000112
+relationship: variable_of CO_339:0000113
+
+[Term]
+id: CO_339:0000235
+name: OroRes_Comp_oroPlnt
+namespace: LentilVariable
+relationship: variable_of CO_339:0000108
+relationship: variable_of CO_339:0000109
+relationship: variable_of CO_339:0000110
+
+[Term]
+id: CO_339:0000234
+name: NbSdpPod_Calc_Sd
+namespace: LentilVariable
+relationship: variable_of CO_339:0000105
+relationship: variable_of CO_339:0000106
+relationship: variable_of CO_339:0000107
+
+[Term]
+id: CO_339:0000233
+name: NbPodpPed_Calc_Pod
+namespace: LentilVariable
+relationship: variable_of CO_339:0000102
+relationship: variable_of CO_339:0000103
+relationship: variable_of CO_339:0000104
+
+[Term]
+id: CO_339:0000232
+name: NbPedpPlnt_Calc_Ped
+namespace: LentilVariable
+relationship: variable_of CO_339:0000099
+relationship: variable_of CO_339:0000100
+relationship: variable_of CO_339:0000101
+
+[Term]
+id: CO_339:0000231
+name: NbPodpPlnt_Calc_Pod
+namespace: LentilVariable
+relationship: variable_of CO_339:0000096
+relationship: variable_of CO_339:0000097
+relationship: variable_of CO_339:0000098
+
+[Term]
+id: CO_339:0000230
+name: SdMcrNutCont_Meas_Ptc
+namespace: LentilVariable
+relationship: variable_of CO_339:0000093
+relationship: variable_of CO_339:0000094
+relationship: variable_of CO_339:0000095
+
+[Term]
+id: CO_339:0000229
+name: LodgSuscp_Est_1to7
+namespace: LentilVariable
+relationship: variable_of CO_339:0000090
+relationship: variable_of CO_339:0000091
+relationship: variable_of CO_339:0000092
+
+[Term]
+id: CO_339:0000228
+name: IrDef_Est_0to8
+namespace: LentilVariable
+relationship: variable_of CO_339:0000087
+relationship: variable_of CO_339:0000088
+relationship: variable_of CO_339:0000089
+
+[Term]
+id: CO_339:0000227
+name: SdWt_Comp_g
+namespace: LentilVariable
+relationship: variable_of CO_339:0000084
+relationship: variable_of CO_339:0000085
+relationship: variable_of CO_339:0000086
+
+[Term]
+id: CO_339:0000226
+name: HerbTol_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000081
+relationship: variable_of CO_339:0000082
+relationship: variable_of CO_339:0000083
+
+[Term]
+id: CO_339:0000225
+name: HghtPod_Est_cm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000078
+relationship: variable_of CO_339:0000079
+relationship: variable_of CO_339:0000080
+
+[Term]
+id: CO_339:0000224
+name: HeatTol_Cont_nbPod
+namespace: LentilVariable
+relationship: variable_of CO_339:0000075
+relationship: variable_of CO_339:0000076
+relationship: variable_of CO_339:0000077
+
+[Term]
+id: CO_339:0000223
+name: HarvInx_Comp_ratio
+namespace: LentilVariable
+relationship: variable_of CO_339:0000072
+relationship: variable_of CO_339:0000073
+relationship: variable_of CO_339:0000074
+
+[Term]
+id: CO_339:0000222
+name: GwthHab_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000069
+relationship: variable_of CO_339:0000070
+relationship: variable_of CO_339:0000071
+
+[Term]
+id: CO_339:0000221
+name: SdCol_VisClsn_1to6
+namespace: LentilVariable
+relationship: variable_of CO_339:0000066
+relationship: variable_of CO_339:0000067
+relationship: variable_of CO_339:0000068
+
+[Term]
+id: CO_339:0000220
+name: FusWiRes_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000063
+relationship: variable_of CO_339:0000064
+relationship: variable_of CO_339:0000065
+
+[Term]
+id: CO_339:0000219
+name: GrthVig_Meas_cm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000060
+relationship: variable_of CO_339:0000061
+relationship: variable_of CO_339:0000062
+
+[Term]
+id: CO_339:0000218
+name: DrghtTol_Comp_idx
+namespace: LentilVariable
+relationship: variable_of CO_339:0000057
+relationship: variable_of CO_339:0000058
+relationship: variable_of CO_339:0000059
+
+[Term]
+id: CO_339:0000217
+name: TtoMat_Count_d
+namespace: LentilVariable
+relationship: variable_of CO_339:0000054
+relationship: variable_of CO_339:0000055
+relationship: variable_of CO_339:0000056
+
+[Term]
+id: CO_339:0000216
+name: Tto1Pod_Count_d
+namespace: LentilVariable
+relationship: variable_of CO_339:0000051
+relationship: variable_of CO_339:0000052
+relationship: variable_of CO_339:0000053
+
+[Term]
+id: CO_339:0000215
+name: TFlow_CountTo1F_d
+synonym: "DFTFL" EXACT []
+synonym: " DFFL" EXACT []
+namespace: LentilVariable
+relationship: variable_of CO_339:0000195
+relationship: variable_of CO_339:0000049
+relationship: variable_of CO_339:0000050
+
+[Term]
+id: CO_339:0000214
+name: TFlw_CountTo50Flow_d
+synonym: "DFTFL" EXACT []
+synonym: " DFFL" EXACT []
+namespace: LentilVariable
+relationship: variable_of CO_339:0000195
+relationship: variable_of CO_339:0000046
+relationship: variable_of CO_339:0000047
+
+[Term]
+id: CO_339:0000213
+name: DFFL_Meas_Days
+namespace: LentilVariable
+relationship: variable_of CO_339:0000048
+relationship: variable_of CO_339:0000049
+relationship: variable_of CO_339:0000050
+
+[Term]
+id: CO_339:0000212
+name: DFTFL_Meas_Days
+namespace: LentilVariable
+relationship: variable_of CO_339:0000045
+relationship: variable_of CO_339:0000046
+relationship: variable_of CO_339:0000047
+
+[Term]
+id: CO_339:0000211
+name: StrProtCont_Meas_Ptc
+namespace: LentilVariable
+relationship: variable_of CO_339:0000042
+relationship: variable_of CO_339:0000043
+relationship: variable_of CO_339:0000044
+
+[Term]
+id: CO_339:0000210
+name: CotCol_Est_1to3
+namespace: LentilVariable
+relationship: variable_of CO_339:0000039
+relationship: variable_of CO_339:0000040
+relationship: variable_of CO_339:0000041
+
+[Term]
+id: CO_339:0000209
+name: CookT_Meas_min
+namespace: LentilVariable
+relationship: variable_of CO_339:0000036
+relationship: variable_of CO_339:0000037
+relationship: variable_of CO_339:0000038
+
+[Term]
+id: CO_339:0000208
+name: CollRotRes_Est_1to9
+namespace: LentilVariable
+relationship: variable_of CO_339:0000033
+relationship: variable_of CO_339:0000034
+relationship: variable_of CO_339:0000035
+
+[Term]
+id: CO_339:0000207
+name: CoTol_Est_1to5
+namespace: LentilVariable
+relationship: variable_of CO_339:0000030
+relationship: variable_of CO_339:0000031
+relationship: variable_of CO_339:0000032
+
+[Term]
+id: CO_339:0000206
+name: CanWid_Est_Cm
+namespace: LentilVariable
+relationship: variable_of CO_339:0000027
+relationship: variable_of CO_339:0000028
+relationship: variable_of CO_339:0000029
+
+[Term]
+id: CO_339:0000205
+name: BruRes_Comp_pct
+namespace: LentilVariable
+relationship: variable_of CO_339:0000024
+relationship: variable_of CO_339:0000025
+relationship: variable_of CO_339:0000026
+
+[Term]
+id: CO_339:0000204
+name: BranchPat_Est_1to3
+namespace: LentilVariable
+relationship: variable_of CO_339:0000021
+relationship: variable_of CO_339:0000022
+relationship: variable_of CO_339:0000023
+
+[Term]
+id: CO_339:0000203
+name: BToxRes_Est_1to10
+namespace: LentilVariable
+relationship: variable_of CO_339:0000018
+relationship: variable_of CO_339:0000019
+relationship: variable_of CO_339:0000020
+
+[Term]
+id: CO_339:0000202
+name: BDef_Est_0to9
+namespace: LentilVariable
+relationship: variable_of CO_339:0000015
+relationship: variable_of CO_339:0000016
+relationship: variable_of CO_339:0000017
+
+[Term]
+id: CO_339:0000201
+name: BYPL_Meas_gplot
+namespace: LentilVariable
+relationship: variable_of CO_339:0000012
+relationship: variable_of CO_339:0000013
+relationship: variable_of CO_339:0000014
+
+[Term]
+id: CO_339:0000200
+name: BYPL_Meas_gplnt
+namespace: LentilVariable
+relationship: variable_of CO_339:0000009
+relationship: variable_of CO_339:0000010
+relationship: variable_of CO_339:0000011
+
+[Term]
+id: CO_339:0000199
+name: AscBltRes_Est_1to9
+namespace: LentilVariable
+relationship: variable_of CO_339:0000006
+relationship: variable_of CO_339:0000007
+relationship: variable_of CO_339:0000008
+
+[Term]
+id: CO_339:0000198
+name: AphRes_Est_pct
+namespace: LentilVariable
+relationship: variable_of CO_339:0000003
+relationship: variable_of CO_339:0000004
+relationship: variable_of CO_339:0000005
+
+[Term]
+id: CO_339:0000197
+name: AnthrRes_Est_1to9
+namespace: LentilVariable
+relationship: variable_of CO_339:0000000
+relationship: variable_of CO_339:0000001
+relationship: variable_of CO_339:0000002
+
+[Term]
+id: CO_339:0000196
+name: Root length measurement - Method
+namespace: LentilMethod
+def: "Measured maually using the ruler" []
+relationship: method_of CO_339:0000144
+
+[Term]
+id: CO_339:0000195
+name: Time to flowering
+namespace: LentilTrait
+def: "Time elapsed between sowing to flowering" []
+synonym: "TF" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000194
+name: Ratio
+namespace: LentilScale
+relationship: scale_of CO_339:0000193
+
+[Term]
+id: CO_339:0000193
+name: Screening method for Winter survival
+namespace: LentilMethod
+def: "Plant stand counts recorded after complete emergence of seedlings survived through winter. Divide plant stand count by the number of emerged seedlings" []
+relationship: method_of CO_339:0000192
+
+[Term]
+id: CO_339:0000192
+name: Winter survival
+namespace: LentilTrait
+def: "Proportion of the plants emerged prior to winter and survived through winter" []
+synonym: "WSUR" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000191
+name: Ratio
+namespace: LentilScale
+relationship: scale_of CO_339:0000190
+
+[Term]
+id: CO_339:0000190
+name: Screening method for Water logging tolerance
+namespace: LentilMethod
+def: "Root and shoot growth ratio of plants grown under water logged conditions over  % of drained controls" []
+relationship: method_of CO_339:0000189
+
+[Term]
+id: CO_339:0000189
+name: Water logging tolerance
+namespace: LentilTrait
+def: "Degree of tolerance to waterlogging condition" []
+synonym: "WLOT" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000188
+name: classification scale
+namespace: LentilScale
+relationship: scale_of CO_339:0000187
+
+[Term]
+id: CO_339:0000188/1
+name:  Bristle
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000188
+
+
+[Term]
+id: CO_339:0000188/2
+name:  Simple
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000188
+
+
+[Term]
+id: CO_339:0000188/3
+name:  Dichotomous
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000188
+
+
+[Term]
+id: CO_339:0000187
+name: Tendrils Type - Method
+namespace: LentilMethod
+def: "Visual assessment of the type of tendrils" []
+relationship: method_of CO_339:0000186
+
+[Term]
+id: CO_339:0000186
+name: Type of tendril
+namespace: LentilTrait
+def: "A qualitative trait discriminating different types of tendrils" []
+synonym: "TTEN" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000185
+name: Tertiary Branch
+namespace: LentilScale
+relationship: scale_of CO_339:0000184
+
+[Term]
+id: CO_339:0000184
+name: Tertiary Branch number - Method
+namespace: LentilMethod
+def: "Mean number of tertiary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_339:0000183
+
+[Term]
+id: CO_339:0000183
+name: Tertiary branches number
+namespace: LentilTrait
+def: "Number of tertiary branches per plant" []
+synonym: "Number of tertiary branches per plant" EXACT []
+synonym: "TRBR" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000182
+name: Reading of porometer
+namespace: LentilScale
+relationship: scale_of CO_339:0000181
+
+[Term]
+id: CO_339:0000181
+name: Stomatal conductance measurment - Method
+namespace: LentilMethod
+def: "Measured using a Porometer" []
+relationship: method_of CO_339:0000180
+
+[Term]
+id: CO_339:0000180
+name: Stomatal conductance
+namespace: LentilTrait
+def: "It is the measure of the rate of passage of carbon dioxide entering, or water vapour exiting through the stomata of a leaf." []
+synonym: "STCC" EXACT []
+is_a: CO_339:Physiological%20traits
+
+[Term]
+id: CO_339:0000179
+name: stem weevil damage score
+namespace: LentilScale
+relationship: scale_of CO_339:0000178
+
+[Term]
+id: CO_339:0000179/1
+name:  0-10% leaf area infected
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000179
+
+
+[Term]
+id: CO_339:0000179/4
+name:  51-70% leaf area infected
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000179
+
+
+[Term]
+id: CO_339:0000179/5
+name:  More than 70% leaf area infected
+namespace: LentilScale
+synonym: "9" EXACT []
+is_a: CO_339:0000179
+
+
+[Term]
+id: CO_339:0000179/2
+name:  11-30% leaf area infected
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000179
+
+
+[Term]
+id: CO_339:0000179/3
+name:  31-50% leaf area infected
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000179
+
+
+[Term]
+id: CO_339:0000178
+name: Screening method for Stemphylium blight resistance
+namespace: LentilMethod
+def: "Visual estimation of the resistance to weevil" []
+relationship: method_of CO_339:0000177
+
+[Term]
+id: CO_339:0000177
+name: Stemphylium blight resistance
+namespace: LentilTrait
+def: "Degree of resistance to Stemphylium blight disease. Causative agent: Stemphylium botryosum. Small, light-beige lesions apper in the upper canopy. Leaves, pedicels, flowers and branches become necrotic resulting in a characteristic blighted appearance of lentil plants." []
+synonym: "SBLR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000176
+name: Percentage
+namespace: LentilScale
+relationship: scale_of CO_339:0000175
+
+[Term]
+id: CO_339:0000175
+name: Screening method for Stem weevil resistance
+namespace: LentilMethod
+def: "Nodule damage was assessed in five plants randomly selected from each plot, uprooted with soil to recover most of the root system and then washed in laboratory" []
+relationship: method_of CO_339:0000174
+
+[Term]
+id: CO_339:0000174
+name: Stem weevil resistance
+namespace: LentilTrait
+def: "Degree of resistance to stem weevil.Sitona crinitus. Damage seedlings and root nodules" []
+synonym: "SWVR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000173
+name: SPAD unit
+namespace: LentilScale
+relationship: scale_of CO_339:0000172
+
+[Term]
+id: CO_339:0000172
+name: Chlorophyll content measurement method
+namespace: LentilMethod
+def: "Measure using a SPAD chlorophil meter" []
+relationship: method_of CO_339:0000171
+
+[Term]
+id: CO_339:0000171
+name: Chlorophyll content
+namespace: LentilTrait
+def: "Proportions that indicate chlorophyll density and/or leaf thickness measured through a SPAD chlorophyll meter." []
+synonym: "SCMR" EXACT []
+is_a: CO_339:Physiological%20traits
+
+[Term]
+id: CO_339:0000170
+name: kg/m2
+namespace: LentilScale
+relationship: scale_of CO_339:0000169
+
+[Term]
+id: CO_339:0000169
+name: SYPO measurment method
+namespace: LentilMethod
+def: "Yield of seed after drying  (Plot basis)" []
+relationship: method_of CO_339:0000168
+
+[Term]
+id: CO_339:0000168
+name: Seed yield per area
+namespace: LentilTrait
+def: "Seed yield from a plot" []
+synonym: "SYPO" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000167
+name: g
+namespace: LentilScale
+relationship: scale_of CO_339:0000166
+
+[Term]
+id: CO_339:0000166
+name: SYPL measurment method
+namespace: LentilMethod
+def: "Yield of seeds after drying" []
+relationship: method_of CO_339:0000165
+
+[Term]
+id: CO_339:0000165
+name: Seed yield per plant
+namespace: LentilTrait
+def: "Seed yield from a single plant" []
+synonym: "SYPL" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000164
+name: Percentage
+namespace: LentilScale
+relationship: scale_of CO_339:0000163
+
+[Term]
+id: CO_339:0000163
+name: Grain protein content analysis - Method
+namespace: LentilMethod
+def: "Seed nitrogen content which is multiplied by the factor 6.25" []
+relationship: method_of CO_339:0000162
+
+[Term]
+id: CO_339:0000162
+name: Grain protein content
+namespace: LentilTrait
+def: "Amount of protein in the seed" []
+synonym: "PRT" EXACT []
+is_a: CO_339:Quality%20traits
+
+[Term]
+id: CO_339:0000161
+name: mm
+namespace: LentilScale
+relationship: scale_of CO_339:0000160
+
+[Term]
+id: CO_339:0000160
+name: Seed diameter - Method
+namespace: LentilMethod
+def: "Diameter of fully dried seed is measured using vernier caliper" []
+relationship: method_of CO_339:0000159
+
+[Term]
+id: CO_339:0000159
+name: Seed diameter
+namespace: LentilTrait
+def: "Seed diameter" []
+synonym: "SDDIA" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000158
+name: Secondary Branch
+namespace: LentilScale
+relationship: scale_of CO_339:0000157
+
+[Term]
+id: CO_339:0000157
+name: Secondary Branch number - Method
+namespace: LentilMethod
+def: "Mean number of basal secondary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_339:0000156
+
+[Term]
+id: CO_339:0000156
+name: Secondary branches number
+namespace: LentilTrait
+def: "Number of basal secondary branches per plant" []
+synonym: "Number of basal secondary branches per plant" EXACT []
+synonym: "BSBR" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000155
+name: salinity suceptibility scale
+namespace: LentilScale
+relationship: scale_of CO_339:0000154
+
+[Term]
+id: CO_339:0000155/1
+name:  Highly tolerant (100% healthy leaves)
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000155
+
+
+[Term]
+id: CO_339:0000155/4
+name:  Susceptible (25% healthy leaves)
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000155
+
+
+[Term]
+id: CO_339:0000155/5
+name:  Highly susceptible (completely dead)
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000155
+
+
+[Term]
+id: CO_339:0000155/2
+name:  Tolerant (75% healthy leaves)
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000155
+
+
+[Term]
+id: CO_339:0000155/3
+name:  Moderately Tolerant (50% healthy leaves)
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000155
+
+
+[Term]
+id: CO_339:0000154
+name: Screening method for Salinity tolerance
+namespace: LentilMethod
+def: "Visual estimation of leaf symptoms" []
+relationship: method_of CO_339:0000153
+
+[Term]
+id: CO_339:0000153
+name: Salinity tolerance
+namespace: LentilTrait
+def: "Degree of tolerance to salinity" []
+synonym: "SALT" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000152
+name: rust damage score
+namespace: LentilScale
+relationship: scale_of CO_339:0000151
+
+[Term]
+id: CO_339:0000152/1
+name:  0-10% leaf area infected
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000152
+
+
+[Term]
+id: CO_339:0000152/4
+name:  51-70% leaf area infected
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000152
+
+
+[Term]
+id: CO_339:0000152/5
+name:  More than 70% leaf area infected
+namespace: LentilScale
+synonym: "9" EXACT []
+is_a: CO_339:0000152
+
+
+[Term]
+id: CO_339:0000152/2
+name:  11-30% leaf area infected
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000152
+
+
+[Term]
+id: CO_339:0000152/3
+name:  31-50% leaf area infected
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000152
+
+
+[Term]
+id: CO_339:0000151
+name: Screening method for Rust resistance
+namespace: LentilMethod
+def: "Quantification of symptoms development in leaves and stems" []
+relationship: method_of CO_339:0000150
+
+[Term]
+id: CO_339:0000150
+name: Rust resistance
+namespace: LentilTrait
+def: "Degree of resistance to rust disease. Causative agent : Uromyces viciae-faba. It produces lesions on stems and leaves which result leaf fall and premature plant death" []
+synonym: "RUSR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000149
+name: cm cm-3
+namespace: LentilScale
+relationship: scale_of CO_339:0000148
+
+[Term]
+id: CO_339:0000148
+name: RLD measurement - method
+namespace: LentilMethod
+def: "Calculated using both root length measured and soil volume from where the root comes." []
+relationship: method_of CO_339:0000147
+
+[Term]
+id: CO_339:0000147
+name: Root length density
+namespace: LentilTrait
+def: "The length of roots present in a unit volume of soil" []
+synonym: "RLD" EXACT []
+is_a: CO_339:Physiological%20traits
+
+[Term]
+id: CO_339:0000146
+name: cm
+namespace: LentilScale
+relationship: scale_of CO_339:0000145
+relationship: scale_of CO_339:0000196
+
+[Term]
+id: CO_339:0000145
+name: Root length by Winrhizo - Method
+namespace: LentilMethod
+def: "Measured through winrhizo software from scanned image files" []
+relationship: method_of CO_339:0000144
+
+[Term]
+id: CO_339:0000144
+name: Root length
+namespace: LentilTrait
+def: "Cumulative root length of a sample" []
+synonym: "RL" EXACT []
+is_a: CO_339:Physiological%20traits
+
+[Term]
+id: CO_339:0000143
+name: Primary branch
+namespace: LentilScale
+relationship: scale_of CO_339:0000142
+
+[Term]
+id: CO_339:0000142
+name: Primary Branch number - Method
+namespace: LentilMethod
+def: "Mean number of basal primary branches from 3 or 5 randomly selected plants at maturity" []
+relationship: method_of CO_339:0000141
+
+[Term]
+id: CO_339:0000141
+name: Primary branches number
+namespace: LentilTrait
+def: "Number of basal primary branches per plant" []
+synonym: "Number of basal primary branches per plant" EXACT []
+synonym: "BPBR" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000140
+name: degree of tendril expression
+namespace: LentilScale
+relationship: scale_of CO_339:0000139
+
+[Term]
+id: CO_339:0000140/1
+name:  Absent
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000140
+
+
+[Term]
+id: CO_339:0000140/2
+name:  Rudimentary
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000140
+
+
+[Term]
+id: CO_339:0000140/3
+name:  Prominent
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000140
+
+
+[Term]
+id: CO_339:0000139
+name: Presence of tendrils - Method
+namespace: LentilMethod
+def: "Visual observation of the presence and nature of tendrils" []
+relationship: method_of CO_339:0000138
+
+[Term]
+id: CO_339:0000138
+name: Presence of Tendrils
+namespace: LentilTrait
+def: "A qualitative trait describing presence of tendrils" []
+synonym: "PTEN" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000137
+name: g
+namespace: LentilScale
+relationship: scale_of CO_339:0000136
+
+[Term]
+id: CO_339:0000136
+name: Pod Weight - Method
+namespace: LentilMethod
+def: "Average weight from 3 or 5 randomly-selected plants at maturity,  from a plant grown in the pot or field." []
+relationship: method_of CO_339:0000135
+
+[Term]
+id: CO_339:0000135
+name: Pod weight
+namespace: LentilTrait
+def: "Weight of pods" []
+synonym: "PDWT" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000134
+name: dropping occurrence score
+namespace: LentilScale
+relationship: scale_of CO_339:0000133
+
+[Term]
+id: CO_339:0000134/1
+name:  None
+namespace: LentilScale
+synonym: "0" EXACT []
+is_a: CO_339:0000134
+
+
+[Term]
+id: CO_339:0000134/4
+name:  High
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000134
+
+
+[Term]
+id: CO_339:0000134/2
+name:  Low
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000134
+
+
+[Term]
+id: CO_339:0000134/3
+name:  Medium
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000134
+
+
+[Term]
+id: CO_339:0000133
+name: Pod shedding - method
+namespace: LentilMethod
+def: "Visually assessed after or during harvesting one week after maturity" []
+relationship: method_of CO_339:0000132
+
+[Term]
+id: CO_339:0000132
+name: Pod shedding
+namespace: LentilTrait
+def: "Dropping of pods caused by cessation of the peduncle at maturity" []
+synonym: "PSHD" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000131
+name: day
+namespace: LentilScale
+relationship: scale_of CO_339:0000130
+
+[Term]
+id: CO_339:0000130
+name: Pod filing per pod - Method
+namespace: LentilMethod
+def: "Counting up the duration of flowering and pod maturing period" []
+relationship: method_of CO_339:0000129
+
+[Term]
+id: CO_339:0000129
+name: Pod filling period
+namespace: LentilTrait
+def: "A quantitative trait indicating the time required for pod filling" []
+synonym: "PFIP" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000128
+name: splitting occurrence score
+namespace: LentilScale
+relationship: scale_of CO_339:0000127
+
+[Term]
+id: CO_339:0000128/1
+name:  None
+namespace: LentilScale
+synonym: "0" EXACT []
+is_a: CO_339:0000128
+
+
+[Term]
+id: CO_339:0000128/4
+name:  High
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000128
+
+
+[Term]
+id: CO_339:0000128/2
+name:  Low
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000128
+
+
+[Term]
+id: CO_339:0000128/3
+name:  Medium
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000128
+
+
+[Term]
+id: CO_339:0000127
+name: Pod dehiscence - Method
+namespace: LentilMethod
+def: "Visually assessed one week after maturity" []
+relationship: method_of CO_339:0000126
+
+[Term]
+id: CO_339:0000126
+name: Pod dehiscence
+namespace: LentilTrait
+def: "Splitting of pods at maturity along its built in line of weakness in order to release seeds" []
+synonym: "PDEH" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000125
+name: percentage
+namespace: LentilScale
+relationship: scale_of CO_339:0000124
+
+[Term]
+id: CO_339:0000124
+name: Screening method for Pod borer resistance
+namespace: LentilMethod
+def: "Damage at pod stage measured by counting total pods and damaged pods and calculating proportion of damaged pods" []
+relationship: method_of CO_339:0000123
+
+[Term]
+id: CO_339:0000123
+name: Pod borer resistance
+namespace: LentilTrait
+def: "Degree of tolerance to podborer.Helicoverpa armigera. Damage pods and seeds" []
+synonym: "PBR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000122
+name: structure scale
+namespace: LentilScale
+relationship: scale_of CO_339:0000121
+
+[Term]
+id: CO_339:0000122/1
+name:  Highly branched, bushy
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000122
+
+
+[Term]
+id: CO_339:0000122/4
+name:  moderate to highly branched, semi-tall, subcompact
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000122
+
+
+[Term]
+id: CO_339:0000122/5
+name:  moderate to highly branched, short, subcompact
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000122
+
+
+[Term]
+id: CO_339:0000122/2
+name:  Sparsely branched, tall erect
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000122
+
+
+[Term]
+id: CO_339:0000122/3
+name:  moderately branched, semi-tall erect
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000122
+
+
+[Term]
+id: CO_339:0000121
+name: Plant Structure - Method
+namespace: LentilMethod
+def: "Visual assessment of plant structure" []
+relationship: method_of CO_339:0000120
+
+[Term]
+id: CO_339:0000120
+name: Plant structure
+namespace: LentilTrait
+def: "A qualitative trait describing the structure and branching pattern of the plant" []
+synonym: "Plant artitecture" EXACT []
+synonym: "PSTR" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000119
+name: pubescent intesity score
+namespace: LentilScale
+relationship: scale_of CO_339:0000118
+
+[Term]
+id: CO_339:0000119/1
+name:  Low pubescence
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000119
+
+
+[Term]
+id: CO_339:0000119/2
+name:  Moderate pubescence
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000119
+
+
+[Term]
+id: CO_339:0000119/3
+name:  High pubescence
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000119
+
+
+[Term]
+id: CO_339:0000118
+name: Plant pubescence - Method
+namespace: LentilMethod
+def: "Visual assessment of the plant pubescence" []
+relationship: method_of CO_339:0000117
+
+[Term]
+id: CO_339:0000117
+name: Plant pubescence
+namespace: LentilTrait
+def: "A qualitative trait describing extent of hairiness of the shoot" []
+synonym: "Plant hairiness" EXACT []
+synonym: "PLPUB" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000116
+name: cm
+namespace: LentilScale
+relationship: scale_of CO_339:0000115
+
+[Term]
+id: CO_339:0000115
+name: Plant height highest leaf - Method
+namespace: LentilMethod
+def: "Height of the plant measured from the ground to the tip of the extended foliage at maturity. Mean plant height (cm) of five representative plants from soil surface measured at the end of flowering" []
+relationship: method_of CO_339:0000114
+
+[Term]
+id: CO_339:0000114
+name: Plant height
+namespace: LentilTrait
+def: "Height of the plant" []
+synonym: "PLHGT" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000113
+name: seed coat pattern scale
+namespace: LentilScale
+relationship: scale_of CO_339:0000112
+
+[Term]
+id: CO_339:0000113/1
+name:  Absent
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000113
+
+
+[Term]
+id: CO_339:0000113/4
+name:  Marbled
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000113
+
+
+[Term]
+id: CO_339:0000113/5
+name:  Complex
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000113
+
+
+[Term]
+id: CO_339:0000113/2
+name:  Dotted
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000113
+
+
+[Term]
+id: CO_339:0000113/3
+name:  Spotted
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000113
+
+
+[Term]
+id: CO_339:0000112
+name: Pattern of seed testa - method
+namespace: LentilMethod
+def: "Visual assessment of the pattern of the seed testa" []
+relationship: method_of CO_339:0000111
+
+[Term]
+id: CO_339:0000111
+name: Pattern of seed testa
+namespace: LentilTrait
+def: "A qualitative trait describing the pattern of seed testa" []
+synonym: "PAST" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000110
+name: orobranch/lentil plant
+namespace: LentilScale
+relationship: scale_of CO_339:0000109
+
+[Term]
+id: CO_339:0000109
+name: Screening method for Orobanche Resistance
+namespace: LentilMethod
+def: "1/ Count the number of broomrapes emerged in the four rows of faba bean surrounding each row of lentil plants. 2/ divide the number of broomrapes by the number of lentil plants to compute an average" []
+relationship: method_of CO_339:0000108
+
+[Term]
+id: CO_339:0000108
+name: Orobanche resistance
+namespace: LentilTrait
+def: "Plant resistance to Orobanche. Casative agent: Orobanche crenata." []
+synonym: "OROR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000107
+name: Seed
+namespace: LentilScale
+relationship: scale_of CO_339:0000106
+
+[Term]
+id: CO_339:0000106
+name: Number of seed per pod - method
+namespace: LentilMethod
+def: "Average number of seeds of 10 dry pods" []
+relationship: method_of CO_339:0000105
+
+[Term]
+id: CO_339:0000105
+name: Number of seeds per pod
+namespace: LentilTrait
+def: "A trait indicating number of seeds per pod" []
+synonym: "NSPP" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000104
+name: Pod
+namespace: LentilScale
+relationship: scale_of CO_339:0000103
+
+[Term]
+id: CO_339:0000103
+name: Number of pod per peduncle method
+namespace: LentilMethod
+def: "Maximum number of pods per peduncle on 10 representative plants" []
+relationship: method_of CO_339:0000102
+
+[Term]
+id: CO_339:0000102
+name: Number of pods per peduncle
+namespace: LentilTrait
+def: "A trait indicating number of pods per peduncle" []
+synonym: "NPPE" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000101
+name: Peduncle
+namespace: LentilScale
+relationship: scale_of CO_339:0000100
+
+[Term]
+id: CO_339:0000100
+name: Number of peduncle per plant - Method
+namespace: LentilMethod
+def: "The mean number of peduncles on 10 representative plants" []
+relationship: method_of CO_339:0000099
+
+[Term]
+id: CO_339:0000099
+name: Number of peduncles per plant
+namespace: LentilTrait
+def: "A trait indicating total number of peduncles per plant" []
+synonym: "NPPP" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000098
+name: Pod
+namespace: LentilScale
+relationship: scale_of CO_339:0000097
+
+[Term]
+id: CO_339:0000097
+name: Number of Pod per Plant -  method
+namespace: LentilMethod
+def: "Mean number of pods recorded from 10 randomly selected plants at physiological maturity" []
+relationship: method_of CO_339:0000096
+
+[Term]
+id: CO_339:0000096
+name: Number of pods per plant
+namespace: LentilTrait
+def: "A trait indicating total number of pods per plant" []
+synonym: "NPDPL" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000095
+name: Percentage
+namespace: LentilScale
+relationship: scale_of CO_339:0000094
+
+[Term]
+id: CO_339:0000094
+name: Micro nutrient content analysis -Method
+namespace: LentilMethod
+def: "Using atomic absorption spectrometry" []
+relationship: method_of CO_339:0000093
+
+[Term]
+id: CO_339:0000093
+name: Micro nutrient content
+namespace: LentilTrait
+def: "The amount of micro-nutrient including Fe and Zn in the seed" []
+synonym: "Micro-nutrient content in the grain" EXACT []
+synonym: "MNCG" EXACT []
+is_a: CO_339:Quality%20traits
+
+[Term]
+id: CO_339:0000092
+name: lodging incidence score
+namespace: LentilScale
+relationship: scale_of CO_339:0000091
+
+[Term]
+id: CO_339:0000092/1
+name:  None
+namespace: LentilScale
+synonym: "0" EXACT []
+is_a: CO_339:0000092
+
+
+[Term]
+id: CO_339:0000092/4
+name:  High
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000092
+
+
+[Term]
+id: CO_339:0000092/2
+name:  Low
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000092
+
+
+[Term]
+id: CO_339:0000092/3
+name:  Medium
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000092
+
+
+[Term]
+id: CO_339:0000091
+name: Lodgind susceptibility assessment - Method
+namespace: LentilMethod
+def: "Visually assessed at maturity" []
+relationship: method_of CO_339:0000090
+
+[Term]
+id: CO_339:0000090
+name: Lodging susceptibility
+namespace: LentilTrait
+def: "A trait describing status of susceptibilty of genotypes to lodging" []
+synonym: "LOSP" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000089
+name: iron deficiency score
+namespace: LentilScale
+relationship: scale_of CO_339:0000088
+
+[Term]
+id: CO_339:0000089/1
+name: No symptoms of Fe deficiency
+namespace: LentilScale
+synonym: "0" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/4
+name:  30% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/5
+name:  40% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/2
+name:  10% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/3
+name:  20% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/8
+name:  70% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/9
+name:  80% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "8" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/6
+name:  50% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000089/7
+name:  60% of plants showing Fe deficiency
+namespace: LentilScale
+synonym: "6" EXACT []
+is_a: CO_339:0000089
+
+
+[Term]
+id: CO_339:0000088
+name: Screening method for Iron Deficency
+namespace: LentilMethod
+def: "Visual estimation of Fe deficiency" []
+relationship: method_of CO_339:0000087
+
+[Term]
+id: CO_339:0000087
+name: Iron (Fe) deficiency
+namespace: LentilTrait
+def: "Deficiency of Iron (Fe) in the plant measured at flowering stage" []
+synonym: "IRND" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000086
+name: g
+namespace: LentilScale
+relationship: scale_of CO_339:0000085
+
+[Term]
+id: CO_339:0000085
+name: 100 seed weight - Method
+namespace: LentilMethod
+def: "Average weight of two samples of 100 randomly chosen seeds" []
+relationship: method_of CO_339:0000084
+
+[Term]
+id: CO_339:0000084
+name: Seed weight
+namespace: LentilTrait
+def: "Weight of seeds" []
+synonym: "HSW" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000083
+name: herbicide tolerance score
+namespace: LentilScale
+relationship: scale_of CO_339:0000082
+
+[Term]
+id: CO_339:0000083/1
+name:  Highly tolerant
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000083
+
+
+[Term]
+id: CO_339:0000083/4
+name:  Sensitive
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000083
+
+
+[Term]
+id: CO_339:0000083/5
+name:  Highly sensitive
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000083
+
+
+[Term]
+id: CO_339:0000083/2
+name:  Tolerant
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000083
+
+
+[Term]
+id: CO_339:0000083/3
+name:  Moderately tolerant
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000083
+
+
+[Term]
+id: CO_339:0000082
+name: Screening method for Herbicide Tolerance
+namespace: LentilMethod
+def: "Estimation of the tolerance to herbicide" []
+relationship: method_of CO_339:0000081
+
+[Term]
+id: CO_339:0000081
+name: Herbicide tolerance
+namespace: LentilTrait
+def: "The plant ability to resist the toxic effects of herbicides." []
+synonym: "HERBT" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000080
+name: cm
+namespace: LentilScale
+relationship: scale_of CO_339:0000079
+
+[Term]
+id: CO_339:0000079
+name: Height of the lowest pod - Method
+namespace: LentilMethod
+def: "Estimate of the average height above ground of the lowest pod on randomly selected 3 to 5 unlodged plants at harvest" []
+relationship: method_of CO_339:0000078
+
+[Term]
+id: CO_339:0000078
+name: Height of the lowest pod
+namespace: LentilTrait
+def: "Height above ground of the lowest pod" []
+synonym: "HLPD" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000077
+name: Number of pods
+namespace: LentilScale
+relationship: scale_of CO_339:0000076
+
+[Term]
+id: CO_339:0000076
+name: Screening method for Heat tolerance
+namespace: LentilMethod
+def: "Heat tolerance can be observed by counting number of unfilled or filled pods per plant" []
+relationship: method_of CO_339:0000075
+
+[Term]
+id: CO_339:0000075
+name: Heat tolerance
+namespace: LentilTrait
+def: "Degree of tolerance to high temperature" []
+synonym: "HTOL" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000074
+name: Ratio
+namespace: LentilScale
+relationship: scale_of CO_339:0000073
+
+[Term]
+id: CO_339:0000073
+name: Harvest Index - Method
+namespace: LentilMethod
+def: "Grain yield/ (straw yield + grain yield)" []
+relationship: method_of CO_339:0000072
+
+[Term]
+id: CO_339:0000072
+name: Harvest Index
+namespace: LentilTrait
+def: "A measurement of crop yield, the weight of the harvested product as a percentage of the total plant weight of a crop" []
+synonym: "HI" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000071
+name: growth habit scale
+namespace: LentilScale
+relationship: scale_of CO_339:0000070
+
+[Term]
+id: CO_339:0000071/1
+name:  Erect (0-150 from vertical)
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000071
+
+
+[Term]
+id: CO_339:0000071/4
+name:  Spreading (61-800 from vertical)
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000071
+
+
+[Term]
+id: CO_339:0000071/5
+name:  Prostrate (branches flat on the ground)
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000071
+
+
+[Term]
+id: CO_339:0000071/2
+name:  Semi-erect (16-250 from vertical)
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000071
+
+
+[Term]
+id: CO_339:0000071/3
+name:  Semi-spreading (26-600 from vertical)
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000071
+
+
+[Term]
+id: CO_339:0000070
+name: Growth Habit - Method
+namespace: LentilMethod
+def: "Visual observation of the angle of primary branches recorded at mid-pod" []
+relationship: method_of CO_339:0000069
+
+[Term]
+id: CO_339:0000069
+name: Growth habit
+namespace: LentilTrait
+def: "A qualitative description of the growth habit of the plant." []
+synonym: "Plant growth habit" EXACT []
+synonym: "GRH" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000068
+name: seed coat colour classes
+namespace: LentilScale
+relationship: scale_of CO_339:0000067
+
+[Term]
+id: CO_339:0000068/1
+name:  Green
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000068
+
+
+[Term]
+id: CO_339:0000068/4
+name:  Black
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000068
+
+
+[Term]
+id: CO_339:0000068/5
+name:  Pink
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000068
+
+
+[Term]
+id: CO_339:0000068/2
+name:  Grey
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000068
+
+
+[Term]
+id: CO_339:0000068/3
+name:  Brown
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000068
+
+
+[Term]
+id: CO_339:0000068/6
+name:  Yellow
+namespace: LentilScale
+synonym: "6" EXACT []
+is_a: CO_339:0000068
+
+
+[Term]
+id: CO_339:0000067
+name: Seed coat color - Method
+namespace: LentilMethod
+def: "To be observed on seeds less than three months old" []
+relationship: method_of CO_339:0000066
+
+[Term]
+id: CO_339:0000066
+name: Ground colour of seed testa
+namespace: LentilTrait
+def: "A qualitative trait indicating seed coat color." []
+synonym: "CSTA" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000065
+name: fusarium wilt damage score
+namespace: LentilScale
+relationship: scale_of CO_339:0000064
+
+[Term]
+id: CO_339:0000065/1
+name:  Highly resistant
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000065
+
+
+[Term]
+id: CO_339:0000065/4
+name:  Susceptible
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000065
+
+
+[Term]
+id: CO_339:0000065/5
+name:  Highly susceptible
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000065
+
+
+[Term]
+id: CO_339:0000065/2
+name:  Resistant
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000065
+
+
+[Term]
+id: CO_339:0000065/3
+name:  Moderately resistant
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000065
+
+
+[Term]
+id: CO_339:0000064
+name: Screening method for Fusarium wilt resistance
+namespace: LentilMethod
+def: "Proportion of wilted or dead plants per plot were recorded periodically every 3-4 days interval" []
+relationship: method_of CO_339:0000063
+
+[Term]
+id: CO_339:0000063
+name: Fusarium wilt resistance
+namespace: LentilTrait
+def: "Degree of resistance to Fusarium wilt disease.Causative organism: Fusarium oxysporum f. sp. lentis. Typical symptoms of wilt are first seen as sudden drooping of leaflets starting at the plant top and progressing downward. Leaflets close and do not shed prematurely, turning dull green . Finally the whole plant wilts . Wilting may be unilateral and confined to  individual branches. When wilt appears at flowering no seeds are produced." []
+synonym: "FWR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000062
+name: cm
+namespace: LentilScale
+relationship: scale_of CO_339:0000061
+
+[Term]
+id: CO_339:0000061
+name: Early growth vigour - Method
+namespace: LentilMethod
+def: "Seedling length after 40-45 days of sowing , which is measured in field" []
+relationship: method_of CO_339:0000060
+
+[Term]
+id: CO_339:0000060
+name: Early growth vigour
+namespace: LentilTrait
+def: "A quantitative traits desrcibing the growth of seedlings" []
+synonym: "EGV" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000059
+name: Index
+namespace: LentilScale
+relationship: scale_of CO_339:0000058
+
+[Term]
+id: CO_339:0000058
+name: Screening method for Drought tolerance
+namespace: LentilMethod
+def: "Drought tolerance index is calucated by using the formula of crop yield under drought conditons to the non-drought conditions i.e., 1-[(Ys)/(Yp)]" []
+relationship: method_of CO_339:0000057
+
+[Term]
+id: CO_339:0000057
+name: Drought tolerance
+namespace: LentilTrait
+def: "Degree of tolerance to drought stress" []
+synonym: "DRTL" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000056
+name: Days
+namespace: LentilScale
+relationship: scale_of CO_339:0000055
+
+[Term]
+id: CO_339:0000055
+name: Time to maturity - method
+namespace: LentilMethod
+def: "Number of days from sowing until 90% of the pods are in golden brown" []
+relationship: method_of CO_339:0000054
+
+[Term]
+id: CO_339:0000054
+name: Time to maturity
+namespace: LentilTrait
+def: "A quantitative trait describing the physiological maturity of plant" []
+synonym: "DM" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000053
+name: Days
+namespace: LentilScale
+relationship: scale_of CO_339:0000052
+
+[Term]
+id: CO_339:0000052
+name: Time to first pod formation - method
+namespace: LentilMethod
+def: "Counting the number of days from sowing to first pod formation" []
+relationship: method_of CO_339:0000051
+
+[Term]
+id: CO_339:0000051
+name: Time to first pod formation
+namespace: LentilTrait
+def: "Number of days from sowing to formation of first pod" []
+synonym: "DFPD" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000050
+name: Days
+namespace: LentilScale
+relationship: scale_of CO_339:0000049
+
+[Term]
+id: CO_339:0000049
+name: Time to first flower - method
+namespace: LentilMethod
+def: "Number of days from sowing until the first flower started to occur." []
+relationship: method_of CO_339:0000048
+relationship: method_of CO_339:0000195
+
+[Term]
+id: CO_339:0000048
+name: Days to first flowering
+namespace: LentilTrait
+def: "Number of days from sowing to when first flower started to occur" []
+synonym: "DFFL" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000047
+name: Days
+namespace: LentilScale
+relationship: scale_of CO_339:0000046
+
+[Term]
+id: CO_339:0000046
+name: Time to 50% flowering - method
+namespace: LentilMethod
+def: "Number of days from sowing until 50% of the plants are in flower under irrigated condition. In rain-fed conditions, it is counted from first day of rainfall or irrigation, which is sufficient for germination" []
+relationship: method_of CO_339:0000045
+relationship: method_of CO_339:0000195
+
+[Term]
+id: CO_339:0000045
+name: Days to 50% flowering
+namespace: LentilTrait
+def: "Number of days from sowing to when 50% of the plants have started flowering" []
+synonym: "DFTFL" EXACT []
+is_a: CO_339:Phenological%20traits
+
+[Term]
+id: CO_339:0000044
+name: Percentage
+namespace: LentilScale
+relationship: scale_of CO_339:0000043
+
+[Term]
+id: CO_339:0000043
+name: Straw protein content analysis - Method
+namespace: LentilMethod
+def: "Crude protein analysis in lentil straw" []
+relationship: method_of CO_339:0000042
+
+[Term]
+id: CO_339:0000042
+name: Straw protein content
+namespace: LentilTrait
+def: "The amount of protein content in the straw" []
+synonym: "STRP" EXACT []
+is_a: CO_339:Quality%20traits
+
+[Term]
+id: CO_339:0000041
+name: cotyldeon colour classes
+namespace: LentilScale
+relationship: scale_of CO_339:0000040
+
+[Term]
+id: CO_339:0000041/1
+name:  Yellow
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000041
+
+
+[Term]
+id: CO_339:0000041/2
+name:  Orange-red
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000041
+
+
+[Term]
+id: CO_339:0000041/3
+name:  Olive-green
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000041
+
+
+[Term]
+id: CO_339:0000040
+name: Cotyledon Colour - Method
+namespace: LentilMethod
+def: "To be observed on seeds less than three months old" []
+relationship: method_of CO_339:0000039
+
+[Term]
+id: CO_339:0000039
+name: Cotyledon colour
+namespace: LentilTrait
+def: "A trait describing the colour of cotyledon" []
+synonym: "CTLC" EXACT []
+is_a: CO_339:Quality%20traits
+
+[Term]
+id: CO_339:0000038
+name: Minutes
+namespace: LentilScale
+relationship: scale_of CO_339:0000037
+
+[Term]
+id: CO_339:0000037
+name: Cooking time - Method
+namespace: LentilMethod
+def: "Cooking time for dry seed without soaking" []
+relationship: method_of CO_339:0000036
+
+[Term]
+id: CO_339:0000036
+name: Cooking time
+namespace: LentilTrait
+def: "Time needed for lentil sample to cook" []
+synonym: "CKT" EXACT []
+is_a: CO_339:Quality%20traits
+
+[Term]
+id: CO_339:0000035
+name: collar rot damage score
+namespace: LentilScale
+relationship: scale_of CO_339:0000034
+
+[Term]
+id: CO_339:0000035/1
+name: No mortality
+namespace: LentilScale
+synonym: "0" EXACT []
+is_a: CO_339:0000035
+
+
+[Term]
+id: CO_339:0000035/4
+name: 11-20% mortality
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000035
+
+
+[Term]
+id: CO_339:0000035/5
+name: 21-50%mortality
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000035
+
+
+[Term]
+id: CO_339:0000035/2
+name: less than 1% mortality
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000035
+
+
+[Term]
+id: CO_339:0000035/3
+name: 1-10% mortality
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000035
+
+
+[Term]
+id: CO_339:0000035/6
+name: 51% or more mortality
+namespace: LentilScale
+synonym: "9" EXACT []
+is_a: CO_339:0000035
+
+
+[Term]
+id: CO_339:0000034
+name: Screening method for Colar resistance
+namespace: LentilMethod
+def: "Observation of seedling mortality" []
+relationship: method_of CO_339:0000033
+
+[Term]
+id: CO_339:0000033
+name: Collar rot resistance
+namespace: LentilTrait
+def: "Degree of resistance to collar rot. Causative agent: Sclerotium rolfsii." []
+synonym: "COLRR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000032
+name: cold tolerance score
+namespace: LentilScale
+relationship: scale_of CO_339:0000031
+
+[Term]
+id: CO_339:0000032/1
+name:  No foliar damage
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000032
+
+
+[Term]
+id: CO_339:0000032/4
+name:  70% of plants showing symptoms to low temperature stress
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000032
+
+
+[Term]
+id: CO_339:0000032/5
+name:  Completely dead
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000032
+
+
+[Term]
+id: CO_339:0000032/2
+name:  30% of plants showing symptoms to low temperature stress
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000032
+
+
+[Term]
+id: CO_339:0000032/3
+name:  50% of plants showing symptoms to low temperature stress
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000032
+
+
+[Term]
+id: CO_339:0000031
+name: Screening method for Cold Tolerance
+namespace: LentilMethod
+def: "visual estimation of the proportion of plants showing symptoms of cold stress" []
+relationship: method_of CO_339:0000030
+
+[Term]
+id: CO_339:0000030
+name: Cold tolerance
+namespace: LentilTrait
+def: "Tolerance to damage caused to aerial plant parts by cold stress." []
+synonym: "CTOL" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000029
+name: cm
+namespace: LentilScale
+relationship: scale_of CO_339:0000028
+
+[Term]
+id: CO_339:0000028
+name: Canopy Width - method
+namespace: LentilMethod
+def: "Average canopy width of three/five representative plants of an accession." []
+relationship: method_of CO_339:0000027
+
+[Term]
+id: CO_339:0000027
+name: Canopy width
+namespace: LentilTrait
+def: "Width of the canopy" []
+synonym: "CANW" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000026
+name: Percentage of bruchid damaged seeds
+namespace: LentilScale
+relationship: scale_of CO_339:0000025
+
+[Term]
+id: CO_339:0000025
+name: Screening method for Bruchid Resistance
+namespace: LentilMethod
+def: "Proportion of penetrated seeds in a sample of 40 seeds" []
+relationship: method_of CO_339:0000024
+
+[Term]
+id: CO_339:0000024
+name: Bruchid resistance
+namespace: LentilTrait
+def: "Degree of resistance to Bruchids.Callosobruchus analis. Damage flowers, pods and seeds" []
+synonym: "BRUR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000023
+name: branching pattern scale
+namespace: LentilScale
+relationship: scale_of CO_339:0000022
+
+[Term]
+id: CO_339:0000023/1
+name:  Erect compact with a narrow branch angle
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000023
+
+
+[Term]
+id: CO_339:0000023/2
+name:  Spreading
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000023
+
+
+[Term]
+id: CO_339:0000023/3
+name:  Intermediate
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000023
+
+
+[Term]
+id: CO_339:0000022
+name: Branching pattern - method
+namespace: LentilMethod
+def: "Visual observation of the branching pattern" []
+relationship: method_of CO_339:0000021
+
+[Term]
+id: CO_339:0000021
+name: Branching pattern
+namespace: LentilTrait
+def: "A qualitative trait describing the branching pattern of plant" []
+synonym: "BRPT" EXACT []
+is_a: CO_339:Morphological%20traits
+
+[Term]
+id: CO_339:0000020
+name: boron toxicity score
+namespace: LentilScale
+relationship: scale_of CO_339:0000019
+
+[Term]
+id: CO_339:0000020/1
+name: No symptoms of B toxicity
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/4
+name: 40% of plants showing foliar damage
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/5
+name: 50% of plants showing foliar damage
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/2
+name:  20% of plants showing foliar damage
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/3
+name: 30% of plants showing foliar damage
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/8
+name: 80% of plants showing foliar damage
+namespace: LentilScale
+synonym: "8" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/9
+name: 90% of plants showing foliar damage
+namespace: LentilScale
+synonym: "9" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/6
+name: 60% of plants showing foliar damage
+namespace: LentilScale
+synonym: "6" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/7
+name: 70% of plants showing foliar damage
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000020/10
+name:  Completed dead
+namespace: LentilScale
+synonym: "10" EXACT []
+is_a: CO_339:0000020
+
+
+[Term]
+id: CO_339:0000019
+name: Screening method for Boron toxicity tolerance
+namespace: LentilMethod
+def: "Quantification of symptoms of boron toxicity in leaves" []
+relationship: method_of CO_339:0000018
+
+[Term]
+id: CO_339:0000018
+name: Boron toxicity tolerance
+namespace: LentilTrait
+def: "Degree of tolerance to boron toxicity" []
+synonym: "BORT" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000017
+name: boron deficiency score
+namespace: LentilScale
+relationship: scale_of CO_339:0000016
+
+[Term]
+id: CO_339:0000017/1
+name: No symptoms of B deficiency
+namespace: LentilScale
+synonym: "0" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/4
+name:  30% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/5
+name:  40% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "4" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/2
+name:  10% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/3
+name:  20% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "2" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/8
+name:  70% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/9
+name:  80% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "8" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/6
+name:  50% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/7
+name:  60% of plants showing boron deficiency
+namespace: LentilScale
+synonym: "6" EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000017/10
+name:  All plants showing severe stunting and chlorosis
+namespace: LentilScale
+synonym: "9 " EXACT []
+is_a: CO_339:0000017
+
+
+[Term]
+id: CO_339:0000016
+name: Screening method for Boron Deficiency
+namespace: LentilMethod
+def: "Quantification of symptoms development in leaves and stem, measured after six weeks of sowing" []
+relationship: method_of CO_339:0000015
+
+[Term]
+id: CO_339:0000015
+name: Boron deficiency
+namespace: LentilTrait
+def: "Deficiency of Boron in the plant" []
+synonym: "BORD" EXACT []
+is_a: CO_339:Abiotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000014
+name: g/plot
+namespace: LentilScale
+relationship: scale_of CO_339:0000013
+
+[Term]
+id: CO_339:0000013
+name: Method of measuring BYPO
+namespace: LentilMethod
+def: "Yield of dried matured plants in a plot after pulling" []
+relationship: method_of CO_339:0000012
+
+[Term]
+id: CO_339:0000012
+name: Biological yield per area
+namespace: LentilTrait
+def: "The total biological yield (seed yield + straw yield) of plants in a plot" []
+synonym: "BYPO" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000011
+name: g/plant
+namespace: LentilScale
+relationship: scale_of CO_339:0000010
+
+[Term]
+id: CO_339:0000010
+name: Method of measuring BYPL
+namespace: LentilMethod
+def: "Yield of dried matured plants after pulling" []
+relationship: method_of CO_339:0000009
+
+[Term]
+id: CO_339:0000009
+name: Biological yield per plant
+namespace: LentilTrait
+def: "The total biological yield of a plant (seed yield + straw yield)" []
+synonym: "BYPL" EXACT []
+is_a: CO_339:Agronomical%20traits
+
+[Term]
+id: CO_339:0000008
+name: Ascochyta blight damage score
+namespace: LentilScale
+relationship: scale_of CO_339:0000007
+
+[Term]
+id: CO_339:0000008/1
+name: No symptoms
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000008
+
+
+[Term]
+id: CO_339:0000008/4
+name: Defoliation, extended stem lesions
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000008
+
+
+[Term]
+id: CO_339:0000008/5
+name:  stem girdling and or plant death
+namespace: LentilScale
+synonym: "9" EXACT []
+is_a: CO_339:0000008
+
+
+[Term]
+id: CO_339:0000008/2
+name: small flecks or small lesions on leaves and chlorosis at leaf tips
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000008
+
+
+[Term]
+id: CO_339:0000008/3
+name: Many leaf lesions, leaf drop, stem flecks or small lesions
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000008
+
+
+[Term]
+id: CO_339:0000007
+name: Visual estimation of Ascochyta blight Resistance
+namespace: LentilMethod
+def: "Quantification of infestation rate in leaves and stem" []
+relationship: method_of CO_339:0000006
+
+[Term]
+id: CO_339:0000006
+name: Ascochyta blight resistance
+namespace: LentilTrait
+def: "Degree of resistance to Ascochyta blight . Causative agent: Ascochyta lentis (Didymella lentis). The pathogen infects leaves, stems, petioles, pods and seeds.  On leaves, young lesions with small necrotic spots of 3-5mm diameter can be found. Reddish brown to black pycnidia from in the middle of the mature lesions.  In severe infections, lesions gridle the stem, kill the epidermal and cortical cells and lead to stem breakage. Pods can also be infected and results seed infection. Heavily infected seeds look shrivelled and discoloured with a whitish mycelium and pycnidia." []
+synonym: "ABR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000005
+name: Percentage
+namespace: LentilScale
+relationship: scale_of CO_339:0000004
+
+[Term]
+id: CO_339:0000004
+name: Screening method for Aphid Resitance
+namespace: LentilMethod
+def: "Infestation area was taken and the percentage of area infestated was determined at seven days interval" []
+relationship: method_of CO_339:0000003
+
+[Term]
+id: CO_339:0000003
+name: Aphid resistance
+namespace: LentilTrait
+def: "Degree of resistance to Aphids. Acrythosiphon pisum. Suck sap from tender parts of plants and it is the vector of viral diseases." []
+synonym: "APHR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Term]
+id: CO_339:0000002
+name: Anthracnose damage score
+namespace: LentilScale
+relationship: scale_of CO_339:0000001
+
+[Term]
+id: CO_339:0000002/1
+name:  No lesion
+namespace: LentilScale
+synonym: "1" EXACT []
+is_a: CO_339:0000002
+
+
+[Term]
+id: CO_339:0000002/4
+name:  Several deep stem lesions, mixture of deep and superficial, partial wilting
+namespace: LentilScale
+synonym: "7" EXACT []
+is_a: CO_339:0000002
+
+
+[Term]
+id: CO_339:0000002/5
+name: Deep penetrating lesions coalesce, stem girdling, wilting
+namespace: LentilScale
+synonym: "9" EXACT []
+is_a: CO_339:0000002
+
+
+[Term]
+id: CO_339:0000002/2
+name:  Few small superficial lesions
+namespace: LentilScale
+synonym: "3" EXACT []
+is_a: CO_339:0000002
+
+
+[Term]
+id: CO_339:0000002/3
+name: Few deep lesions, mostly superficial, no stem girdling
+namespace: LentilScale
+synonym: "5" EXACT []
+is_a: CO_339:0000002
+
+
+[Term]
+id: CO_339:0000001
+name: Scoring method for Anthracnose resistance
+namespace: LentilMethod
+def: "Quantification of symptoms development in leaves and stem" []
+relationship: method_of CO_339:0000000
+
+[Term]
+id: CO_339:0000000
+name: Anthracnose resistance
+namespace: LentilTrait
+def: "Degree of resistance to Anthracnose disease. Causative organism: Colletotrichum truncatum. Symptoms develop when plants start to flower. Necrotic lesions can be found on the lower leaflets and cause premature leaf senescence. Symptoms can also be found on stem starting from the base to the top of the plant" []
+synonym: "ANTR" EXACT []
+is_a: CO_339:Biotic%20Stress%20traits
+
+[Typedef]
+id: method_of
+name: method_of
+is_transitive: true
+
+[Typedef]
+id: scale_of
+name: scale_of
+is_transitive: true
+
+[Typedef]
+id: variable_of
+name: variable_of
