@@ -9,7 +9,7 @@ subsetdef: Saccharum "Terms_used_for_sugarcane"
 subsetdef: Solanaceae_spp "Terms_used_for_the_Solanaceae"
 subsetdef: Triticum_aestivum "Terms_used_for_wheat"
 subsetdef: Zea_mays "Terms_used_for_maize_or_corn"
-default-namespace: plant_trait_ontology
+default-namespace: Plant Trait Ontology
 import: http://purl.obolibrary.org/obo/po.owl
 import: http://purl.obolibrary.org/obo/to/imports/chebi_import.owl
 import: http://purl.obolibrary.org/obo/to/imports/eo_import.owl
