@@ -4,3 +4,95 @@
  * Contains core hook implementations for this module.
  */
 
+/**
+ * Provides a list of the ontologies and terms used by KnowPulse.
+ *
+ * return
+ *   An array of ontologies keyed by ontology short-name with values themselves 
+ *   being arrays with the following keys:
+ *    - name: the name of the ontology
+ *    - definition: the definition of the ontology
+ *    - file: the name of the OBO file to load this ontology 
+ *        (expected to be in kp_entities/ontologies folder)
+ *    - all terms: Boolean indicating to load all terms in this ontology
+ *    - terms: an array of terms if we only use a couple
+ */
+function kp_entities_ontology_list() {
+  $ontologies = array();
+
+  $ontologies['TO'] = array(
+    'name' => 'Plant Trait Ontology',
+    'definition' => 'It is a controlled vocabulary to describe each trait as a distinguishable feature, characteristic, quality or phenotypic feature of a developing or mature individual.',
+    'file' => 'to.obo',
+    'all terms' => TRUE,
+  );
+
+  $ontologies['PO'] = array(
+    'name' => 'Plant Ontology',
+    'definition' => 'A controlled vocabulary to describe plant anatomy and the stages of plant development.',
+    'file' => 'po.obo',
+    'all terms' => TRUE,
+  );
+
+  $ontologies['CO_010'] = array(
+    'name' => 'Crop Germplasm Ontology',
+    'definition' => 'A controlled vocabulary to describe germplasm.',
+    'file' => 'CO_010.obo',
+    'all terms' => TRUE,
+  );
+
+  $ontologies['CO_339'] = array(
+    'name' => 'Lentil Crop Ontology',
+    'definition' => 'A controlled vocabulary to describe Lentil traits.',
+    'file' => 'CO_339.obo',
+    'all terms' => TRUE,
+  );
+
+  $ontologies['CO_338'] = array(
+    'name' => 'Chickpea Crop Ontology',
+    'definition' => 'A controlled vocabulary to describe Chickpea traits.',
+    'file' => 'CO_338.obo',
+    'all terms' => TRUE,
+  );
+
+  $ontologies['CO_335'] = array(
+    'name' => 'Common Bean Crop Ontology',
+    'definition' => 'A controlled vocabulary to describe Common Bean traits.',
+    'file' => 'CO_335.obo',
+    'all terms' => TRUE,
+  );
+
+  $ontologies['SIO'] = array(
+    'name' => 'Semanticscience Integrated Ontology',
+    'definition' => 'The Semanticscience Integrated Ontology (SIO) is an ontology to facilitate biomedical knowledge discovery.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'SIO:001066',
+        'name' => 'study',
+        'definition' => 'A study is a process that realizes the steps of a study design.',
+      ),
+      array(
+        'id' => 'SIO:000994',
+        'name' => 'experiment',
+        'definition' => 'An experiment is an investigation that has the goal of verifying, falsifying, or establishing the validity of a hypothesis.',
+      ),
+    ),
+  );
+
+  $ontologies['EDAM'] = array(
+    'name' => 'EDAM',
+    'definition' => 'EDAM is an ontology of well established, familiar concepts that are prevalent within bioinformatics, including types of data and data identifiers, data formats, operations and topics. EDAM is a simple ontology - essentially a set of terms with synonyms and definitions - organised into an intuitive hierarchy for convenient use by curators, software developers and end-users. EDAM is suitable for large-scale semantic annotations and categorization of diverse bioinformatics resources. EDAM is also suitable for diverse application including for example within workbenches and workflow-management systems, software distributions, and resource registries.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'data:1278',
+        'name' => 'Genetic Map',
+        'definition' => 'A map showing the relative positions of genetic markers in a nucleic acid sequence, based on estimation of non-physical distance such as recombination frequencies. A genetic (linkage) map indicates the proximity of two genes on a chromosome, whether two genes are linked and the frequency they are transmitted together to an offspring. They are limited to genetic markers of traits observable only in whole organisms.',
+        'db_name' => 'EDAM',
+      ),
+    ),
+  );
+
+  return $ontologies;
+}
