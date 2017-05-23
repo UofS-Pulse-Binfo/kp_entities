@@ -4,4 +4,3 @@
  * Contains core hook implementations for this module.
  */
 
-require_once('includes/job.load_ontolgies.inc');

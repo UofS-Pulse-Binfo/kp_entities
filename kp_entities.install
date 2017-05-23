@@ -4,3 +4,22 @@
  * Includes core hook implementations related to installing this module.
  */
 
+function kp_entities_enable() {
+  global $user;
+
+  // Load all the Ontologies we need.
+  kp_entities_load_ontologies_job();
+  $job = new TripalJob();
+  $job->create(array(
+    'job_name' => 'Load KnowPulse Ontologies',
+      'modulename' => 'kp_entities',
+      'callback' => 'kp_entities_load_ontologies_job',
+      'arguments' => array(),
+      'uid' => $user->uid,
+      'priority' => 10,
+      'includes' => array(
+        module_load_include('inc', 'kp_entities', 'includes/job.load_ontolgies')
+      ),
+  ));
+
+}
