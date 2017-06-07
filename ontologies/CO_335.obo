@@ -7797,7 +7797,7 @@ is_a: CO_335:Phenological%20traits
 [Term]
 id: CO_335:0000020
 name: Canopy temperature depression
-namespace: Common beanTrait
+namespace: Crop Ontology, Common Bean Traits
 def: "Measure of canopy temperature depression relative to the atmosphere" []
 synonym: "CTD" EXACT []
 is_a: CO_335:Physiological%20traits

@@ -8,11 +8,11 @@
  * Provides a list of the ontologies and terms used by KnowPulse.
  *
  * return
- *   An array of ontologies keyed by ontology short-name with values themselves 
+ *   An array of ontologies keyed by ontology short-name with values themselves
  *   being arrays with the following keys:
  *    - name: the name of the ontology
  *    - definition: the definition of the ontology
- *    - file: the name of the OBO file to load this ontology 
+ *    - file: the name of the OBO file to load this ontology
  *        (expected to be in kp_entities/ontologies folder)
  *    - all terms: Boolean indicating to load all terms in this ontology
  *    - terms: an array of terms if we only use a couple
@@ -20,19 +20,23 @@
 function kp_entities_ontology_list() {
   $ontologies = array();
 
+/*
   $ontologies['TO'] = array(
     'name' => 'Plant Trait Ontology',
     'definition' => 'It is a controlled vocabulary to describe each trait as a distinguishable feature, characteristic, quality or phenotypic feature of a developing or mature individual.',
     'file' => 'to.obo',
     'all terms' => TRUE,
   );
+*
 
+/*
   $ontologies['PO'] = array(
     'name' => 'Plant Ontology',
     'definition' => 'A controlled vocabulary to describe plant anatomy and the stages of plant development.',
     'file' => 'po.obo',
     'all terms' => TRUE,
   );
+*/
 
   $ontologies['CO_010'] = array(
     'name' => 'Crop Germplasm Ontology',
@@ -63,7 +67,7 @@ function kp_entities_ontology_list() {
   );
 
   $ontologies['SIO'] = array(
-    'name' => 'Semanticscience Integrated Ontology',
+    'name' => 'SIO',
     'definition' => 'The Semanticscience Integrated Ontology (SIO) is an ontology to facilitate biomedical knowledge discovery.',
     'all terms' => FALSE,
     'terms' => array(
