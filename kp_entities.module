@@ -4,10 +4,32 @@
  * Contains core hook implementations for this module.
  */
 
+require_once('includes/job.create_tripal_types.inc');
+
+/**
+ * Implements hook_menu().
+ */
+function kp_entities_menu() {
+  $item = array();
+
+  // Adds a +Add KnowPulse Content Types link on the 'Tripal Content Types' page.
+  $items['admin/structure/bio_data/knowpulse-types'] = array(
+    'title' => 'Add KnowPulse Content Types',
+    'description' => t('Create KnowPulse-specific Tripal Content Types.'),
+    'page callback' => 'kp_entities_add_types_job',
+    'page arguments' => array(),
+    'access arguments' => array('administer tripal'),
+    'type' => MENU_LOCAL_ACTION,
+    'weight' => 3
+  );
+
+  return $items;
+}
+
 /**
  * Provides a list of the ontologies and terms used by KnowPulse.
  *
- * return
+ * @return
  *   An array of ontologies keyed by ontology short-name with values themselves
  *   being arrays with the following keys:
  *    - name: the name of the ontology
@@ -99,4 +121,280 @@ function kp_entities_ontology_list() {
   );
 
   return $ontologies;
+}
+
+/**
+ * Provides a list of Tripal Content Types used by KnowPulse.
+ *
+ * @return
+ *   An array of tripal content types keyed by term.
+ */
+function kp_entities_types_list() {
+  $types = array();
+
+  $type_cvterm_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'type', ':vocab' => 'rdfs'))->fetchField();
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'organism', ':vocab' => 'obi'))->fetchField();
+  $types['obi__0100026'] = array(
+    'label' => 'Species',
+    'vocabulary' => 'OBI',
+    'accession' => '0100026',
+    'term_name' => 'organism',
+    'storage_args' => array(
+      'data_table' => 'organism',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $types['SIO__001066'] = array(
+    'label' => 'Research Project',
+    'vocabulary' => 'SIO',
+    'accession' => '001066',
+    'term_name' => 'study',
+    'storage_args' => array(
+      'data_table' => 'project',
+      'type_linker_table' => 'projectprop',
+      'type_column' => 'type_id',
+      'type_id' => $type_cvterm_id,
+      'type_value' => 'Project',
+    ),
+  );
+
+  $types['SIO__000994'] = array(
+    'label' => 'Research Experiment',
+    'vocabulary' => 'SIO',
+    'accession' => '000994',
+    'term_name' => 'experiment',
+    'storage_args' => array(
+      'data_table' => 'project',
+      'type_linker_table' => 'projectprop',
+      'type_column' => 'type_id',
+      'type_id' => $type_cvterm_id,
+      'type_value' => 'Experiment',
+    ),
+  );
+
+  $types['SO__0001026'] = array(
+    'label' => 'Genome Assembly',
+    'vocabulary' => 'SO',
+    'accession' => '0001026',
+    'term_name' => 'genome',
+    'storage_args' => array(
+      'data_table' => 'project',
+      'type_linker_table' => 'projectprop',
+      'type_column' => 'type_id',
+      'type_id' => $type_cvterm_id,
+      'type_value' => 'Genome Assembly',
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'Publication', ':vocab' => 'tripal_pub'))->fetchField();
+  $types['TPUB__0000002'] = array(
+    'label' => 'Publication',
+    'vocabulary' => 'TPUB',
+    'accession' => '0000002',
+    'term_name' => 'publication',
+    'storage_args' => array(
+      'data_table' => 'pub',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'Genetic Map', ':vocab' => 'EDAM'))->fetchField();
+  $types['data__1278'] = array(
+    'label' => 'Genetic Map',
+    'vocabulary' => 'data',
+    'accession' => '1278',
+    'term_name' => 'Genetic Map',
+    'storage_args' => array(
+      'data_table' => 'featuremap',
+      'type_id' => $type_id,
+    ),
+  );
+
+  // Features ///////////////
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'chromosome', ':vocab' => 'sequence'))->fetchField();
+  $types['SO__0000340'] = array(
+    'label' => 'Chromosome',
+    'vocabulary' => 'SO',
+    'accession' => '0000340',
+    'term_name' => 'chromosome',
+    'storage_args' => array(
+      'data_table' => 'feature',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'contig', ':vocab' => 'sequence'))->fetchField();
+  $types['SO__0000149'] = array(
+    'label' => 'Contig',
+    'vocabulary' => 'SO',
+    'accession' => '0000149',
+    'term_name' => 'contig',
+    'storage_args' => array(
+      'data_table' => 'feature',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'sequence_variant', ':vocab' => 'sequence'))->fetchField();
+  $types['SO__0001060'] = array(
+    'label' => 'Variant',
+    'vocabulary' => 'SO',
+    'accession' => '0001060',
+    'term_name' => 'sequence_variant',
+    'storage_args' => array(
+      'data_table' => 'feature',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'genetic_marker', ':vocab' => 'sequence'))->fetchField();
+  $types['SO__0001645'] = array(
+    'label' => 'Marker',
+    'vocabulary' => 'SO',
+    'accession' => '0001645',
+    'term_name' => 'genetic_marker',
+    'storage_args' => array(
+      'data_table' => 'feature',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'QTL', ':vocab' => 'sequence'))->fetchField();
+  $types['SO__0000771'] = array(
+    'label' => 'QTL',
+    'vocabulary' => 'SO',
+    'accession' => '0000771',
+    'term_name' => 'QTL',
+    'storage_args' => array(
+      'data_table' => 'feature',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  // Germplasm //////////////
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'accession', ':vocab' => 'GCP germplasm ontology'))->fetchField();
+  $types['CO_010__0000044'] = array(
+    'label' => 'Germplasm Accession',
+    'vocabulary' => 'CO_010',
+    'accession' => '0000044',
+    'term_name' => 'accession',
+    'storage_args' => array(
+      'data_table' => 'stock',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'generated germplasm', ':vocab' => 'GCP germplasm ontology'))->fetchField();
+  $types['CO_010__0000255'] = array(
+    'label' => 'Breeding Cross',
+    'vocabulary' => 'CO_010',
+    'accession' => '0000255',
+    'term_name' => 'generated germplasm',
+    'storage_args' => array(
+      'data_table' => 'stock',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'cultivar', ':vocab' => 'GCP germplasm ontology'))->fetchField();
+  $types['CO_010__0000029'] = array(
+    'label' => 'Registered Variety',
+    'vocabulary' => 'CO_010',
+    'accession' => '0000029',
+    'term_name' => 'cultivar',
+    'storage_args' => array(
+      'data_table' => 'stock',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => '414 inbred line', ':vocab' => 'GCP germplasm ontology'))->fetchField();
+  $types['CO_010__0000162'] = array(
+    'label' => 'Recombinant Inbred Line',
+    'vocabulary' => 'CO_010',
+    'accession' => '0000162',
+    'term_name' => '414 inbred line',
+    'storage_args' => array(
+      'data_table' => 'stock',
+      'type_column' => 'type_id',
+      'type_id' => $type_id,
+    ),
+  );
+
+  // Traits /////////////////
+
+  $cvterm_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'Lentil Traits', ':vocab' => 'Lentil Crop Ontology'))->fetchField();
+  $cv_id = chado_query('SELECT cv_id FROM {cv} WHERE name=:vocab',
+    array(':vocab' => 'Crop Ontology, Lentil Trait'))->fetchField();
+  $types['CO_339__ROOT'] = array(
+    'label' => 'Lentil Traits',
+    'vocabulary' => 'CO_339',
+    'accession' => 'ROOT',
+    'term_name' => 'Lentil Traits',
+    'storage_args' => array(
+      'data_table' => 'cvterm',
+      'type_id' => $cvterm_id,
+      'type_value' => $cv_id,
+    ),
+  );
+
+  $cvterm_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'Chickpea Traits', ':vocab' => 'Chickpea Crop Ontology'))->fetchField();
+  $cv_id = chado_query('SELECT cv_id FROM {cv} WHERE name=:vocab',
+    array(':vocab' => 'Crop Ontology, Chickpea Trait'))->fetchField();
+  $types['CO_338__ROOT'] = array(
+    'label' => 'Chickpea Traits',
+    'vocabulary' => 'CO_338',
+    'accession' => 'ROOT',
+    'term_name' => 'Chickpea Traits',
+    'storage_args' => array(
+      'data_table' => 'cvterm',
+      'type_id' => $cvterm_id,
+      'type_value' => $cv_id,
+    ),
+  );
+
+  $cvterm_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
+    array(':term' => 'Common Bean Traits', ':vocab' => 'Common Bean Crop Ontology'))->fetchField();
+  $cv_id = chado_query('SELECT cv_id FROM {cv} WHERE name=:vocab',
+    array(':vocab' => 'Crop Ontology, Common Bean Traits'))->fetchField();
+  $types['CO_335__ROOT'] = array(
+    'label' => 'Common Bean Traits',
+    'vocabulary' => 'CO_335',
+    'accession' => 'ROOT',
+    'term_name' => 'Common Bean Traits',
+    'storage_args' => array(
+      'data_table' => 'cvterm',
+      'type_id' => $cvterm_id,
+      'type_value' => $cv_id,
+    ),
+  );
+
+  return $types;
 }
