@@ -120,6 +120,26 @@ function kp_entities_ontology_list() {
     ),
   );
 
+  $ontologies['KP_Germplasm'] = array(
+    'name' => 'KnowPulse Germplasm',
+    'definition' => 'A controlled vocabulary for germplasm terms that were not available in the Crop Germplasm Ontology.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'KP_Germplasm:F1',
+        'name' => 'F1',
+        'definition' => 'The first generation of offsprint from a parental cross.',
+        'db_name' => 'KP_Germplasm',
+      ),
+      array(
+        'id' => 'KP_Germplasm:RIL',
+        'name' => 'Recombinant Inbred Line',
+        'definition' => 'A recombinant inbred line (RIL) population is developed using single seed descent from the F2 generation. The result is a set of homogeneous, homozygous lines for which large amounts of seed can be produced for replicated trials.',
+        'db_name' => 'KP_Germplasm',
+      ),
+    ),
+  );
+
   return $ontologies;
 }
 
@@ -305,12 +325,12 @@ function kp_entities_types_list() {
   );
 
   $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
-    array(':term' => 'generated germplasm', ':vocab' => 'GCP germplasm ontology'))->fetchField();
-  $types['CO_010__0000255'] = array(
-    'label' => 'Breeding Cross',
-    'vocabulary' => 'CO_010',
-    'accession' => '0000255',
-    'term_name' => 'generated germplasm',
+    array(':term' => 'F1', ':vocab' => 'KnowPulse Germplasm'))->fetchField();
+  $types['KP_Germplasm__F1'] = array(
+    'label' => 'F1 (Breeding Cross)',
+    'vocabulary' => 'KP_Germplasm',
+    'accession' => 'F1',
+    'term_name' => 'F1',
     'storage_args' => array(
       'data_table' => 'stock',
       'type_column' => 'type_id',
@@ -333,12 +353,12 @@ function kp_entities_types_list() {
   );
 
   $type_id = chado_query("SELECT cvterm_id FROM {cvterm} WHERE name=:term AND cv_id IN (SELECT cv_id FROM {cv} WHERE name=:vocab)",
-    array(':term' => '414 inbred line', ':vocab' => 'GCP germplasm ontology'))->fetchField();
-  $types['CO_010__0000162'] = array(
+    array(':term' => 'Recombinant Inbred Line', ':vocab' => 'KnowPulse Germplasm'))->fetchField();
+  $types['KP_Germplasm__RIL'] = array(
     'label' => 'Recombinant Inbred Line',
-    'vocabulary' => 'CO_010',
-    'accession' => '0000162',
-    'term_name' => '414 inbred line',
+    'vocabulary' => 'KP_Germplasm',
+    'accession' => 'RIL',
+    'term_name' => 'Recombinant Inbred Line',
     'storage_args' => array(
       'data_table' => 'stock',
       'type_column' => 'type_id',

@@ -20,11 +20,26 @@ function kp_entities_add_types_job() {
       'uid' => $user->uid,
       'priority' => 10,
       'includes' => array(
-        module_load_include('inc', 'kp_entities', 'includes/job.create_tripal_types')
+        drupal_get_path('module', 'kp_entities') . '/includes/job.create_tripal_types'
       ),
   ));
 
-  $output .= '<div class="messages status">Run the Tripal Job to create KnowPulse Content Types.</div>';
+  $jobs_url = url("admin/tripal/tripal_jobs");
+  drupal_set_message(t("Check the <a href='!jobs_url'>jobs page</a> for status.",
+      array('!jobs_url' => $jobs_url)));
+  drupal_set_message(t("You can execute the job queue manually on the command line " .
+      "using the following Drush command: <br>drush trp-run-jobs --username=%uname --root=%base_path",
+      array('%base_path' => DRUPAL_ROOT, '%uname' => $user->name)));
+
+  $output .= '<p>This page submits a Tripal Job to create all the Tripal Content Types pertinent to KnowPulse. If some of the types already exist then it will only add the missing Tripal Content Types.</p>';
+
+  $output .= "<h3>KnowPulse Content Types</h3>\n<ul>\n";
+  $types = kp_entities_types_list();
+  foreach ($types as $type) {
+    $output .= "  <li>" . $type['label'] . " (" . $type['vocabulary'] . ':' . $type['accession'] . ")</li>\n";
+  }
+  $output .= '</ul>';
+
   return $output;
 }
 

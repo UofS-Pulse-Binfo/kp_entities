@@ -24,7 +24,7 @@ function kp_entities_load_ontologies_job($job = NULL) {
         $obo_id = db_insert('tripal_cv_obo')
           ->fields(array(
             'name' => $details['name'],
-            'path' => '{kp_entities}/ontologies/' . $details['file'],
+            'path' => $ontology_path . $details['file'],
           ))->execute();
       }
 
