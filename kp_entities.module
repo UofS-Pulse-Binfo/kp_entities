@@ -117,6 +117,85 @@ function kp_entities_ontology_list() {
         'definition' => 'A map showing the relative positions of genetic markers in a nucleic acid sequence, based on estimation of non-physical distance such as recombination frequencies. A genetic (linkage) map indicates the proximity of two genes on a chromosome, whether two genes are linked and the frequency they are transmitted together to an offspring. They are limited to genetic markers of traits observable only in whole organisms.',
         'db_name' => 'EDAM',
       ),
+      array(
+        'id' => 'data:3028',
+        'name' => 'Taxonomy',
+        'definition' => 'This is a broad data type and is used a placeholder for other, more specific types. Data concerning the classification, identification and naming of organisms.',
+        'db_name' => 'EDAM',
+      ),
+      array(
+        'id' => 'operation:3208',
+        'name' => 'Genome Visualization',
+        'definition' => 'Visualise, format or render a nucleic acid sequence that is part of (and in context of) a complete genome sequence.',
+        'db_name' => 'EDAM',
+      ),
+    ),
+  );
+
+  $ontologies['OMIT'] = array(
+    'name' => 'Ontology for MIRNA Target',
+    'definition' => 'Ontology to establish data exchange standards and common data elements in the microRNA (miR) domain.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'OMIT:0027643',
+        'name' => 'Genome Size',
+        'definition' => 'The total amount of DNA contained within one copy of a single genome.',
+      ),
+      array(
+        'id' => 'OMIT:0001505',
+        'name' => 'Plant breeding',
+        'definition' => 'The art and science of changing the traits of plants in order to produce desired characteristics.',
+      ),
+    ),
+  );
+
+  $ontologies['PATO'] = array(
+    'name' => 'Phenotypic Quality',
+    'definition' => 'An ontology of phenotypic qualities (properties, attributes or characteristics).',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'PATO:0001374',
+        'name' => 'Ploidy',
+        'definition' => 'A cellular quality inhering in a bearer by virtue of the bearer\'s number of homologous sets of chromosomes in the nucleus or primary chromosome-containing compartment of the cell, each set essentially coding for all the biological traits of the organism.',
+      ),
+    ),
+  );
+
+  $ontologies['NCIT'] = array(
+    'name' => 'NCI Thesaurus OBO Edition',
+    'definition' => 'NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'NCIT:C86971',
+        'name' => 'Modal Chromosome Number',
+        'definition' => 'The most common chromosome number within a population or sample.',
+      ),
+      array(
+        'id' => 'NCIT:C19924',
+        'name' => 'Principal Investigator',
+        'definition' => 'An investigator who is responsible for all aspects of the conduct of a study.',
+      ),
+      array(
+        'id' => 'NCIT:C25714',
+        'name' => 'Version',
+        'definition' => 'A form or variant of a type or original; one of a sequence of copies of a program, each incorporating new modifications.',
+      ),
+    ),
+  );
+
+  $ontologies['FLOPO'] = array(
+    'name' => 'Floral Phenotype Ontology',
+    'definition' => 'Traits and phenotypes of flowering plants occurring in digitized Floras.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'FLOPO:0000074',
+        'name' => 'seed phenotype',
+        'definition' => 'Characteristics or observable phenotypes of the seed.',
+      ),
     ),
   );
 
@@ -136,6 +215,65 @@ function kp_entities_ontology_list() {
         'name' => 'Recombinant Inbred Line',
         'definition' => 'A recombinant inbred line (RIL) population is developed using single seed descent from the F2 generation. The result is a set of homogeneous, homozygous lines for which large amounts of seed can be produced for replicated trials.',
         'db_name' => 'KP_Germplasm',
+      ),
+    ),
+  );
+
+  $ontologies['SUMMARY'] = array(
+    'name' => 'Summary Fields',
+    'definition' => 'A controlled vocabulary for Tripal 3 Summary fields.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'SUMMARY:org1',
+        'name' => 'organism data summary',
+        'definition' => 'Summarizes all data in the current resource for a given organism.',
+      ),
+      array(
+        'id' => 'SUMMARY:org2',
+        'name' => 'organism marker summary',
+        'definition' => 'Summarizes the types of markers for a given organism.',
+      ),
+      array(
+        'id' => 'SUMMARY:org3',
+        'name' => 'organism germplasm summary',
+        'definition' => 'Summarizes the types of germplasm for a given organism.',
+      ),
+    ),
+  );
+
+  $ontologies['BROWSE'] = array(
+    'name' => 'Quick Browse Fields',
+    'definition' => 'A controlled vocabulary for Tripal 3 Quick Browse fields.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'BROWSE:org1',
+        'name' => 'organism marker browser',
+        'definition' => 'Quick access to browsing of marker data for a given organism.',
+      ),
+      array(
+        'id' => 'BROWSE:org2',
+        'name' => 'organism germplasm browser',
+        'definition' => 'Quick access to browsing of germplasm data for a given organism.',
+      ),
+    ),
+  );
+
+  $ontologies['SEARCH'] = array(
+    'name' => 'Quick Search Fields',
+    'definition' => 'A controlled vocabulary for Tripal 3 Quick Search fields.',
+    'all terms' => FALSE,
+    'terms' => array(
+      array(
+        'id' => 'SEARCH:org1',
+        'name' => 'organism marker browser',
+        'definition' => 'Quick searching of marker data for a given organism.',
+      ),
+      array(
+        'id' => 'SEARCH:org2',
+        'name' => 'organism germplasm browser',
+        'definition' => 'Quick searching of germplasm data for a given organism.',
       ),
     ),
   );
