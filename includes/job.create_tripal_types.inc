@@ -20,7 +20,7 @@ function kp_entities_add_types_job() {
       'uid' => $user->uid,
       'priority' => 10,
       'includes' => array(
-        drupal_get_path('module', 'kp_entities') . '/includes/job.create_tripal_types'
+        drupal_get_path('module', 'kp_entities') . '/includes/job.create_tripal_types.inc'
       ),
   ));
 
