@@ -5,6 +5,7 @@
  */
 
 require_once('includes/job.create_tripal_types.inc');
+require_once('includes/job.load_ontolgies.inc');
 
 /**
  * Implements hook_menu().
